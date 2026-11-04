@@ -71,6 +71,46 @@ Die Zielarchitektur sieht vor, Dokumente zunächst lokal auf dem Android-Gerät 
 
 Diese Datenschutzfunktionen sind Zielvorgaben und noch nicht als fertige App-Funktionen verfügbar.
 
+
+
+## Nutzung, Zweckbestimmung und Verantwortung
+
+**Student Müller ist ein gemeinwohlorientiertes, kostenfreies und werbefreies Open-Source-Projekt mit OSINT-orientierter Recherche auf Grundlage öffentlich zugänglicher Informationen und Rechtsquellen.** Das Projekt ist nicht als steuerrechtlich anerkannte gemeinnützige Körperschaft ausgewiesen. Die Projektunterlagen werden ohne eigene Nutzungsgebühr bereitgestellt; für externe Plattformen und KI-Dienste gelten deren jeweilige Bedingungen.
+
+### Ausschließlich persönliche Nutzung des offiziellen Assistenten
+
+Die offizielle Assistentenfassung ist dafür vorgesehen, dass die jeweils anfragende Person ihre **eigenen persönlichen Angelegenheiten** versteht und selbstständig bearbeitet. Sie darf nicht dazu eingesetzt werden, individuelle fremde Angelegenheiten im Auftrag oder Namen anderer Personen rechtlich prüfen oder bearbeiten zu lassen.
+
+Insbesondere ist die offizielle Assistentenfassung nicht dafür vorgesehen,
+
+- individuelle Bescheide oder persönliche Rechtsfragen anderer Personen prüfen zu lassen,
+- persönliche Widersprüche, Anträge oder sonstige Schriftsätze für Dritte erstellen zu lassen,
+- eine Vertretungs-, Beratungs- oder Dienstleistungsfunktion für andere Personen zu übernehmen,
+- personenbezogene oder vertrauliche Dokumente Dritter zur individuellen Fallbearbeitung auszuwerten.
+
+Allgemeine, nicht auf einen fremden Einzelfall bezogene Informationen zu Gesetzen, Behördenverfahren und öffentlich zugänglichen Rechtsquellen sowie Demonstrationen mit frei erfundenen Beispieldaten bleiben zulässig. Für technische Tests und Weiterentwicklung sind synthetische oder wirksam anonymisierte Beispieldaten zu verwenden.
+
+Diese Zweckbestimmung beschreibt die vorgesehene Nutzung der offiziellen Assistentenfassung. Sie ist keine Garantie dafür, dass eine konkrete Nutzung rechtlich zulässig ist, und ersetzt keine Prüfung nach dem Rechtsdienstleistungsgesetz.
+
+### Keine Rechtsvertretung oder verbindliche Rechtsauskunft
+
+Student Müller ist ein KI-gestütztes Informations- und Assistenzprojekt, keine Rechtsanwaltskanzlei. Es übernimmt keine Vertretung gegenüber Behörden oder Gerichten. Ausgaben können unvollständig, veraltet oder fehlerhaft sein. Nutzer müssen Tatsachen, Rechtsgrundlagen, Fristen und Formvorschriften vor einer Verwendung anhand verlässlicher Quellen prüfen und erforderlichenfalls qualifizierte Beratung einholen. Die Nutzung begründet kein anwaltliches Mandat und kein Vertretungsverhältnis.
+
+### Verantwortung und Haftung
+
+Die Nutzer sind für ihre Eingaben, eigenen Entscheidungen und die Verwendung erzeugter Inhalte verantwortlich. Dies umfasst insbesondere die Prüfung von Tatsachen, Rechtsgrundlagen, Fristen, Formvorschriften, Anlagen und Versandwegen.
+
+Eine Nutzung entgegen der beschriebenen Zweckbestimmung erfolgt außerhalb des vorgesehenen Projektzwecks. Der Entwickler und die Projektverantwortlichen übernehmen keine Gewähr für Richtigkeit, Vollständigkeit, Aktualität oder Eignung KI-generierter Ausgaben. Eine Haftung richtet sich nach den jeweils geltenden gesetzlichen Bestimmungen; zwingende gesetzliche Haftung bleibt unberührt. Ein pauschaler Ausschluss sämtlicher Ansprüche wird nicht erklärt.
+
+### Open-Source-Lizenzen
+
+Für Programmcode und Projektdokumentation gelten ausschließlich die im Repository ausgewiesenen Lizenzbedingungen:
+
+- Programmcode: Apache License 2.0.
+- Projekttexte und Dokumentation: CC BY-SA 4.0.
+
+Diese Zweckbestimmung fügt den bestehenden Lizenzen keine zusätzliche Nutzungsbeschränkung hinzu und ändert die durch sie eingeräumten Rechte nicht.
+
 ## Projektstruktur
 
 - [SYSTEMANWEISUNG.md](SYSTEMANWEISUNG.md) – konsolidierte Arbeits- und Systemanweisung
