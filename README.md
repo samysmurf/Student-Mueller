@@ -19,40 +19,27 @@ Vielen Dank, dass Sie Student Müller ausprobieren und zur Weiterentwicklung bei
 
 ## Beispiel: Aus einer Jobcenter-Ablehnung einen Widerspruch erstellen
 
-An diesem frei erfundenen Fall wird der typische Ablauf gezeigt. Das Prinzip lässt sich auch auf andere Behördenbriefe, Bescheide und Schreiben übertragen.
+Der vollständig fiktive Fall **Erika Mustermann aus Musterhausen** zeigt den Ablauf in Textform. Frau Mustermann lebte drei Jahre ohne eigene Wohnung und besitzt im Beispiel auch keine eigene Küchenausstattung. Das Jobcenter lehnt ihren Antrag ab, weil es irrtümlich annimmt, in der neuen Wohnung sei bereits eine Kochgelegenheit integriert.
 
-**Die fiktive Ausgangslage:** Eine Person bezieht Leistungen nach dem SGB II und bezieht eine Wohnung, in der keine nutzbare Küche vorhanden ist. Auch eine eigene Küchenausstattung steht ihr nicht zur Verfügung. Sie beantragt deshalb eine notwendige Küchen-Erstausstattung und legt eine nachvollziehbare Kostenaufstellung vor. Das Jobcenter lehnt den Antrag mit der pauschalen Begründung ab, die Kosten seien aus dem Regelbedarf zu bestreiten.
+**Alle Unterlagen sind als Text vorbereitet – Screenshots oder Bild-Uploads sind für diesen Test nicht erforderlich.**
 
-### So gehen Sie vor
+Die [vollständigen Fallunterlagen](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) enthalten den Antrag von Frau Mustermann, eine Vermieterbestätigung über die fehlende Kochgelegenheit, den fiktiven Ablehnungsbescheid, konkrete Testanfragen an Student Müller sowie eine Vergleichsvorlage für den Widerspruch.
 
-1. **Student Müller vorbereiten:** Öffnen Sie einen neuen Chat und fügen Sie zuerst die vollständige [Systemanweisung](SYSTEMANWEISUNG.md) ein. Anschließend arbeiten Sie im selben Chat weiter.
+### So testen Sie den Ablauf
 
-2. **Dokument anonymisieren:** Entfernen Sie vor dem Teilen alle identifizierenden Angaben – auch aus Kopf- und Fußzeilen, Anlagen und Dateinamen. Verwenden Sie für das Beispiel ausschließlich erfundene Angaben. Die Android-App zur automatischen lokalen Anonymisierung ist noch nicht fertig.
+1. Öffnen Sie einen neuen Chat und fügen Sie zuerst die vollständige [Systemanweisung](SYSTEMANWEISUNG.md) ein.
+2. Kopieren Sie den fiktiven Ablehnungsbescheid aus Abschnitt 4 der Fallunterlagen in den Chat. Lassen Sie Student Müller den Bescheid zunächst prüfen, ohne bereits einen Schriftsatz zu erstellen.
+3. Ergänzen Sie danach die tatsächliche Wohnsituation und die Vermieterbestätigung aus den Abschnitten 1 und 3. Lassen Sie die falsche Annahme des Jobcenters prüfen.
+4. Fordern Sie anschließend den Entwurf eines sachlichen Widerspruchs an. Eine passende Anfrage steht ebenfalls in den Fallunterlagen.
+5. Vergleichen Sie den erzeugten Entwurf mit der Musterlösung in Abschnitt 6.
 
-3. **Bescheid und Sachverhalt einfügen:** Geben Sie den anonymisierten Inhalt des Ablehnungsbescheids ein. Ergänzen Sie knapp, was beantragt wurde, welche Ausstattung tatsächlich vorhanden ist, wann der Bescheid zugegangen ist und welche Belege bereits eingereicht wurden.
+### Rechtlich wichtig
 
-4. **Zunächst prüfen lassen:** Verwenden Sie zum Beispiel diese Anfrage:
+§ 24 Abs. 3 Satz 1 Nr. 1 SGB II sieht gesonderte Leistungen für die Erstausstattung einer Wohnung einschließlich Haushaltsgeräten vor. Ob und in welcher Höhe eine konkrete Küchenausstattung anerkannt werden kann, hängt vom tatsächlichen Bedarf und den anzuwendenden örtlichen Maßstäben ab. Eine vollständige Küchenzeile wird nicht automatisch in jedem Fall übernommen.
 
-   > Bitte prüfe den Bescheid und meinen Sachverhalt. Erkläre mir verständlich, was das Jobcenter entschieden hat und worauf es seine Ablehnung stützt. Prüfe, welche rechtlichen Grundlagen in Betracht kommen, welche Tatsachen noch fehlen und welcher Rechtsbehelf möglich ist. Frage mich zuerst nach allen Angaben, die für eine zuverlässige Prüfung notwendig sind. Erfinde keine Tatsachen, Fristen, Gesetzesstellen oder Urteile. Nenne überprüfbare Quellen mit Links.
+Ein Widerspruch ist grundsätzlich innerhalb eines Monats nach Bekanntgabe des Bescheids einzulegen (§ 84 SGG). Prüfen Sie das tatsächliche Zugangsdatum und die Rechtsbehelfsbelehrung. Eine laufende Frist darf nicht durch längere KI-Abfragen gefährdet werden.
 
-5. **Schriftsatz erstellen lassen:** Sind die offenen Fragen geklärt, bitten Sie gezielt um den Entwurf:
-
-   > Erstelle jetzt einen sachlichen, gut verständlichen Widerspruch gegen den Ablehnungsbescheid. Berücksichtige den nachgewiesenen Sachverhalt und die einschlägigen Rechtsgrundlagen. Formuliere konkrete Anträge und eine nachvollziehbare Begründung. Kennzeichne alle noch einzusetzenden Angaben deutlich in eckigen Klammern. Füge keine Tatsachen hinzu, die ich nicht genannt oder belegt habe.
-
-### Was bei diesem Beispiel rechtlich wichtig ist
-
-§ 24 Abs. 3 SGB II sieht eine gesonderte Leistung für die Erstausstattung einer Wohnung einschließlich Haushaltsgeräten vor. Ob und in welchem Umfang eine Küchen-Erstausstattung anerkannt werden kann, hängt aber vom konkreten Bedarf und den tatsächlich verfügbaren Einrichtungsgegenständen ab. Eine bloße Ersatzbeschaffung oder der Wunsch nach einer höherwertigen Küche ist nicht automatisch eine Erstausstattung.
-
-Ein Widerspruch ist grundsätzlich innerhalb eines Monats nach Bekanntgabe des Bescheids einzulegen. Prüfen Sie deshalb immer das Zugangsdatum und die Rechtsbehelfsbelehrung. Warten Sie bei einer knapp laufenden Frist nicht auf eine ausführliche KI-Ausarbeitung.
-
-**Vor dem Versand:** Prüfen Sie Namen, Daten, Sachverhalt, Anlagen, Rechtsgrundlagen und Frist selbst. Ergänzen Sie alle Platzhalter und bewahren Sie einen Nachweis über die fristgerechte Einreichung auf. Student Müller erstellt einen Entwurf – er versendet keinen Widerspruch und ersetzt keine individuelle Rechtsberatung.
-
-**Rechtsquellen:** [§ 24 SGB II – Erstausstattung der Wohnung](https://www.gesetze-im-internet.de/sgb_2/__24.html) · [§ 84 SGG – Widerspruchsfrist](https://www.gesetze-im-internet.de/sgg/__84.html)
-
-<!-- SCREENSHOT-PLATZHALTER 1: Chat mit eingefügter Student-Müller-Systemanweisung -->
-<!-- SCREENSHOT-PLATZHALTER 2: Anonymisierter fiktiver Ablehnungsbescheid und erste Prüfanfrage -->
-<!-- SCREENSHOT-PLATZHALTER 3: Rückfragen und rechtliche Einordnung durch Student Müller -->
-<!-- SCREENSHOT-PLATZHALTER 4: Erstellter Widerspruchsentwurf mit Platzhaltern -->
+**Datenschutz und Verantwortung:** Die Beispieldaten sind frei erfunden. Bei echten Vorgängen müssen Dokumente vor der Übermittlung sorgfältig anonymisiert werden. Prüfen Sie jeden erzeugten Schriftsatz, alle Tatsachen, Anlagen, Rechtsgrundlagen und Fristen selbst. Student Müller erstellt einen Entwurf und versendet keine Schreiben.
 
 Student Müller ist ein kostenfreies, niedrigschwelliges, KI-gestütztes Assistenzprojekt. Es soll Menschen dabei unterstützen, sozialrechtliche Sachverhalte zu verstehen, Verwaltungsentscheidungen einzuordnen und eigene Verwaltungsangelegenheiten selbstbestimmt zu bearbeiten.
 
@@ -97,6 +84,7 @@ Diese Datenschutzfunktionen sind Zielvorgaben und noch nicht als fertige App-Fun
 - [docs/FUNKTIONSSTATUS.md](docs/FUNKTIONSSTATUS.md) – Statusübersicht
 - [docs/TECHNISCHE_VORARBEITEN_TERMUX.md](docs/TECHNISCHE_VORARBEITEN_TERMUX.md) – geräte- und systemnahe Arbeiten
 - [docs/OCR_TESSERACT_TERMUX.md](docs/OCR_TESSERACT_TERMUX.md) – OCR/Tesseract-Evaluierung
+- [docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) – textbasierter Übungsfall mit Antrag, Vermieterbestätigung, Ablehnungsbescheid und Widerspruch
 
 ## Lizenzen
 
