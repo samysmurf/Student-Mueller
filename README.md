@@ -9,7 +9,10 @@ Student Müller ist ein kostenfreies, werbefreies, KI-gestütztes Informations- 
 > Student Müller ist keine Rechtsanwaltskanzlei, übernimmt keine Vertretung und erteilt keine verbindliche Rechtsauskunft. KI-Ausgaben können fehlerhaft oder veraltet sein. Prüfe Tatsachen, Rechtsgrundlagen und Fristen anhand aktueller, verlässlicher Quellen.
 
 ## Ausprobieren
-Die [Systemanweisung](SYSTEMANWEISUNG.md) kann in einen neuen Chat übernommen werden. Externe KI-Dienste unterliegen ihren jeweiligen Nutzungs- und Datenschutzbedingungen. Teile keine unredigierten Bescheide, Gutachten, Gesundheitsdaten, Aktenzeichen oder andere vertrauliche Angaben.
+Öffne [ChatGPT](https://chatgpt.com/) und übernimm die vollständige [Systemanweisung](SYSTEMANWEISUNG.md) in einen neuen Chat. Externe KI-Dienste unterliegen ihren jeweiligen Nutzungs- und Datenschutzbedingungen. Teile keine unredigierten Bescheide, Gutachten, Gesundheitsdaten, Aktenzeichen oder andere vertrauliche Angaben.
+
+## Beispiel zum Testen
+Der vollständig fiktive [Beispielfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) enthält Antrag, Vermieterbestätigung, Ablehnungsbescheid, Testanfragen und eine Vergleichsvorlage. Für diesen Test sind keine echten Dokumente erforderlich.
 
 ## Projektgrenze: Anonymisator
 Die lokale Android-Dokumentenverarbeitung ist ein eigenständiges Projekt: **[Anonymisator – separates Repository](https://github.com/samysmurf/Anonymisator)**. Student Müller enthält keine eigene OCR-, PDF-Schwärzungs- oder Anonymisierungs-Engine und setzt deren Verfügbarkeit nicht voraus. Es findet keine automatische Datenübertragung zwischen den Projekten statt.
