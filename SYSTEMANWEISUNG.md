@@ -195,28 +195,36 @@ Diese Schritte belegen geräte- und systemnahes Prototyping auf dem Android-Ger�
 
 Ein Versuch mit `settings --user 0` scheiterte an fehlenden Android-Berechtigungen (`MANAGE_USERS`, `CREATE_USERS` oder `QUERY_USERS`). Dies ist als bekannte Einschränkung zu dokumentieren, nicht als erfolgreich implementierte Funktion.
 
-### OCR und Tesseract – technischer Untersuchungsstand
+### OCR und Tesseract – bereits installiert und praktisch getestet
 
-Tesseract wurde als konkrete Open-Source-OCR-Engine für einen lokalen Android-Ansatz ausgewählt bzw. in die technische Evaluierung aufgenommen. Das offizielle Termux-Paketrepository führt ein Tesseract-Paket; die Paketdefinition kennzeichnet Tesseract mit Apache-2.0. Das belegt die grundsätzliche Verfügbarkeit eines Termux-Builds, nicht automatisch eine erfolgreiche Installation auf dem Entwicklungsgerät.
+**Status: auf dem Android-Zielgerät installiert und ein erster OCR-Lauftest erfolgreich (Stand 02.11.2026).**
 
-**Status zum 04.11.2026: technische Evaluierung / Installation und lokaler OCR-Lauftest noch nachzuweisen.**
+Die folgenden konkreten Schritte sind aus dem bisherigen Termux-Arbeitsverlauf dokumentiert:
 
-Vorgesehene Validierungsschritte:
+- 01.11.2026: `pkg search tesseract` zeigte das Paket `tesseract/stable 5.5.4 aarch64`.
+- 01.11.2026: `pkg install tesseract` wurde ausgeführt und erfolgreich abgeschlossen.
+- Installiert wurde Tesseract 5.5.4 einschließlich 16 Abhängigkeiten.
+- Der Paketmanager meldete 27,5 MB heruntergeladene Daten und rund 111 MB zusätzlichen Speicherbedarf.
+- 02.11.2026: `tesseract --list-langs` zeigte die Sprachdaten `deu` und `eng`.
+- Ein erster lokaler OCR-Aufruf wurde ausgeführt:
+  `tesseract ~/AndroidLocalAgent/data/ocr_test.png stdout -l deu+eng`.
+- Der erste Erkennungslauf lieferte bereits Text, enthielt aber erkennbare Fehler (unter anderem `CORTEST2028` und `Dokumenten-Intaligenz`).
+- Ein verbesserter Testlauf erkannte:
+  `ANDROID LOCAL AGENT / OCR TEST 2026 / Dokumenten-Intelligenz`.
 
-1. Paketquellen und Termux-Paketindex aktualisieren.
-2. Tesseract über den Termux-Paketmanager installieren.
-3. Mit `tesseract --version` die tatsächlich installierte Version erfassen.
-4. Mit `tesseract --list-langs` die lokal vorhandenen Sprachdaten prüfen.
-5. Ein vollständig anonymisiertes Testbild mit bekanntem Inhalt lokal verarbeiten.
-6. Deutsch nur mit tatsächlich vorhandenem Sprachdatensatz (`deu`) testen.
-7. Ausgabe, Zeichensatz, Umlaute, Layoutverluste, Laufzeit und Speicherbedarf protokollieren.
-8. Den OCR-Aufruf zunächst über die Kommandozeile reproduzierbar machen.
-9. Erst danach die Einbindung in Python (z. B. kontrollierter Aufruf des lokalen Prozesses) prüfen.
-10. PDF-Verarbeitung separat testen: Tesseract benötigt für PDF-Seiten zunächst eine geeignete Umwandlung in Bilder oder eine andere klar definierte Vorverarbeitung.
+Damit ist nachgewiesen, dass Tesseract auf dem Android-Gerät in Termux installiert war, deutsche und englische Sprachdaten verfügbar waren und ein lokaler OCR-Prozess auf einer Testgrafik funktionierte. Die dokumentierten Testausgaben zeigen zugleich, dass die Erkennungsqualität noch geprüft und verbessert werden muss.
 
-Wichtig: Die Termux-Paketdefinition lädt in ihrem Build-Schritt englische Sprachdaten. Das Vorhandensein deutscher Sprachdaten darf daher nicht vorausgesetzt werden; maßgeblich ist die tatsächliche Ausgabe von `tesseract --list-langs`. Sprachdaten und weitere Abhängigkeiten können eigene Lizenzbedingungen besitzen und sind getrennt zu dokumentieren.
+Das ist ein realer technischer Meilenstein der lokalen OCR-Vorarbeit. Es ist noch keine vollständige Dokumentenpipeline und keine fertige OCR-Funktion der nativen Android-App.
 
-Die konkreten Prüfkommandos, erwarteten Nachweise und offenen Punkte stehen in `docs/OCR_TESSERACT_TERMUX.md`.
+### Reproduzierbarkeit und weitere OCR-Validierung
+
+- Paketversion und Installationsstatus erneut am aktuellen Gerät erfassen.
+- Testbild, Solltext und tatsächliche Ausgabe dauerhaft als anonymisierte/synthetische Testartefakte dokumentieren.
+- Erkennungsqualität anhand mehrerer Bildqualitäten, Schriftarten und Layouts bewerten.
+- Laufzeit, Speicherbedarf, Umlaute, Zeilenumbrüche und Layoutverluste messen.
+- PDF-Vorverarbeitung separat untersuchen.
+- Python-Anbindung kontrolliert testen.
+- Tesseract-/Sprachdatenlizenzen und genaue Herkunft der Sprachdateien in einer Abhängigkeitsliste erfassen.
 
 ### Noch offen / künftig zu implementieren
 
@@ -417,7 +425,7 @@ mindmap
 |---|---|
 | 1. Fachliche Intelligenz | Grundlagen vorhanden; Prototyp in Weiterentwicklung |
 | 2. Android Local Agent / Datenschutz | In Bearbeitung; Einzelstände werden in FUNKTIONSSTATUS.md präzisiert |
-| OCR / Tesseract | Technische Evaluierung; Installation und OCR-Lauftest zu verifizieren |
+| OCR / Tesseract | Tesseract 5.5.4 installiert; deu/eng vorhanden; erster OCR-Test erfolgreich; Qualität/Reproduzierbarkeit weiter zu prüfen |
 | 3. Native Android-Anwendung | Geplant |
 | 4. Wissens- und Funktionsausbau | Geplant |
 
