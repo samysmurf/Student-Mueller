@@ -18,3 +18,7 @@ Füge keine echten personenbezogenen Dokumente bei. Verwende synthetische Testda
 
 ## Sicherheitsstatus
 Das Projekt befindet sich im Aufbau. Es gibt noch keine Zusicherung einer unabhängigen Sicherheitsprüfung oder Zertifizierung. Die geplante lokale Verarbeitung und die Freigabe vor externem KI-Upload sind Zielanforderungen, deren tatsächliche Umsetzung später technisch getestet werden muss.
+
+
+## Projektabgrenzung
+Student Müller enthält keine lokale Android-OCR- oder Dokumentenanonymisierungsfunktion. Das eigenständige Projekt Anonymisator wird in einem separaten Repository entwickelt. Bitte auch dort keine echten personenbezogenen Dokumente oder Zugangsdaten in Issues oder Pull Requests veröffentlichen.
