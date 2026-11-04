@@ -1,39 +1,27 @@
-# Datenschutz und lokale Verarbeitung
+# Datenschutz – Student Müller
 
-## Grundsatz
+## Verarbeitungsgrenze
 
-Dokumente aus Sozial- und Verwaltungsverfahren können besonders sensible personenbezogene Informationen enthalten. Student Müller folgt deshalb dem Prinzip: so wenig Daten wie möglich, lokal vorverarbeiten und externe Übermittlung nur nach informierter Freigabe.
+Student Müller ist ein ChatGPT-basierter Assistent. Eingaben und Ausgaben werden über die jeweils genutzte externe KI-Plattform verarbeitet. Dieses Repository betreibt keine eigene lokale Android-OCR-, PDF-Schwärzungs- oder Anonymisierungsfunktion. Es kann deshalb weder lokale Vorverarbeitung noch plattformunabhängige Vertraulichkeit garantieren.
 
-## Geplante Verarbeitung
+## Datenminimierung
 
-1. Originaldatei lokal importieren und unverändert sichern.
-2. Text direkt extrahieren oder lokal OCR ausführen.
-3. Mögliche personenbezogene und sensible Angaben erkennen.
-4. Erkannte Stellen sichtbar markieren.
-5. Nutzer kann Markierungen korrigieren und ergänzen.
-6. Eine separate Kopie technisch dauerhaft schwärzen.
-7. Metadaten und versteckte Inhalte bereinigen.
-8. Ergebnis automatisiert und manuell prüfen.
-9. Erst nach ausdrücklicher Freigabe optional extern übermitteln.
+- Nur Angaben übermitteln, die für die jeweilige Frage erforderlich sind.
+- Namen, Anschriften, Geburtsdaten, Aktenzeichen, Kontodaten und identifizierende Details nach Möglichkeit durch neutrale Platzhalter ersetzen.
+- Gesundheitsdaten, Gutachten und vollständige Verwaltungsakten besonders zurückhaltend behandeln.
+- Keine vertraulichen Originaldokumente in öffentliche GitHub-Issues, Pull Requests, Commits oder Testdateien aufnehmen.
+- Für Beispiele und Funktionstests ausschließlich synthetische oder wirksam anonymisierte Daten verwenden.
 
-## Keine Scheinschwärzung
+## Externe Plattform
 
-Eine schwarze Fläche über dem Text reicht nicht. Der ursprüngliche Text darf nicht durch Markieren, Kopieren, OCR oder Entfernen der Überdeckung wiederherstellbar sein. Die Originaldatei bleibt unberührt.
+Vor der Eingabe vertraulicher Inhalte müssen Nutzer die Bedingungen und Datenschutzhinweise der verwendeten Plattform berücksichtigen. Student Müller löst keine automatische Übermittlung aus; Nutzer geben Inhalte selbst in den externen Dienst ein. Das Projekt kann die dortige Speicherung, Verarbeitung oder Verwendung von Eingaben nicht steuern.
 
-## Noch zu implementieren und testen
+## Abgrenzung zum Anonymisator
 
-- Datenklassifizierung und Erkennungsqualität.
-- Review-Oberfläche.
-- echte PDF- und Bildschwärzung.
-- Metadaten- und Textlayer-Prüfung.
-- sichere temporäre Dateiverwaltung.
-- Netzwerkisolation vor Freigabe.
-- dokumentierte Löschregeln.
+Die lokale Android-Dokumentenverarbeitung ist ein separates Projekt: [Anonymisator](https://github.com/samysmurf/Anonymisator). Student Müller erhält daraus keine OCR-, Schwärzungs-, Metadatenbereinigungs- oder Exportfunktion. Es gibt keine automatische Verbindung und keine automatische Datenübertragung zwischen den Repositories.
 
-## Testdaten
-
-Für Entwicklung und Tests ausschließlich synthetische oder vollständig anonymisierte Beispieldokumente verwenden. Reale Dokumente und Zugangsdaten gehören nicht in das öffentliche GitHub-Repository.
+Auch Anonymisator befindet sich in einer frühen Entwicklungsphase. Die geplanten lokalen Schutzfunktionen sind noch nicht als fertige App implementiert. Nutzer dürfen daher nicht von einer bereits verfügbaren technischen Anonymisierung ausgehen.
 
 ## Transparenz
 
-Die hier beschriebenen Punkte sind verbindliche Entwicklungsanforderungen, keine Behauptung, dass bereits eine fertige oder zertifizierte Datenschutzlösung existiert.
+Ein Datenschutzhinweis, eine Projektgrenze oder eine geplante Architektur ist kein technischer Datenschutzbeweis. Student Müller darf keine vollständige Anonymisierung, sichere lokale Verarbeitung oder garantierte Vertraulichkeit behaupten.

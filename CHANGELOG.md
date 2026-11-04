@@ -1,6 +1,16 @@
 # Changelog
 
-Alle relevanten Änderungen werden hier nachvollziehbar festgehalten.
+## [1.4.0] – 2026-11-04
+- Student Müller auf den ChatGPT-basierten sozialrechtlichen Informations- und Selbsthilfeassistenten abgegrenzt.
+- Android-/OCR-/Termux-Arbeiten als eigenständiges Projekt Anonymisator verlinkt.
+- README, Systemanweisung, Roadmap, Architektur, Datenschutz und Funktionsstatus auf die Projekttrennung ausgerichtet.
+- Neue Mindmap V1.4 als Mermaid-Text und SVG-Grafik ergänzt.
+- Barrierefreiheitsleitlinie als Entwicklungsziel dokumentiert; keine Konformitätsprüfung behauptet.
+- Bestehende Lizenzdateien unverändert gelassen.
+- OCR-/Termux-Protokolle werden im Schwesterprojekt übernommen und aus dem aktiven Baum entfernt; die Git-Historie bleibt erhalten.
+- Architektur- und Datenschutzdokumentation auf den tatsächlich ChatGPT-basierten Betrieb abgestimmt.
+- README-Beispielablauf und Projektstruktur vervollständigt; Systemanweisung hinsichtlich Versionsstand, Tests und Projektgrenze konsolidiert.
+- Mindmap-SVG gestalterisch überarbeitet und Statushinweis ergänzt.
 
 ## [1.3.1] – 2026-11-04
 
