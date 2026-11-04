@@ -6,6 +6,17 @@
 
 <sub>Grafische Projektübersicht; sie zeigt sowohl vorhandene Grundlagen als auch ausdrücklich geplante Funktionen.</sub>
 
+
+## Student Müller jetzt selbst ausprobieren
+
+**Sie möchten bereits jetzt mit eigenen Anliegen testen, wie Student Müller funktioniert?**
+
+Hier können Sie [ChatGPT direkt öffnen](https://chatgpt.com/) und die [Systemanweisung von Student Müller](SYSTEMANWEISUNG.md) in einen neuen Chat übernehmen. Öffnen Sie dazu die Systemanweisung, kopieren Sie den vollständigen Inhalt und fügen Sie ihn zu Beginn des neuen Chats ein. So erhält ChatGPT die fachlichen Leitlinien und Arbeitsregeln dieses Projekts.
+
+> **Wichtiger Datenschutzhinweis:** Bitte teilen Sie keine persönlichen oder vertraulichen Daten direkt mit ChatGPT. Anonymisieren Sie Dokumente und Sachverhalte vor der Übermittlung eigenständig und sorgfältig. Die geplante lokale Anonymisierung in der Android-App ist noch nicht vollständig umgesetzt. Geben Sie insbesondere keine Namen, Anschriften, Geburtsdaten, Aktenzeichen, Kontodaten oder andere Angaben weiter, durch die Personen identifizierbar werden könnten.
+
+Vielen Dank, dass Sie Student Müller ausprobieren und zur Weiterentwicklung beitragen!
+
 Student Müller ist ein kostenfreies, niedrigschwelliges, KI-gestütztes Assistenzprojekt. Es soll Menschen dabei unterstützen, sozialrechtliche Sachverhalte zu verstehen, Verwaltungsentscheidungen einzuordnen und eigene Verwaltungsangelegenheiten selbstbestimmt zu bearbeiten.
 
 > Student Müller ist ein Informations- und Assistenzprojekt, keine Rechtsanwaltskanzlei. Es ersetzt weder individuelle anwaltliche Beratung noch Entscheidungen zuständiger Behörden oder Gerichte.
