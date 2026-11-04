@@ -8,6 +8,7 @@
 - Barrierefreiheitsleitlinie als Entwicklungsziel dokumentiert; keine Konformitätsprüfung behauptet.
 - Bestehende Lizenzdateien unverändert gelassen.
 - OCR-/Termux-Protokolle werden im Schwesterprojekt übernommen und aus dem aktiven Baum entfernt; die Git-Historie bleibt erhalten.
+- Architektur- und Datenschutzdokumentation auf den tatsächlich ChatGPT-basierten Betrieb abgestimmt.
 - README-Beispielablauf und Projektstruktur vervollständigt; Systemanweisung hinsichtlich Versionsstand, Tests und Projektgrenze konsolidiert.
 - Mindmap-SVG gestalterisch überarbeitet und Statushinweis ergänzt.
 
