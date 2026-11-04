@@ -9,9 +9,10 @@ Alle relevanten Änderungen werden hier nachvollziehbar festgehalten.
 - Mindmap V1.3 mit eindeutigen Statuskennzeichnungen ergänzt.
 - Lizenzmodell festgelegt: eigener Programmcode Apache-2.0, Projektdokumentation CC BY-SA 4.0.
 - Termux-/Android-Vorarbeiten genauer beschrieben.
-- Tesseract als lokal zu evaluierende OCR-Komponente aufgenommen.
-- Installation, deutsche Sprachdaten und OCR-Lauftest ausdrücklich als noch zu verifizieren gekennzeichnet.
+- Tesseract 5.5.4, verfügbare Sprachdaten `deu`/`eng` und einen erfolgreichen ersten lokalen OCR-Test dokumentiert; Qualitätsprüfung und weitere Integration bleiben offen.
 - Dokumentationsstruktur für Architektur, Datenschutz, Roadmap, Funktionsstatus und Mitwirkung angelegt.
+- README um eine praktische Beispielanleitung zur Prüfung eines fiktiven Jobcenter-Ablehnungsbescheids und zum Entwurf eines Widerspruchs ergänzt.
+- Screenshot-Platzhalter für die spätere Schritt-für-Schritt-Dokumentation vorgesehen.
 
 ## [1.2] – 2026-11-03
 
