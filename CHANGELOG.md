@@ -11,8 +11,8 @@ Alle relevanten Änderungen werden hier nachvollziehbar festgehalten.
 - Termux-/Android-Vorarbeiten genauer beschrieben.
 - Tesseract 5.5.4, verfügbare Sprachdaten `deu`/`eng` und einen erfolgreichen ersten lokalen OCR-Test dokumentiert; Qualitätsprüfung und weitere Integration bleiben offen.
 - Dokumentationsstruktur für Architektur, Datenschutz, Roadmap, Funktionsstatus und Mitwirkung angelegt.
-- README um eine praktische Beispielanleitung zur Prüfung eines fiktiven Jobcenter-Ablehnungsbescheids und zum Entwurf eines Widerspruchs ergänzt.
-- Screenshot-Platzhalter für die spätere Schritt-für-Schritt-Dokumentation vorgesehen.
+- Textbasierten Musterfall zur Küchen-Erstausstattung erstellt: Antrag, Vermieterbestätigung, fiktiver Ablehnungsbescheid, Testprompts und Widerspruchsvergleich.
+- README-Anleitung auf den textbasierten Ablauf umgestellt; für den Test sind keine Screenshots oder Bild-Uploads erforderlich.
 
 ## [1.2] – 2026-11-03
 
