@@ -13,11 +13,11 @@ Statusangaben beruhen auf dokumentierten Projektinformationen. Sie sind keine un
 | Shizuku | Gekoppelt / gestartet | Erlaubt bestimmte privilegierte Schnittstellen; kein Root-Ersatz |
 | rish | Erprobt | Shell-Zugriff im Rahmen der Shizuku-Umgebung |
 | Android-Paket-/Systemanalyse | In Bearbeitung | Paketlisten, Konfigurationsdateien und Berechtigungsgrenzen untersucht |
-| Tesseract in Termux | Zu verifizieren | Offizielles Termux-Paket-Buildskript vorhanden; Installation auf dem Zielgerät nicht belegt |
-| Deutsche Tesseract-Sprachdaten | Zu verifizieren | Tatsächlicher Bestand und Lizenz müssen geprüft werden |
-| OCR-Bildtest | Geplant / offen | Kein reproduzierbarer OCR-Testnachweis in der Projektakte |
-| OCR-PDF-Pipeline | Geplant | Vorverarbeitung und Textextraktion noch nicht implementiert |
-| Python-Tesseract-Integration | Geplant | Erst nach CLI-Test |
+| Tesseract in Termux | Installiert / erster Test erfolgreich | Tesseract 5.5.4 am 01.11.2026 installiert; 16 Abhängigkeiten; Paketmanager meldete 27,5 MB Download und ca. 111 MB Speicherbedarf |
+| Deutsche Tesseract-Sprachdaten | Vorhanden (Teststand 02.11.2026) | `tesseract --list-langs` zeigte `deu` und `eng`; Herkunft/Lizenz der konkreten Daten noch zu dokumentieren |
+| OCR-Bildtest | Erster Test erfolgreich | `~/AndroidLocalAgent/data/ocr_test.png` wurde lokal mit `-l deu+eng` verarbeitet; erster Output enthielt Fehler, verbesserter Test erkannte den Text genauer |
+| OCR-PDF-Pipeline | Geplant | Bild-OCR getestet; PDF-Seitenvorverarbeitung und Textextraktion noch nicht implementiert |
+| Python-Tesseract-Integration | Geplant | Kommandozeilen-OCR wurde getestet; Python-Anbindung noch nicht dokumentiert |
 | Erkennung sensibler Daten | Geplant | Nicht implementiert |
 | Vorschau / manuelle Korrektur | Geplant | Nicht implementiert |
 | Dauerhafte Schwärzung | Geplant | Nicht implementiert |
