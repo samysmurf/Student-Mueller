@@ -102,7 +102,7 @@ Jobcenter Musterhausen
 
 **Rechtsbehelfsbelehrung**
 
-Gegen diesen Bescheid können Sie innerhalb eines Monats nach seiner Bekanntgabe Widerspruch erheben. Der Widerspruch ist schriftlich beim Jobcenter Musterhausen einzureichen oder dort zur Niederschrift zu erklären.
+Gegen diesen Bescheid können Sie innerhalb eines Monats nach seiner Bekanntgabe Widerspruch erheben. Der Widerspruch ist schriftlich, in einer gesetzlich zugelassenen elektronischen Form oder zur Niederschrift beim Jobcenter Musterhausen einzureichen beziehungsweise zu erklären.
 
 Jobcenter Musterhausen
 
