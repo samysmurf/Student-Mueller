@@ -2,6 +2,12 @@
 
 **Stand: 04.11.2026**
 
+## Grafische Übersicht
+
+![Student Müller – grafische Projekt-Mindmap](../assets/student_mueller_mindmap.jpg)
+
+Die Grafik stellt die Projektvision und den Entwicklungsumfang dar. Sie ist eine Übersicht, keine Behauptung, dass alle dargestellten Funktionen bereits implementiert sind.
+
 ## Legende
 
 - **Vorhanden / Grundlagen:** konzipiert oder als Prototyp bearbeitet.
@@ -51,10 +57,10 @@ mindmap
       Berechtigungsgrenzen dokumentiert
     OCR und Tesseract
       Termux-Paketangebot verifiziert
-      Installation zu verifizieren
-      Version prüfen
-      Sprachdaten prüfen
-      Deutscher OCR-Test offen
+      Tesseract 5.5.4 installiert
+      Sprachdaten deu und eng vorhanden
+      Lokaler OCR-Test erfolgreich
+      Erkennungsqualität weiter prüfen
       Python-Anbindung geplant
       PDF-Vorverarbeitung geplant
     Datenschutz lokal
