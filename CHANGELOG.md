@@ -8,6 +8,8 @@
 - Barrierefreiheitsleitlinie als Entwicklungsziel dokumentiert; keine Konformitätsprüfung behauptet.
 - Bestehende Lizenzdateien unverändert gelassen.
 - OCR-/Termux-Protokolle werden im Schwesterprojekt übernommen und aus dem aktiven Baum entfernt; die Git-Historie bleibt erhalten.
+- README-Beispielablauf und Projektstruktur vervollständigt; Systemanweisung hinsichtlich Versionsstand, Tests und Projektgrenze konsolidiert.
+- Mindmap-SVG gestalterisch überarbeitet und Statushinweis ergänzt.
 
 ## [1.3.1] – 2026-11-04
 
