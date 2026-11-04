@@ -2,6 +2,10 @@
 
 **Verstehen. Verwalten. Selbstbestimmt handeln.**
 
+![Student Müller – grafische Projekt-Mindmap](assets/student_mueller_mindmap.jpg)
+
+<sub>Grafische Projektübersicht; sie zeigt sowohl vorhandene Grundlagen als auch ausdrücklich geplante Funktionen.</sub>
+
 Student Müller ist ein kostenfreies, niedrigschwelliges, KI-gestütztes Assistenzprojekt. Es soll Menschen dabei unterstützen, sozialrechtliche Sachverhalte zu verstehen, Verwaltungsentscheidungen einzuordnen und eigene Verwaltungsangelegenheiten selbstbestimmt zu bearbeiten.
 
 > Student Müller ist ein Informations- und Assistenzprojekt, keine Rechtsanwaltskanzlei. Es ersetzt weder individuelle anwaltliche Beratung noch Entscheidungen zuständiger Behörden oder Gerichte.
