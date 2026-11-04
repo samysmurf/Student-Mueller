@@ -1,39 +1,9 @@
-# Datenschutz und lokale Verarbeitung
+# Datenschutz – Student Müller
 
-## Grundsatz
+Student Müller ist ein ChatGPT-basierter Assistent. Die Verarbeitung von Eingaben erfolgt über die jeweils genutzte externe Plattform. Dieses Repository betreibt keine eigene lokale Android-OCR- oder Anonymisierungsfunktion und kann keine plattformunabhängige Vertraulichkeit garantieren.
 
-Dokumente aus Sozial- und Verwaltungsverfahren können besonders sensible personenbezogene Informationen enthalten. Student Müller folgt deshalb dem Prinzip: so wenig Daten wie möglich, lokal vorverarbeiten und externe Übermittlung nur nach informierter Freigabe.
+Keine echten Namen, Anschriften, Geburtsdaten, Aktenzeichen, Gesundheitsdaten oder vollständigen Bescheide in öffentliche Issues oder Tests aufnehmen. Für Beispiele ausschließlich synthetische oder wirksam anonymisierte Daten verwenden. Vertrauliche Dokumente vor einer externen Übermittlung eigenständig sorgfältig prüfen und minimieren. Externe Dienste und deren Datenschutzbedingungen vor Nutzung berücksichtigen.
 
-## Geplante Verarbeitung
+Die lokale Android-Dokumentenverarbeitung ist ein separates Projekt: [Anonymisator](https://github.com/samysmurf/Anonymisator). Student Müller erhält keine OCR-, Schwärzungs-, Metadatenbereinigungs- oder Exportfunktion aus diesem Projekt. Es gibt keine automatische Verbindung.
 
-1. Originaldatei lokal importieren und unverändert sichern.
-2. Text direkt extrahieren oder lokal OCR ausführen.
-3. Mögliche personenbezogene und sensible Angaben erkennen.
-4. Erkannte Stellen sichtbar markieren.
-5. Nutzer kann Markierungen korrigieren und ergänzen.
-6. Eine separate Kopie technisch dauerhaft schwärzen.
-7. Metadaten und versteckte Inhalte bereinigen.
-8. Ergebnis automatisiert und manuell prüfen.
-9. Erst nach ausdrücklicher Freigabe optional extern übermitteln.
-
-## Keine Scheinschwärzung
-
-Eine schwarze Fläche über dem Text reicht nicht. Der ursprüngliche Text darf nicht durch Markieren, Kopieren, OCR oder Entfernen der Überdeckung wiederherstellbar sein. Die Originaldatei bleibt unberührt.
-
-## Noch zu implementieren und testen
-
-- Datenklassifizierung und Erkennungsqualität.
-- Review-Oberfläche.
-- echte PDF- und Bildschwärzung.
-- Metadaten- und Textlayer-Prüfung.
-- sichere temporäre Dateiverwaltung.
-- Netzwerkisolation vor Freigabe.
-- dokumentierte Löschregeln.
-
-## Testdaten
-
-Für Entwicklung und Tests ausschließlich synthetische oder vollständig anonymisierte Beispieldokumente verwenden. Reale Dokumente und Zugangsdaten gehören nicht in das öffentliche GitHub-Repository.
-
-## Transparenz
-
-Die hier beschriebenen Punkte sind verbindliche Entwicklungsanforderungen, keine Behauptung, dass bereits eine fertige oder zertifizierte Datenschutzlösung existiert.
+Ein Hinweis oder eine geplante Architektur ist kein technischer Datenschutzbeweis. Student Müller darf keine vollständige Anonymisierung oder sichere lokale Verarbeitung behaupten.
