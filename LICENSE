@@ -1,0 +1,10 @@
+# Lizenzübersicht
+
+Dieses Repository verwendet zwei getrennte Lizenzen:
+
+- Eigener Programmcode: Apache License 2.0 – vollständiger Lizenztext in [LICENSE-CODE](LICENSE-CODE).
+- Projekttexte und Dokumentation: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) – [Lizenztext](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+
+Die Zuordnung gilt nur für Inhalte, an denen die Projektbeitragenden die erforderlichen Rechte besitzen und die sie unter diesen Bedingungen lizenzieren dürfen. Fremde Bibliotheken, Abhängigkeiten, OCR-Sprachdaten, Datensätze, Marken, Logos, amtliche Inhalte und sonstige Drittwerke sind nicht automatisch umfasst. Für diese gelten ihre jeweiligen Rechte und Lizenzbedingungen.
+
+Wenn eine Datei ausdrücklich eine abweichende Lizenz oder einen Drittanbieterhinweis enthält, ist dieser Hinweis für den betreffenden Inhalt gesondert zu beachten.
