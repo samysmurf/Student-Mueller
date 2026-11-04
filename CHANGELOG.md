@@ -2,6 +2,16 @@
 
 Alle relevanten Änderungen werden hier nachvollziehbar festgehalten.
 
+## [1.3.1] – 2026-11-04
+
+- README und Systemanweisung um die Zweckbestimmung zur persönlichen Nutzung der offiziellen Assistentenfassung ergänzt.
+- Individuelle Bearbeitung fremder Angelegenheiten im Auftrag oder Namen Dritter als nicht vorgesehene Nutzung abgegrenzt; allgemeine Rechtsinformationen und synthetische Testfälle bleiben möglich.
+- Haftungshinweise präzisiert; keine pauschale Freizeichnung von zwingender gesetzlicher Haftung.
+- Projektbeschreibung auf „gemeinwohlorientiert“ statt steuerrechtlich missverständlichem „gemeinnützig“ präzisiert.
+- Kostenfreiheit, Werbefreiheit und OSINT-orientierte Recherche anhand öffentlich zugänglicher Quellen beschrieben.
+- Klarstellung: Die Zweckbestimmung der Assistentenfassung ändert die bestehenden Lizenzen Apache 2.0 und CC BY-SA 4.0 nicht.
+- Keine Änderung an den Lizenzdateien; keine anwaltliche Prüfung oder rechtliche Freigabe behauptet.
+
 ## [1.3] – 2026-11-04
 
 - Erstveröffentlichung der Projektbasis im öffentlichen Repository.
