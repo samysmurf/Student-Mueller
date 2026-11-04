@@ -95,7 +95,7 @@ mindmap
 |---|---|
 | 1 – Fachliche Intelligenz | Grundlagen vorhanden; Prototyp in Weiterentwicklung |
 | 2 – Android Local Agent / Datenschutz | In Bearbeitung |
-| OCR / Tesseract | Technische Evaluierung; Installation und OCR-Lauftest zu verifizieren |
+| OCR / Tesseract | Tesseract 5.5.4 installiert; deu/eng vorhanden; erster OCR-Test erfolgreich; Qualität weiter zu prüfen |
 | 3 – Native Android-App | Geplant |
 | 4 – Wissens- und Funktionsausbau | Geplant |
 
@@ -103,6 +103,6 @@ mindmap
 
 Bereits dokumentiert sind Termux, Python, Wireless Debugging, Shizuku und `rish`. Android-Paket- und Systeminformationen sowie Berechtigungsgrenzen wurden unmittelbar am Gerät untersucht. Das ist geräte- und systemnahes Prototyping, aber kein Nachweis für Root-Zugriff oder direkte Treiber-/Registerprogrammierung.
 
-Tesseract ist im offiziellen Termux-Paketrepository vorhanden. Die lokale Installation, Sprachdaten (insbesondere Deutsch) und ein reproduzierbarer OCR-Lauftest müssen noch durch konkrete Terminalausgaben belegt werden.
+Tesseract 5.5.4 wurde am 01.11.2026 in Termux installiert. Am 02.11. zeigte `tesseract --list-langs` die Sprachdaten `deu` und `eng`; ein lokaler OCR-Aufruf auf `~/AndroidLocalAgent/data/ocr_test.png` wurde erfolgreich ausgeführt. Die erste Ausgabe enthielt Fehler, ein verbesserter Testlauf erkannte den Text genauer. PDF-Pipeline, Python-Anbindung und eine systematische Qualitätsmessung sind noch offen.
 
 **Wichtig:** OCR, sichere Schwärzung, Metadatenbereinigung und Dokumentenexport gelten nicht als fertige App-Funktionen.
