@@ -1,7 +1,7 @@
 # OCR mit Tesseract unter Termux
 
 **Stand: 04.11.2026**  
-**Status: technische Evaluierung; Installation und OCR-Lauftest auf dem Zielgerät zu verifizieren**
+**Status: Tesseract 5.5.4 auf dem Zielgerät installiert; deu/eng nachgewiesen; erster lokaler OCR-Lauftest am 02.11.2026 erfolgreich. Reproduzierbarkeit und Erkennungsqualität weiter zu prüfen.**
 
 ## Ziel
 
@@ -23,28 +23,83 @@ https://github.com/termux/termux-packages
 
 Die Repository-Angaben können sich ändern. Vor der Installation ist der aktuelle Paketstand im verwendeten Termux-Repository zu prüfen.
 
-## Status der bisherigen Arbeiten
+## Tatsächlich dokumentierte Termux-Schritte
 
-- Termux als lokale Entwicklungsumgebung vorhanden.
-- Android-Systemzugriffe über Wireless Debugging, Shizuku und `rish` erprobt.
-- Tesseract als mögliche lokale OCR-Engine identifiziert.
-- Offizielles Termux-Buildskript und Lizenzmetadaten geprüft.
-- Eine erfolgreiche Installation auf dem Redmi-Gerät ist in den bisher verfügbaren Projektprotokollen nicht belegt.
-- Ein reproduzierbarer OCR-Lauftest ist noch nicht belegt.
-- Deutsche Sprachdaten sind noch zu prüfen.
+Die folgenden Angaben stammen aus dem früheren Arbeitsverlauf und sind als ausgeführte Schritte dokumentiert:
+
+### 01.11.2026 – Paket suchen und installieren
+
+Ausgeführte Suche:
+
+```sh
+pkg search tesseract
+```
+
+Ausgabe enthielt:
+
+```text
+tesseract/stable 5.5.4 aarch64
+```
+
+Anschließend wurde ausgeführt:
+
+```sh
+pkg install tesseract
+```
+
+Die Installation wurde erfolgreich abgeschlossen. Der Paketmanager meldete Tesseract 5.5.4 und 16 Abhängigkeiten, 27,5 MB heruntergeladene Pakete sowie rund 111 MB zusätzlichen Speicherbedarf.
+
+### 02.11.2026 – Sprachdaten und OCR-Test
+
+Ausgeführter Sprachdatencheck:
+
+```sh
+tesseract --list-langs
+```
+
+Nachgewiesene Sprachen:
+
+```text
+deu
+eng
+```
+
+Ausgeführter OCR-Aufruf:
+
+```sh
+tesseract ~/AndroidLocalAgent/data/ocr_test.png stdout -l deu+eng
+```
+
+Der erste Testlauf lieferte bereits Text, enthielt jedoch Fehler. Dokumentierte Erkennung unter anderem:
+
+```text
+ANDROIDLOCAL AGENT
+CORTEST2028
+Dokumenten-Intaligenz
+```
+
+Ein verbesserter Testlauf erkannte:
+
+```text
+ANDROID LOCAL AGENT
+OCR TEST 2026
+Dokumenten-Intelligenz
+```
+
+**Bewertung:** Installation, Sprachdatenverfügbarkeit und lokaler OCR-Aufruf sind damit als praktisch durchgeführt dokumentiert. Die Testausgabe zeigt eine grundsätzlich funktionierende Erkennung, aber noch keine belastbare Qualitätsmessung. Insbesondere ist ein einzelnes Testbild kein Nachweis für die sichere Verarbeitung komplexer Bescheide oder PDFs.
 
 ## Vorgeschlagene Prüfsequenz
 
 Die folgenden Befehle sind ein **Testplan**, kein behauptetes Protokoll bereits ausgeführter Befehle. Vor dem Ausführen auf dem Gerät prüfen, ob die Termux-Installation aus einer aktuellen, unterstützten Quelle stammt.
 
-### 1. Paketindex aktualisieren
+### 1. Paketindex aktualisieren und installierten Stand erfassen
 
 ```sh
 pkg update
 pkg upgrade
 ```
 
-### 2. Tesseract installieren
+### 2. Installation bei Bedarf prüfen bzw. reparieren
 
 ```sh
 pkg install tesseract
