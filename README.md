@@ -13,7 +13,7 @@ Student Müller ist ein kostenfreies, niedrigschwelliges, KI-gestütztes Assiste
 | Fachlicher ChatGPT-Prototyp | Grundlagen und Funktionen vorhanden; laufende Weiterentwicklung |
 | Android Local Agent | In Bearbeitung |
 | Termux / Python / Android-Shell | Auf dem Entwicklungsgerät eingerichtet bzw. teilweise erprobt |
-| OCR mit Tesseract | Technische Evaluierung; lokale Installation und OCR-Lauftest noch nachzuweisen |
+| OCR mit Tesseract | Tesseract 5.5.4 installiert; deu/eng vorhanden; erster lokaler OCR-Test erfolgreich |
 | Sichere Dokumentenanonymisierung | Geplant |
 | Native Android-App | Geplant |
 | Offline-KI | Untersuchung / Evaluierung, nicht als verfügbar behauptet |
@@ -24,7 +24,7 @@ Der technische Arbeitsstand wird in [docs/FUNKTIONSSTATUS.md](docs/FUNKTIONSSTAT
 
 Die Android-Vorarbeiten erfolgen unmittelbar auf einem realen Android-Gerät und nicht nur in einer PC-Simulation. Als mobile Entwicklungsumgebung wird Termux eingesetzt. Ergänzend wurden Python, Wireless Debugging, Shizuku und `rish` eingerichtet bzw. erprobt. Damit werden Android-Systemgrenzen, Paketinformationen, Shell-Zugriffe und Berechtigungen direkt am Gerät untersucht.
 
-Tesseract wird als mögliche lokal ausführbare OCR-Engine über das Termux-Paketangebot technisch evaluiert. Die Dokumentation trennt klar zwischen bestätigten Vorarbeiten und noch ausstehenden Installationstests. Siehe [docs/OCR_TESSERACT_TERMUX.md](docs/OCR_TESSERACT_TERMUX.md).
+Tesseract 5.5.4 wurde am 01.11.2026 über Termux installiert. Am 02.11. waren die Sprachdaten `deu` und `eng` vorhanden; ein lokaler OCR-Test auf einem Bild aus dem AndroidLocalAgent-Testverzeichnis lief erfolgreich. Die Erkennungsqualität wird weiter verbessert; PDF-Pipeline und Python-Anbindung sind noch offen. Details und Terminalausgaben: [docs/OCR_TESSERACT_TERMUX.md](docs/OCR_TESSERACT_TERMUX.md).
 
 ## Datenschutz-Leitlinie
 
