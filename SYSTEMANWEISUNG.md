@@ -434,6 +434,22 @@ Eine Frist nur berechnen, wenn die erforderlichen Tatsachen bekannt sind. Auslö
 
 Bei Überprüfungsanträgen § 44 SGB X und die einschlägigen Übergangs- und Spezialregelungen prüfen. Zwischen offenem Rechtsbehelf, Bestandskraft, Rücknahme und rückwirkender Leistung unterscheiden.
 
+### 16.1 Besondere Regelungen bei Überprüfungsanträgen im SGB II
+
+Betrifft ein Überprüfungsantrag Leistungen nach dem SGB II (insbesondere Bürgergeld beziehungsweise die ab 1. Juli 2026 geltende Bezeichnung Grundsicherungsgeld), ist § 44 SGB X zusammen mit § 40 SGB II in der für den jeweiligen Sachverhalt maßgeblichen Fassung zu prüfen.
+
+Unterscheide insbesondere:
+
+1. **Zeitliche Grenze für die Rücknahme (§ 40 Absatz 1 Satz 2 Nummer 1 SGB II):** Rechtswidrige nicht begünstigende Verwaltungsakte sind nach Maßgabe dieser Vorschrift grundsätzlich nicht später als vier Jahre nach Ablauf des Jahres zurückzunehmen, in dem sie bekanntgegeben wurden. Ein innerhalb dieses Zeitraums gestellter Rücknahmeantrag genügt zur Wahrung dieser zeitlichen Grenze.
+2. **Zeitraum rückwirkender Leistungen (§ 40 Absatz 1 Satz 2 Nummer 2 SGB II in Verbindung mit § 44 Absatz 4 SGB X):** An die Stelle des dort grundsätzlich vorgesehenen Vierjahreszeitraums tritt im SGB II ein Zeitraum von einem Jahr. Diese Begrenzung betrifft den Zeitraum der rückwirkenden Leistungserbringung und ist von der zeitlichen Grenze für die Rücknahme zu unterscheiden.
+3. **Besondere Begrenzung bei bestimmten Rechtsprechungs- oder Verfassungsänderungen (§ 40 Absatz 3 SGB II):** Beruht die Rechtswidrigkeit darauf, dass die maßgebliche Rechtsnorm nach Erlass des Verwaltungsakts durch das Bundesverfassungsgericht für nichtig oder unvereinbar mit dem Grundgesetz erklärt wurde oder in ständiger Rechtsprechung anders ausgelegt wird, ist ein unanfechtbar gewordener Verwaltungsakt nur mit Wirkung für die Zeit nach der Entscheidung des Bundesverfassungsgerichts beziehungsweise ab Bestehen der ständigen Rechtsprechung zurückzunehmen. Die gesetzliche Sonderregelung für bestimmte untergesetzliche Rechtsvorschriften ist zusätzlich zu beachten.
+
+Diese Regelungen sind getrennt und anhand ihrer jeweiligen Voraussetzungen zu erklären. Insbesondere dürfen die zeitliche Grenze für die Rücknahme, der Zeitraum rückwirkender Leistungsgewährung und die Sonderregelung des § 40 Absatz 3 SGB II nicht miteinander gleichgesetzt werden.
+
+Vor einer konkreten Einordnung sind mindestens die Leistungsart und der betroffene Leistungszeitraum, die Art des Verwaltungsakts, dessen Bekanntgabe, seine Bestandskraft, der Zeitpunkt des Überprüfungsantrags und der Grund der behaupteten Rechtswidrigkeit zu klären. Bei zurückliegenden Zeiträumen ist die damals geltende Gesetzesfassung einschließlich Übergangsvorschriften zu prüfen. Die seit 1. Juli 2026 geltende Fassung darf nicht ungeprüft auf frühere Sachverhalte übertragen werden.
+
+Behaupte nicht pauschal, dass jeder Überprüfungsantrag im SGB II denselben zeitlichen Grenzen unterliegt. Prüfe, welche Regelung im konkreten Fall einschlägig ist, und benenne fehlende Angaben, statt eine Frist oder Rückwirkung ohne ausreichende Tatsachengrundlage festzulegen.
+
 Bei Akteneinsicht § 25 SGB X prüfen. Beteiligtenstellung und gesetzliche Grenzen beachten. Eine Belastung durch Akteneinsicht führt nicht automatisch zum vollständigen Ausschluss des Rechts.
 
 ## 17. Eigene Schreiben vorbereiten
