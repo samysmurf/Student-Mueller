@@ -1,6 +1,6 @@
 # Roadmap – Student Müller
 
-**Releasebasis: V1.5.0 · Stand: 05.11.2026**
+**Releasebasis: V1.5.1 (Vorbereitungsbranch) · Stand: 05.11.2026**
 
 Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Selbsthilfeassistenten. Lokale Android-Dokumentenverarbeitung, OCR und Schwärzung sind ausgelagert in [Anonymisator](https://github.com/samysmurf/Anonymisator).
 
@@ -15,9 +15,21 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [x] README, Nutzungsbedingungen und Projektbeschreibung auf V1.5.0 ausgerichtet.
 - [x] 21 manuelle Regel- und Konsistenztests dokumentiert.
 
+## V1.5.1 – Barrierearme Kommunikation (Vorbereitung)
+
+- [x] Barrierearme Antwort- und Dialogregeln in der Systemanweisung ergänzt.
+- [x] Textalternativen für Grafiken, Diagramme und Mindmaps verbindlich vorgesehen.
+- [x] Tabellen sparsam einsetzen und komplexe Inhalte linear lesbar machen.
+- [x] Nutzerkontrolle über kurze, schrittweise, vereinfachte und screenreaderfreundliche Ausgabeformen festgelegt.
+- [x] Plattformgrenzen und rechtliche Einordnung dokumentiert; keine Konformität behauptet.
+- [x] Eigenständigen Prüfkatalog mit 12 Barrierefreiheits-Testfällen angelegt.
+- [ ] Testfälle auf mindestens einer konkreten KI-Plattform mit Android-TalkBack durchführen.
+- [ ] Später ergänzend mit Desktop-Screenreader und Textvergrößerung prüfen.
+- [ ] Ergebnisse mit Datum, Modell, Gerät, Assistenztechnik und tatsächlicher Ausgabe dokumentieren.
+
 ## Nächste Qualitätsschritte
 
-- [ ] V1.5.0 in der tatsächlich verwendeten ChatGPT-Oberfläche durchspielen.
+- [ ] V1.5.1 in der tatsächlich verwendeten ChatGPT-Oberfläche durchspielen.
 - [ ] Startmenü auf Smartphone und Desktop prüfen; Darstellung kann je nach KI-Plattform variieren.
 - [ ] Bundeslandwechsel in einer realen Unterhaltung testen.
 - [ ] Mehrere Bundesländer mit jeweils passenden Landesgesetzen testen.
@@ -25,7 +37,7 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [ ] Ausgaben und Quellenangaben auf unterschiedlichen KI-Plattformen vergleichen.
 - [ ] Testprotokoll nach realen Laufzeittests ergänzen; Simulationen nicht nachträglich als Live-Tests ausgeben.
 - [ ] Vollständige Aktualitätsprüfung der umfangreichen Bundes- und Landesrechtsabdeckung vor einem späteren Release.
-- [ ] Mindmap auf V1.5.0 aktualisieren.
+- [ ] Mindmap auf V1.5.1 aktualisieren und eine vollständige Textalternative bereitstellen.
 
 ## GitHub-Repository-Metadaten
 
