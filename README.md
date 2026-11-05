@@ -29,7 +29,7 @@ V1.5.1 ist ein Prompt und eine Dokumentation. Es ist weder eine staatlich anerka
 ## Student Müller ausprobieren
 
 1. [ChatGPT öffnen](https://chatgpt.com/) oder einen anderen geeigneten KI-Dienst verwenden.
-2. Die vollständige [Systemanweisung V1.5.0](SYSTEMANWEISUNG.md) öffnen und in einen neuen Chat übernehmen.
+2. Die vollständige [Systemanweisung V1.5.1](SYSTEMANWEISUNG.md) öffnen und in einen neuen Chat übernehmen.
 3. Das beim Erststart angezeigte Menü beantworten: Bundesland, Thema und Nutzungskontext.
 4. Zunächst eine einfache, nicht vertrauliche Testfrage verwenden.
 5. Für einen Dokumentenworkflow den vollständig fiktiven [Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) verwenden.
@@ -79,7 +79,7 @@ Die lokale Android-Dokumentenverarbeitung ist ein eigenständiges Schwesterproje
 
 Student Müller enthält keine eigene OCR-Engine, PDF-Schwärzungsfunktion, Metadatenbereinigung oder lokale Anonymisierungsfunktion. Es besteht keine gemeinsame Laufzeit, keine direkte KI-Schnittstelle und keine automatische Datenübertragung zwischen den Projekten. Student Müller setzt weder die Fertigstellung noch die Verfügbarkeit von Anonymisator voraus.
 
-## Status V1.5.0
+## Status V1.5.1
 
 | Bereich | Stand |
 |---|---|
@@ -97,7 +97,7 @@ Das [Testprotokoll V1.5.0](docs/TESTPROTOKOLL_V1.5.md) dokumentiert die fachlich
 
 ## Dokumentation
 
-- [Systemanweisung V1.5.0](SYSTEMANWEISUNG.md)
+- [Systemanweisung V1.5.1](SYSTEMANWEISUNG.md)
 - [Nutzungsbedingungen und Nutzungshinweise](NUTZUNGSBEDINGUNGEN.md)
 - [Projektbeschreibung](PROJEKTBESCHREIBUNG.md)
 - [GitHub-Profiltext und Topics](GITHUB_PROJEKTPROFIL.md)
@@ -111,7 +111,7 @@ Das [Testprotokoll V1.5.0](docs/TESTPROTOKOLL_V1.5.md) dokumentiert die fachlich
 - [Fiktiver Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md)
 - [Mitwirken](CONTRIBUTING.md) · [Sicherheitsmeldungen](SECURITY.md)
 
-Die Mindmap V1.4.0 ist eine historische Projektübersicht und bildet die Erweiterungen aus V1.5.0 noch nicht vollständig ab.
+Die Mindmap V1.4.0 ist eine historische Projektübersicht und bildet die Erweiterungen aus V1.5.1 noch nicht vollständig ab.
 
 ## Lizenzen
 
