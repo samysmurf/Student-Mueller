@@ -5,18 +5,21 @@
 Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Selbsthilfeassistenten. Lokale Android-Dokumentenverarbeitung, OCR und Schwärzung sind ausgelagert in [Anonymisator](https://github.com/samysmurf/Anonymisator).
 
 ## In V1.5.0 eingearbeitet
+
 - [x] Startmenü mit ausdrücklicher Bundeslandauswahl, Themenwahl und Nutzungskontext.
 - [x] Bundesrecht und einschlägiges Landesrecht als getrennte Prüfebenen.
 - [x] Verständliche Erklärung plus präzise rechtliche Analyse.
 - [x] Rechtsstand, Abrufdatum, Primärquellen und Rechtsprechungsnachweise als Qualitätsstandard.
 - [x] Fachmodul Betreuungsrecht: BGB, FamFG, BtOG, VBVG, Landes-PsychKG und sozialrechtliche Schnittstellen.
 - [x] Rollen- und RDG-Prüfung bei der Unterstützung anderer Personen.
-- [x] Nutzungshinweise, Projektbeschreibung und GitHub-Profiltext auf V1.5.0 abgestimmt.
-- [x] 21 Regel- und Konsistenztests dokumentiert.
+- [x] README, Nutzungsbedingungen und Projektbeschreibung auf V1.5.0 ausgerichtet.
+- [x] 21 manuelle Regel- und Konsistenztests dokumentiert.
 
 ## Nächste Qualitätsschritte
+
 - [ ] V1.5.0 in der tatsächlich verwendeten ChatGPT-Oberfläche durchspielen.
-- [ ] Das Startmenü auf Smartphone und Desktop prüfen; Darstellung kann je nach KI-Plattform variieren.
+- [ ] Startmenü auf Smartphone und Desktop prüfen; Darstellung kann je nach KI-Plattform variieren.
+- [ ] Bundeslandwechsel in einer realen Unterhaltung testen.
 - [ ] Mehrere Bundesländer mit jeweils passenden Landesgesetzen testen.
 - [ ] Fristen-, Bescheid- und Schriftsatz-Tests mit synthetischen Dokumenten durchführen.
 - [ ] Ausgaben und Quellenangaben auf unterschiedlichen KI-Plattformen vergleichen.
@@ -24,18 +27,21 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [ ] Vollständige Aktualitätsprüfung der umfangreichen Bundes- und Landesrechtsabdeckung vor einem späteren Release.
 - [ ] Mindmap auf V1.5.0 aktualisieren.
 
-## Repository-Metadaten
-- [ ] GitHub-About-Beschreibung aus GITHUB_PROJEKTPROFIL.md eintragen.
-- [ ] Topics aus GITHUB_PROJEKTPROFIL.md eintragen.
+## GitHub-Repository-Metadaten
 
-Die verknüpfte GitHub-Verbindung kann Dateien aktualisieren, nicht aber die About-Beschreibung oder Topics der Repository-Metadaten. Diese beiden Schritte sind deshalb manuell in der GitHub-Oberfläche auszuführen.
+Die gewünschte About-Beschreibung und Topics stehen in [GITHUB_PROJEKTPROFIL.md](GITHUB_PROJEKTPROFIL.md). Die Datei dokumentiert den verbindlichen Textvorschlag.
+
+**Wichtig:** Die verfügbare GitHub-Verbindung kann Repository-Dateien ändern, aber nicht die About-Beschreibung oder Topics in den Repository-Einstellungen. Diese beiden Metadaten müssen in GitHub manuell eingetragen werden.
 
 ## Entwicklungsgrundsätze
-- Kostenlose Nutzung ohne Werbeeinblendungen als Projektziel.
+
+- Kostenfreie Nutzung ohne Werbeeinblendungen als Projektziel.
 - Keine kostenpflichtige Plattform als zwingende Voraussetzung.
 - Keine nicht implementierten Funktionen als verfügbar darstellen.
 - Keine vollständige rechtliche, technische oder Barrierefreiheits-Zertifizierung behaupten.
 - Jede wesentliche rechtliche Änderung löst eine Aktualitätsprüfung aus.
+- Projektbeschreibung, Nutzungsbedingungen, README und Systemanweisung müssen dieselbe Rollen- und Nutzungslogik wiedergeben.
 
 ## Nicht Bestandteil dieses Repositories
+
 Android-App, Termux, Tesseract, lokale OCR, PDF-Rendering, dauerhafte Schwärzung, Metadatenbereinigung und lokaler Export gehören ausschließlich zum separaten Repository Anonymisator.
