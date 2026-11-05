@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.5.0] – 2026-11-05
+- Systemanweisung auf V1.5.0 konsolidiert und in das Repository übernommen.
+- Verbindliches Erststartmenü mit Bundesland, Thema und Nutzungskontext ergänzt.
+- Bundesrecht und einschlägiges Landesrecht systematisch getrennt; keine Ableitung der Bundeslandauswahl aus Standortdaten.
+- Antwortmodell mit verständlicher Erklärung und präziser rechtlicher Prüfung verbindlich gemacht.
+- Rechtsstands- und Abrufdatumsstandard sowie Anforderungen an Primärquellen und Rechtsprechungsnachweise erweitert.
+- Betreuungsrecht mit BGB, FamFG, BtOG und VBVG umfassend ergänzt.
+- Korrektur der FamFG-Zuordnung: § 298 FamFG für Fälle nach § 1829 BGB; § 1832-BGB-Zwangsmaßnahmen sind als Unterbringungssachen nach § 312 Nr. 3 FamFG zu behandeln.
+- BtOG-Abschnitte nach der gesetzlichen Gliederung präzisiert.
+- BVerfG-Entscheidung 1 BvL 1/24 und Fortgeltung des bisherigen § 1832 BGB bis zu einer Neuregelung berücksichtigt.
+- Rechtslage zur Beendigung und Vermögensübersicht nach §§ 1872 und 1873 BGB ab 01.01.2026 berücksichtigt.
+- Wahlrecht, Geschäftsfähigkeit und Einwilligungsvorbehalt voneinander abgegrenzt.
+- Änderungen des SGB II ab 2026 einschließlich Übergangsregelung in § 65a Absatz 4 SGB II aufgenommen.
+- RDG-Prüfreihenfolge für Angelegenheiten Dritter differenziert; persönliche Unterstützung wird nicht pauschal ausgeschlossen.
+- 21 Regel- und Konsistenztests als manuelles Testprotokoll dokumentiert; keine Live-Plattformtests behauptet.
+- README, Projektbeschreibung, Nutzungshinweise, Architektur, Funktionsstatus und Roadmap auf V1.5.0 abgestimmt.
+- GitHub-About-Text und Topic-Vorschläge als Projektdatei dokumentiert. Die GitHub-Metadaten selbst müssen mangels Schreibfunktion in der verfügbaren Verbindung manuell aktualisiert werden.
+- Projektgrenze zum eigenständigen Repository Anonymisator beibehalten.
+
 ## [1.4.0] – 2026-11-04
 - Student Müller auf den ChatGPT-basierten sozialrechtlichen Informations- und Selbsthilfeassistenten abgegrenzt.
 - Android-/OCR-/Termux-Arbeiten als eigenständiges Projekt Anonymisator verlinkt.
@@ -13,7 +32,6 @@
 - Mindmap-SVG gestalterisch überarbeitet und Statushinweis ergänzt.
 
 ## [1.3.1] – 2026-11-04
-
 - README und Systemanweisung um die Zweckbestimmung zur persönlichen Nutzung der offiziellen Assistentenfassung ergänzt.
 - Individuelle Bearbeitung fremder Angelegenheiten im Auftrag oder Namen Dritter als nicht vorgesehene Nutzung abgegrenzt; allgemeine Rechtsinformationen und synthetische Testfälle bleiben möglich.
 - Haftungshinweise präzisiert; keine pauschale Freizeichnung von zwingender gesetzlicher Haftung.
@@ -23,18 +41,16 @@
 - Keine Änderung an den Lizenzdateien; keine anwaltliche Prüfung oder rechtliche Freigabe behauptet.
 
 ## [1.3] – 2026-11-04
-
 - Erstveröffentlichung der Projektbasis im öffentlichen Repository.
 - Konsolidierte Systemanweisung auf V1.3 fortgeschrieben.
 - Mindmap V1.3 mit eindeutigen Statuskennzeichnungen ergänzt.
 - Lizenzmodell festgelegt: eigener Programmcode Apache-2.0, Projektdokumentation CC BY-SA 4.0.
 - Termux-/Android-Vorarbeiten genauer beschrieben.
-- Tesseract 5.5.4, verfügbare Sprachdaten `deu`/`eng` und einen erfolgreichen ersten lokalen OCR-Test dokumentiert; Qualitätsprüfung und weitere Integration bleiben offen.
+- Tesseract 5.5.4, verfügbare Sprachdaten deu/eng und einen erfolgreichen ersten lokalen OCR-Test dokumentiert; Qualitätsprüfung und weitere Integration bleiben offen.
 - Dokumentationsstruktur für Architektur, Datenschutz, Roadmap, Funktionsstatus und Mitwirkung angelegt.
 - Textbasierten Musterfall zur Küchen-Erstausstattung erstellt: Antrag, Vermieterbestätigung, fiktiver Ablehnungsbescheid, Testprompts und Widerspruchsvergleich.
 - README-Anleitung auf den textbasierten Ablauf umgestellt; für den Test sind keine Screenshots oder Bild-Uploads erforderlich.
 
 ## [1.2] – 2026-11-03
-
 - Vorherige konsolidierte Arbeitsfassung der Systemanweisung und Mindmap.
 - Fachliche Anforderungen, Datenschutz-Zielarchitektur und erste Android-Vorarbeiten dokumentiert.
