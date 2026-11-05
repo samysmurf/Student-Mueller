@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.5.1] – 2026-11-05
+## [1.5.1] – Vorbereitungsstand vom 05.11.2026
 
 - Barrierearme Antwort- und Dialogregeln in die Systemanweisung aufgenommen.
 - Verständlichkeit, Screenreader-Nutzung, Textalternativen, lineare Lesbarkeit und Nutzerkontrolle präzisiert.
