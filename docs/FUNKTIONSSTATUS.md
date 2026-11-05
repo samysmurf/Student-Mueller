@@ -1,13 +1,13 @@
 # Funktionsstatus – Student Müller
 
-**Version:** V1.5.0  
+**Version:** V1.5.1 (Vorbereitungsbranch)  
 **Stand:** 05.11.2026
 
 Dieses Dokument beschreibt den tatsächlichen Projektstand. Eine im Prompt beschriebene Arbeitsregel ist nicht automatisch eine technisch garantierte Plattformfunktion.
 
 | Komponente | Status | Einordnung |
 |---|---|---|
-| Systemanweisung V1.5.0 | veröffentlicht | Prompt und fachliche Arbeitsregeln |
+| Systemanweisung V1.5.1 | auf Vorbereitungsbranch aktualisiert | Prompt und fachliche Arbeitsregeln; main noch unverändert |
 | Startmenü | im Prompt festgelegt | Muss beim ersten Aufruf erscheinen; tatsächliche Darstellung hängt vom KI-Dienst ab |
 | Bundeslandauswahl | im Prompt festgelegt | Bundesland wird ausdrücklich erfragt und als Gesprächskontext geführt |
 | Bundesrecht / Landesrecht | Arbeitsregel | Landesrecht ist anhand des ausgewählten Landes und des konkreten Sachverhalts zu prüfen |
@@ -19,13 +19,13 @@ Dieses Dokument beschreibt den tatsächlichen Projektstand. Eine im Prompt besch
 | Bescheidverständnis | Arbeitsworkflow | Keine Garantie einer fehlerfreien oder verbindlichen Rechtsprüfung |
 | Schriftsatzentwürfe | Arbeitsworkflow | Nutzer prüft Tatsachen, Normen, Fristen, Form und Versand selbst |
 | Fristenhinweise | Arbeitsregel | Berechnung nur bei ausreichenden Angaben; keine Fristgarantie |
-| 21 V1.5-Prüffälle | manuell auf Regel- und Konsistenzebene geprüft | Siehe Testprotokoll; keine automatisierten oder Live-End-to-End-Tests |
+| 21 Prüffälle V1.5.0 | manuell auf Regel- und Konsistenzebene geprüft | Siehe Testprotokoll; keine automatisierten oder Live-End-to-End-Tests |
 | Native Android-App | nicht Bestandteil | Separates Projekt Anonymisator |
 | Lokale OCR / Tesseract | nicht Bestandteil | Entwicklung und Dokumentation im separaten Projekt |
 | Dauerhafte Schwärzung / Metadatenbereinigung | nicht Bestandteil | Keine Implementierung in diesem Repository |
 | Automatischer Versand | nicht vorhanden | Nutzer versendet selbst |
 | Eigene Fallannahme / Mandatsbearbeitung | nicht vorhanden | Prompt-Veröffentlichung und individuelle Nutzung sind zu unterscheiden |
-| Barrierefreiheit | Entwicklungsziel | Keine WCAG-/BITV-Konformität bestätigt |
+| Barrierefreiheit | Prompt-Regeln V1.5.1 ergänzt | 12 Testfälle vorbereitet; nicht live oder mit Screenreadern durchgeführt; keine WCAG-/BITV-Konformität bestätigt |
 | unabhängige Rechtsprüfung / Zertifizierung | nicht erfolgt / nicht behauptet | Keine externe anwaltliche Freigabe oder Produktzertifizierung |
 
 ## Plattformabhängigkeit
@@ -34,7 +34,11 @@ Student Müller ist eine Systemanweisung, die Nutzer in einen KI-Dienst ihrer Wa
 
 ## Teststatus
 
-Die 21 Fälle im Testprotokoll sind als manuelle Prüfung der Prompt-Regeln und ihrer inneren Konsistenz dokumentiert. Die Durchführung in einer realen ChatGPT-Sitzung sowie Vergleichstests mit anderen KI-Diensten stehen noch aus. Diese Tests dürfen erst nach tatsächlicher Durchführung als Laufzeittests markiert werden.
+Die 21 Fälle in `docs/TESTPROTOKOLL_V1.5.md` sind als manuelle Prüfung der Prompt-Regeln und ihrer inneren Konsistenz dokumentiert. Die 12 Fälle in `docs/TESTPROTOKOLL_V1.5.1.md` sind ein vorbereiteter Barrierefreiheits-Prüfkatalog; sie gelten ausdrücklich noch nicht als durchgeführt. Die Durchführung in einer realen ChatGPT-Sitzung sowie Vergleichstests mit anderen KI-Diensten stehen noch aus. Diese Tests dürfen erst nach tatsächlicher Durchführung als Laufzeittests markiert werden.
+
+## Barrierefreiheit
+
+V1.5.1 enthält Regeln für barrierearme Textausgaben. Darstellung, Screenreader-Verhalten, Zoom, Kontrast und Bedienung hängen weiterhin von der jeweiligen KI-Plattform ab. Reale Tests auf Geräten und mit Assistenztechnik sind offen.
 
 ## Projektgrenze
 
