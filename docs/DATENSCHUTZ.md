@@ -1,8 +1,12 @@
 # Datenschutz – Student Müller
 
+**Version:** V1.5.0 · **Stand:** 05.11.2026
+
 ## Verarbeitungsgrenze
 
-Student Müller ist ein ChatGPT-basierter Assistent. Eingaben und Ausgaben werden über die jeweils genutzte externe KI-Plattform verarbeitet. Dieses Repository betreibt keine eigene lokale Android-OCR-, PDF-Schwärzungs- oder Anonymisierungsfunktion. Es kann deshalb weder lokale Vorverarbeitung noch plattformunabhängige Vertraulichkeit garantieren.
+Student Müller ist ein veröffentlichter Systemprompt, den Nutzer selbstständig in ChatGPT oder einen anderen KI-Dienst ihrer Wahl übernehmen. Eingaben und Ausgaben werden über die jeweils genutzte externe KI-Plattform verarbeitet.
+
+Der Projektentwickler betreibt keine eigene lokale Android-OCR-, PDF-Schwärzungs- oder Anonymisierungsfunktion und erhält nicht automatisch die Eingaben der einzelnen Nutzer. Er kann die technische Verarbeitung, Speicherung oder Verwendung der Eingaben durch den externen Anbieter nicht steuern.
 
 ## Datenminimierung
 
@@ -20,7 +24,7 @@ Vor der Eingabe vertraulicher Inhalte müssen Nutzer die Bedingungen und Datensc
 
 Die lokale Android-Dokumentenverarbeitung ist ein separates Projekt: [Anonymisator](https://github.com/samysmurf/Anonymisator). Student Müller erhält daraus keine OCR-, Schwärzungs-, Metadatenbereinigungs- oder Exportfunktion. Es gibt keine automatische Verbindung und keine automatische Datenübertragung zwischen den Repositories.
 
-Auch Anonymisator befindet sich in einer frühen Entwicklungsphase. Die geplanten lokalen Schutzfunktionen sind noch nicht als fertige App implementiert. Nutzer dürfen daher nicht von einer bereits verfügbaren technischen Anonymisierung ausgehen.
+Auch Anonymisator befindet sich in einer frühen Entwicklungsphase. Geplante lokale Schutzfunktionen sind nicht als fertige App implementiert. Nutzer dürfen daher nicht von einer bereits verfügbaren technischen Anonymisierung ausgehen.
 
 ## Transparenz
 
