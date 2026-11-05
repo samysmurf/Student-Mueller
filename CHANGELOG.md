@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.1] – 2026-11-05
+
+- Barrierearme Antwort- und Dialogregeln in die Systemanweisung aufgenommen.
+- Verständlichkeit, Screenreader-Nutzung, Textalternativen, lineare Lesbarkeit und Nutzerkontrolle präzisiert.
+- Keine zusätzlichen Diagnose- oder Behinderungsfragen in das Erststartmenü aufgenommen.
+- Klarstellung: Eine vereinfachte Erklärung ist nicht automatisch „Leichte Sprache“.
+- Technische Grenzen externer KI-Plattformen von Anforderungen an eine künftig eigene Oberfläche getrennt.
+- Barrierefreiheitsleitlinie und zwölf konkrete Prüffälle ergänzt; tatsächliche Plattform-, Geräte- und Screenreadertests sind noch offen.
+- Rechtsrahmen anhand der amtlich konsolidierten BGG- und BITV-Texte eingeordnet; keine pauschale Anwendbarkeit, Freistellung oder Konformität behauptet.
+- Nicht amtlich bestätigte Änderungsangaben zur BITV 2.0 nicht übernommen.
+- V1.5.0 bleibt als fachlicher Ausgangsstand und bestehendes Testprotokoll nachvollziehbar.
+
 ## [1.5.0] – 2026-11-05
 
 - Systemanweisung V1.5.0 konsolidiert und im Repository veröffentlicht.
