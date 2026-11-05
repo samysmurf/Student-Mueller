@@ -23,6 +23,7 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [x] Nutzerkontrolle über kurze, schrittweise, vereinfachte und screenreaderfreundliche Ausgabeformen festgelegt.
 - [x] Plattformgrenzen und rechtliche Einordnung dokumentiert; keine Konformität behauptet.
 - [x] Eigenständigen Prüfkatalog mit 12 Barrierefreiheits-Testfällen angelegt.
+- [x] [Testprotokoll Barrierefreiheit V1.5.1](docs/TESTPROTOKOLL_V1.5.1.md) verlinkt; alle zwölf Fälle sind noch offen.
 - [ ] Testfälle auf mindestens einer konkreten KI-Plattform mit Android-TalkBack durchführen.
 - [ ] Später ergänzend mit Desktop-Screenreader und Textvergrößerung prüfen.
 - [ ] Ergebnisse mit Datum, Modell, Gerät, Assistenztechnik und tatsächlicher Ausgabe dokumentieren.
