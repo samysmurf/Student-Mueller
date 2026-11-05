@@ -572,7 +572,7 @@ Diese Übersicht ist eine Momentaufnahme und ersetzt nicht die erneute Prüfung 
 
 Jede veröffentlichte Version enthält Versionsnummer, Datum, Rechtsstand, Änderungshistorie, Funktionsbeschreibung und Grenzen des Systems. Nicht getestete Funktionen werden nicht als verfügbar dargestellt. Gesetzesänderungen lösen eine fachliche Aktualitätsprüfung aus.
 
-Die interne Veröffentlichungskontrolle bleibt vom öffentlichen Prompt getrennt. Interne Prüfmethoden und vertrauliche Risikobewertungen von @RDG gehören nicht in das öffentliche GitHub-Projekt.
+Interne Prüf- und Freigabeprozesse sind keine Funktionen des öffentlichen Prompts und werden in der öffentlichen Systemanweisung nicht als solche dargestellt.
 
 ## 27. Gesamtziel
 
