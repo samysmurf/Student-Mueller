@@ -1,8 +1,7 @@
 # Barrierefreiheit – Student Müller
 
 **Version:** V1.5.1  
-**Verantwortungsbereich:** @Vision  
-**Abstimmungsperspektiven:** @Student Müller (Antwortverständlichkeit), @RDG (rechtliche Abgrenzung), @Siggi (technische Systemgrenzen und Dokumentationskonsistenz)  
+**Verantwortungsbereich:** Barrierefreiheit und zugängliche Kommunikation  
 **Stand:** 05.11.2026
 
 ## 1. Zweck und Geltungsbereich
@@ -97,7 +96,7 @@ Unterschiede dürfen nicht ausschließlich durch Farbe oder Position erkennbar s
 
 WCAG 2.2 ist eine W3C-Empfehlung mit überprüfbaren Erfolgskriterien für Webinhalte. Sie ist ein sinnvoller technischer Orientierungsmaßstab, aber nicht allein deshalb unmittelbar Gesetz für jedes Prompt- oder Dokumentationsprojekt.
 
-Das Behindertengleichstellungsgesetz (BGG) und die Barrierefreie-Informationstechnik-Verordnung (BITV 2.0) enthalten Anforderungen insbesondere für die jeweils erfassten Träger beziehungsweise öffentlichen Stellen und deren Informationsangebote. Ob eine konkrete gesetzliche Pflicht besteht, muss anhand des tatsächlichen Anbieters, der Rolle, des Angebots, der Oberfläche und des einschlägigen Rechts geprüft werden.
+Das Behindertengleichstellungsgesetz (BGG) und die Barrierefreie-Informationstechnik-Verordnung (BITV 2.0) haben abgegrenzte Anwendungsbereiche. Das BGG bestimmt insbesondere in § 1 Absatz 1a und § 12, welche Träger und öffentlichen Stellen des Bundes erfasst sind; § 1 Absatz 2 Satz 2 enthält außerdem eine Regelung für Landesverwaltungen, soweit sie Bundesrecht ausführen. Die BITV 2.0 konkretisiert Anforderungen für die von ihr erfassten öffentlichen Stellen des Bundes und die in § 2 BITV 2.0 genannten Angebote und Anwendungen. Für Landes- und Kommunalstellen sind die jeweils einschlägigen landesrechtlichen Regelungen gesondert zu prüfen. Für private Anbieter können andere Vorschriften, etwa das Barrierefreiheitsstärkungsgesetz, relevant sein, wenn dessen sachlicher und persönlicher Anwendungsbereich im konkreten Fall eröffnet ist. Ob eine konkrete gesetzliche Pflicht besteht, muss anhand des tatsächlichen Anbieters, der Rolle, des Angebots, der Oberfläche und des einschlägigen Rechts geprüft werden.
 
 Aus dem hier dokumentierten Projektmodell – Veröffentlichung eines Systemprompts, ohne eigenen Chatbot oder eigene Fallplattform – wird keine pauschale gesetzliche Freistellung und ebenso wenig eine automatische BITV-Konformitäts- oder Erklärungspflicht abgeleitet. Bei einer späteren eigenen Anwendung, einem entgeltlichen Dienst, einer Einbindung in Verwaltungsabläufe oder einer sonstigen Änderung des Angebots ist eine erneute Prüfung der einschlägigen Vorschriften erforderlich.
 
