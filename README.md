@@ -1,30 +1,40 @@
 # Student Müller
 
-**Verstehen. Verwalten. Selbstbestimmt handeln.**
+**Verstehen. Prüfen. Selbstbestimmt handeln.**
 
-![Student Müller – Projekt-Mindmap V1.4](assets/student_mueller_mindmap_v1.4.svg)
+**Aktuelle Fassung: V1.5.0 · Stand: 05.11.2026**
 
-<sub>Projektübersicht zum Release V1.4.0. Die Mindmap unterscheidet den fachlichen Assistenten von dem eigenständigen Projekt Anonymisator.</sub>
+Student Müller ist ein kostenfreies, werbefreies Open-Source-Informations- und Selbsthilfeprojekt. Im Mittelpunkt steht eine kopierbare Systemanweisung für einen KI-Dienst der eigenen Wahl. Das Projekt betreibt keinen eigenen Chatbot-Server und keine eigene Fallbearbeitungsplattform.
 
 ## Projektidee
 
-Student Müller ist ein kostenfreies, werbefreies, ChatGPT-basiertes Informations- und Selbsthilfeprojekt. Es soll Menschen dabei unterstützen, sozialrechtliche Sachverhalte verständlich einzuordnen, Verwaltungsentscheidungen zu strukturieren und die eigenen Angelegenheiten möglichst selbstbestimmt zu bearbeiten.
+Student Müller unterstützt Menschen dabei, deutsches Sozialrecht und Betreuungsrecht verständlich einzuordnen, Bescheide und behördliche Schreiben zu prüfen, amtliche Rechtsquellen zu finden und eigene Anträge oder Schreiben vorzubereiten.
 
-Das Projekt arbeitet quellenorientiert mit öffentlich zugänglichen Gesetzen, amtlichen Informationen und überprüfbarer Rechtsprechung. Es ist ein Open-Source-Projekt; daraus folgt weder eine staatliche Anerkennung noch eine rechtliche oder fachliche Zertifizierung.
+Die Systemanweisung V1.5.0 sieht insbesondere vor:
 
-> **Wichtige Grenze:** Student Müller ist keine Rechtsanwaltskanzlei, übernimmt keine Vertretung und erteilt keine verbindliche Rechtsauskunft. KI-Ausgaben können unvollständig, fehlerhaft oder veraltet sein. Tatsachen, Rechtsgrundlagen, Fristen und Formvorschriften müssen vor einer Verwendung anhand aktueller, verlässlicher Quellen geprüft werden.
+- ein Startmenü mit ausdrücklicher Abfrage des Bundeslandes,
+- die automatische Berücksichtigung des einschlägigen Bundesrechts und des relevanten Landesrechts,
+- Antworten in zwei Ebenen: verständliche Erklärung und präzise rechtliche Prüfung,
+- einen verbindlichen Quellenstandard mit Rechtsstand, Abrufdatum und Primärquellen,
+- ein erweitertes Betreuungsrechtsmodul einschließlich BGB, FamFG, BtOG und VBVG,
+- die differenzierte Prüfung von Unterstützung in Angelegenheiten anderer Personen unter Beachtung der tatsächlichen Rolle und des RDG,
+- die strukturierte Prüfung von Bescheiden, Fristen und eigenen Schreiben.
+
+V1.5.0 ist ein Prompt und eine Dokumentation – keine staatlich anerkannte oder zertifizierte Rechtsanwendung. Eine Zertifizierung oder unabhängige anwaltliche Freigabe wird nicht behauptet.
 
 ## Student Müller ausprobieren
 
-1. [ChatGPT öffnen](https://chatgpt.com/).
-2. Die vollständige [Systemanweisung](SYSTEMANWEISUNG.md) öffnen und in einen neuen Chat kopieren.
-3. Zunächst eine einfache, nicht vertrauliche Testfrage stellen.
-4. Bei einem Dokumentenfall zunächst nur mit dem vollständig fiktiven [Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) testen.
-5. Ergebnisse mit den Fallunterlagen und den dort angegebenen Prüfpunkten vergleichen.
+1. [ChatGPT öffnen](https://chatgpt.com/) oder einen anderen geeigneten KI-Dienst verwenden.
+2. Die vollständige [Systemanweisung V1.5.0](SYSTEMANWEISUNG.md) öffnen und in einen neuen Chat übernehmen.
+3. Beim ersten Start das Startmenü beantworten. Dazu gehören Bundesland, Thema und Nutzungskontext.
+4. Zunächst eine einfache, nicht vertrauliche Testfrage verwenden.
+5. Für einen Dokumentenworkflow zunächst den vollständig fiktiven [Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) verwenden.
 
-Der Beispielordner enthält einen fiktiven Antrag, eine Vermieterbestätigung, einen Ablehnungsbescheid, Testanfragen und eine Vergleichsvorlage. Für diesen Test sind weder echte Dokumente noch Screenshots oder Bild-Uploads erforderlich. Der Übungsfall ist keine Vorlage zur ungeprüften Übertragung auf reale Fälle; Rechtslage, Tatsachen und Fristen sind im konkreten Fall gesondert zu prüfen.
+Der Beispielordner enthält synthetische Unterlagen, Testanfragen und Vergleichspunkte. Für den Test sind keine echten Dokumente, Screenshots oder Bild-Uploads erforderlich. Der Übungsfall ist keine Vorlage zur ungeprüften Übertragung auf reale Fälle.
 
-**Datenschutz:** Gib keine unredigierten Bescheide, Gutachten, Gesundheitsdaten, Namen, Anschriften, Geburtsdaten, Aktenzeichen, Kontodaten, Zugangsdaten oder sonstige vertrauliche Angaben in einen externen KI-Dienst ein. Beachte die Nutzungs- und Datenschutzbedingungen der jeweils verwendeten Plattform.
+## Bundesland und Rechtsraum
+
+Beim ersten Start fragt Student Müller ausdrücklich nach dem Bundesland. Standortdaten oder Vermutungen ersetzen diese Auswahl nicht. Bundesrecht gilt bundesweit. Ergänzend werden das für den konkreten Fall relevante Landesrecht und die landesspezifischen Zuständigkeiten berücksichtigt. Bei mehreren betroffenen Bundesländern wird geklärt, welches Land für die konkrete Behörde, das Gericht, die Einrichtung oder den Sachverhalt maßgeblich ist.
 
 ## Fachlicher Umfang
 
@@ -34,47 +44,64 @@ Der Beispielordner enthält einen fiktiven Antrag, eine Vermieterbestätigung, e
 | Kranken- und Pflegeversicherung | SGB V und SGB XI |
 | Rehabilitation und Teilhabe | SGB IX, Schwerbehindertenrecht, GdB |
 | Rente und Erwerbsminderung | Anspruchsvoraussetzungen, Verfahren, Nachweise |
+| Betreuungsrecht | BGB, FamFG, BtOG, VBVG, Vorsorgevollmacht |
+| Landesrechtliche Unterbringung | jeweiliges Landes-PsychKG bzw. Unterbringungsrecht |
 | Verwaltungsverfahren | Bescheidverständnis, Akteneinsicht, Fristen, Rechtsbehelfe |
-| Eigene Korrespondenz | Strukturierte Entwürfe für Anträge, Widersprüche und Stellungnahmen |
+| Eigene Korrespondenz | Entwürfe für Anträge, Widersprüche und Stellungnahmen |
 
-Der Assistent soll Tatsachen, Dokumenteninhalt, Annahmen und rechtliche Einordnung voneinander trennen, Quellen sichtbar machen, Unsicherheiten benennen und fehlende Angaben gezielt erfragen. Er versendet keine Schreiben und vertritt keine Nutzer gegenüber Behörden oder Gerichten.
+Der Assistent soll Tatsachen, Dokumenteninhalt, Annahmen und rechtliche Schlussfolgerungen voneinander trennen, Quellen sichtbar machen, Unsicherheiten benennen und fehlende Angaben gezielt erfragen.
+
+## Persönliche Nutzung und Unterstützung anderer Personen
+
+Der Schwerpunkt liegt auf der eigenständigen Bearbeitung der eigenen Angelegenheiten. Eine Unterstützung bei Angelegenheiten von Angehörigen oder anderen Personen ist nicht pauschal ausgeschlossen. Bei einer konkreten fremden Angelegenheit muss die tatsächliche Rolle des Nutzers geklärt und die rechtliche Einordnung insbesondere nach §§ 2, 3 und 6 RDG geprüft werden.
+
+Unentgeltlichkeit allein ist weder eine pauschale Freistellung noch ein pauschales Verbot. Student Müller ersetzt keine gesetzlich erforderliche Befugnis und übernimmt keine Vertretung. Der Prompt-Entwickler betreibt keine Fallannahme und bearbeitet keine fremden Fälle im Namen anderer.
+
+## Grenzen, Plattform und Verantwortung
+
+Student Müller ist keine Rechtsanwaltskanzlei, kein Gericht und keine Behörde. KI-Ausgaben können fehlerhaft, unvollständig oder veraltet sein. Nutzer müssen Tatsachen, Gesetzesfassungen, Quellen, Fristen, Formvorschriften, Anlagen und Versandwege vor einer Verwendung selbst kontrollieren. Der Assistent versendet keine Schreiben.
+
+Eingaben und Ausgaben werden über die vom Nutzer gewählte externe KI-Plattform verarbeitet. Das Projekt kann deren technische Verarbeitung, Speicherung oder Bedingungen nicht steuern. Vor Eingabe vertraulicher Inhalte sind die Nutzungs- und Datenschutzhinweise des jeweiligen Anbieters zu prüfen. Nicht erforderliche personenbezogene Daten sollten zuvor durch neutrale Platzhalter ersetzt werden.
+
+Die Haftung richtet sich nach geltendem Recht. Zwingende gesetzliche Haftung bleibt unberührt; ein pauschaler Ausschluss sämtlicher Ansprüche wird nicht erklärt.
 
 ## Projektgrenze: Anonymisator
 
-Die lokale Android-Dokumentenverarbeitung ist ein eigenständiges Schwesterprojekt: **[Anonymisator – separates Repository](https://github.com/samysmurf/Anonymisator)**.
+Die lokale Android-Dokumentenverarbeitung ist ein eigenständiges Schwesterprojekt: [Anonymisator – separates Repository](https://github.com/samysmurf/Anonymisator).
 
 Student Müller enthält keine eigene OCR-Engine, PDF-Schwärzungsfunktion, Metadatenbereinigung oder lokale Anonymisierungsfunktion. Es besteht keine gemeinsame Laufzeit, keine direkte KI-Schnittstelle und keine automatische Datenübertragung zwischen den Projekten. Student Müller setzt weder die Fertigstellung noch die Verfügbarkeit von Anonymisator voraus.
 
-## Status V1.4.0
+## Status V1.5.0
 
 | Bereich | Stand |
 |---|---|
-| ChatGPT-basierter fachlicher Prototyp | Grundlagen vorhanden; laufende Weiterentwicklung |
-| Quellen- und Dokumentenworkflow | als Arbeitsweise beschrieben; Qualität je Funktion zu testen |
-| Bescheidverständnis und Schriftsatzentwürfe | Arbeitsabläufe vorhanden; Nutzerprüfung erforderlich |
-| Fristenhinweise | Unterstützung bei der Strukturierung; keine Fristgarantie |
-| Barrierefreiheit | Entwicklungsziel; keine Konformitätsprüfung behauptet |
-| Lokale OCR / Anonymisierung | nicht Bestandteil dieses Repositories; separates Projekt Anonymisator |
+| Systemanweisung V1.5.0 | in GitHub eingepflegt |
+| Startmenü und Bundeslandauswahl | als Prompt-Regel integriert; Darstellung abhängig von der KI-Plattform |
+| Sozial- und Betreuungsrecht | fachliche Module integriert; Aktualität je Einzelfall erneut zu prüfen |
+| Quellen- und Aktualitätsprotokoll | als verbindliche Arbeitsregel integriert |
+| 21 V1.5-Prüffälle | auf Regel- und Konsistenzebene durchgespielt; keine Live-Plattformtests |
+| Bescheidverständnis und Schriftsatzentwürfe | Arbeitsabläufe beschrieben; tatsächliche Ausgabe vom KI-Dienst abhängig |
+| Native Android-App / lokale OCR | nicht Bestandteil; separates Projekt Anonymisator |
+| unabhängige Rechtsprüfung / Zertifizierung | nicht behauptet |
 
-Geplante Funktionen werden nicht als implementiert dargestellt. Der jeweilige Stand ist in [Funktionsstatus](docs/FUNKTIONSSTATUS.md) und [Roadmap](ROADMAP.md) dokumentiert.
+Einzelheiten stehen im [Funktionsstatus](docs/FUNKTIONSSTATUS.md), im [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md) und in der [Roadmap](ROADMAP.md).
 
-## Persönliche Nutzung und Verantwortung
+## Dokumentation
 
-Die offizielle Assistentenfassung ist für die eigenständige Bearbeitung der **eigenen persönlichen Angelegenheiten** der jeweils anfragenden Person bestimmt. Sie ist nicht dafür vorgesehen, individuelle fremde Angelegenheiten im Auftrag oder Namen Dritter rechtlich zu prüfen oder Schriftsätze für Dritte zu erstellen.
-
-Allgemeine, nicht auf einen fremden Einzelfall bezogene Informationen zu Gesetzen, Behördenverfahren und öffentlich zugänglichen Rechtsquellen sowie Demonstrationen mit synthetischen Beispieldaten bleiben möglich. Diese projektinterne Zweckbestimmung ist keine gesetzliche Erlaubnis und ersetzt keine gesonderte rechtliche Prüfung des tatsächlichen Angebots und seiner Nutzung.
-
-Nutzer bleiben für Eingaben, Entscheidungen und die Verwendung erzeugter Inhalte verantwortlich. Vor einer Verwendung sind insbesondere Tatsachen, Rechtsgrundlagen, Fristen, Formvorschriften, Anlagen und Versandwege zu prüfen. Die Haftung richtet sich nach geltendem Recht; zwingende gesetzliche Haftung bleibt unberührt. Ein pauschaler Ausschluss sämtlicher Ansprüche wird nicht erklärt.
-
-## Dokumentation und Mitwirkung
-
-- [Systemanweisung](SYSTEMANWEISUNG.md)
-- [Projekt-Mindmap als Markdown](mindmap/MINDMAP_V1.4.md)
-- [Architektur](docs/ARCHITEKTUR.md) · [Datenschutz](docs/DATENSCHUTZ.md)
-- [Funktionsstatus](docs/FUNKTIONSSTATUS.md) · [Roadmap](ROADMAP.md)
-- [Barrierefreiheit – @Vision](docs/BARRIEREFREIHEIT.md)
-- [Fiktiver Übungsfall](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md)
+- [Systemanweisung V1.5.0](SYSTEMANWEISUNG.md)
+- [Nutzungsbedingungen und Nutzungshinweise](NUTZUNGSBEDINGUNGEN.md)
+- [Projektbeschreibung](PROJEKTBESCHREIBUNG.md)
+- [GitHub-Profiltext und Topics](GITHUB_PROJEKTPROFIL.md)
+- [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md)
+- [Architektur](docs/ARCHITEKTUR.md)
+- [Datenschutz](docs/DATENSCHUTZ.md)
+- [Funktionsstatus](docs/FUNKTIONSSTATUS.md)
+- [Roadmap](ROADMAP.md)
+- [Barrierefreiheit – Entwicklungsleitlinie](docs/BARRIEREFREIHEIT.md)
+- [Fiktiver Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md)
 - [Mitwirken](CONTRIBUTING.md) · [Sicherheitsmeldungen](SECURITY.md)
+
+Die Mindmap V1.4.0 ist eine historische Projektübersicht und bildet die Erweiterungen aus V1.5.0 noch nicht vollständig ab.
 
 ## Lizenzen
 
@@ -82,6 +109,6 @@ Nutzer bleiben für Eingaben, Entscheidungen und die Verwendung erzeugter Inhalt
 - Originäre Projekttexte und Dokumentation: CC BY-SA 4.0.
 - Fremde Bibliotheken, Datensätze, Marken, amtliche Inhalte und sonstige Drittinhalte bleiben ihren jeweiligen Rechten und Lizenzbedingungen unterworfen.
 
-Die Zuordnung und die vollständigen Lizenzhinweise stehen in [LICENSE](LICENSE). Die persönliche Zweckbestimmung der offiziellen Assistentenfassung ändert die bestehenden Lizenzbedingungen nicht.
+Die Zuordnung und vollständigen Lizenzhinweise stehen in [LICENSE](LICENSE), [LICENSE-CODE](LICENSE-CODE), [LICENSE-DOCS.md](LICENSE-DOCS.md) und [LICENSE_DECISION.md](LICENSE_DECISION.md). Die Zweckbestimmung des Projekts ändert die Lizenzbedingungen nicht.
 
 **Leitgedanke:** Ein niedrigschwelliges Werkzeug für Verständlichkeit, Selbstbestimmung und gesellschaftliche Teilhabe – mit transparenten Grenzen und überprüfbaren Quellen.
