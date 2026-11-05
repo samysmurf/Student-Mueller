@@ -1,56 +1,47 @@
 # Changelog
 
 ## [1.5.0] – 2026-11-05
-- Systemanweisung auf V1.5.0 konsolidiert und in das Repository übernommen.
-- Verbindliches Erststartmenü mit Bundesland, Thema und Nutzungskontext ergänzt.
-- Bundesrecht und einschlägiges Landesrecht systematisch getrennt; keine Ableitung der Bundeslandauswahl aus Standortdaten.
+
+- Systemanweisung V1.5.0 konsolidiert und im Repository veröffentlicht.
+- Verbindliches Erststartmenü mit Bundesland, Thema und Nutzungskontext aufgenommen.
+- Bundesrecht und einschlägiges Landesrecht systematisch getrennt; Bundesland wird nicht aus Standortdaten abgeleitet.
 - Antwortmodell mit verständlicher Erklärung und präziser rechtlicher Prüfung verbindlich gemacht.
 - Rechtsstands- und Abrufdatumsstandard sowie Anforderungen an Primärquellen und Rechtsprechungsnachweise erweitert.
-- Betreuungsrecht mit BGB, FamFG, BtOG und VBVG umfassend ergänzt.
-- Korrektur der FamFG-Zuordnung: § 298 FamFG für Fälle nach § 1829 BGB; § 1832-BGB-Zwangsmaßnahmen sind als Unterbringungssachen nach § 312 Nr. 3 FamFG zu behandeln.
-- BtOG-Abschnitte nach der gesetzlichen Gliederung präzisiert.
-- BVerfG-Entscheidung 1 BvL 1/24 und Fortgeltung des bisherigen § 1832 BGB bis zu einer Neuregelung berücksichtigt.
+- Betreuungsrecht mit BGB, FamFG, BtOG, VBVG und landesrechtlichen Schnittstellen ausgebaut.
+- FamFG-Zuordnung präzisiert: § 298 FamFG betrifft Verfahren nach § 1829 BGB; ärztliche Zwangsmaßnahmen nach § 1832 BGB sind in § 312 Nr. 3 FamFG als Unterbringungssachen erfasst.
+- BtOG nach seiner gesetzlichen Gliederung geordnet; § 8 BtOG als zentrale Norm zu Beratung, Vermittlung anderer Hilfen und erweiterter Unterstützung hervorgehoben.
+- BVerfG-Entscheidung vom 26.11.2024 – 1 BvL 1/24 – und Fortgeltung des bisherigen § 1832 BGB bis zum Inkrafttreten einer Neuregelung berücksichtigt.
 - Rechtslage zur Beendigung und Vermögensübersicht nach §§ 1872 und 1873 BGB ab 01.01.2026 berücksichtigt.
 - Wahlrecht, Geschäftsfähigkeit und Einwilligungsvorbehalt voneinander abgegrenzt.
-- Änderungen des SGB II ab 2026 einschließlich Übergangsregelung in § 65a Absatz 4 SGB II aufgenommen.
+- Änderungen des SGB II ab 2026 einschließlich § 65a Absatz 4 SGB II berücksichtigt.
 - RDG-Prüfreihenfolge für Angelegenheiten Dritter differenziert; persönliche Unterstützung wird nicht pauschal ausgeschlossen.
-- 21 Regel- und Konsistenztests als manuelles Testprotokoll dokumentiert; keine Live-Plattformtests behauptet.
-- README, Projektbeschreibung, Nutzungshinweise, Architektur, Funktionsstatus und Roadmap auf V1.5.0 abgestimmt.
-- GitHub-About-Text und Topic-Vorschläge als Projektdatei dokumentiert. Die GitHub-Metadaten selbst müssen mangels Schreibfunktion in der verfügbaren Verbindung manuell aktualisiert werden.
+- 21 manuelle Regel- und Konsistenztests dokumentiert; keine automatisierten oder Live-Plattformtests behauptet.
+- README, Nutzungsbedingungen, Projektbeschreibung, GitHub-Profiltext, Funktionsstatus, Architektur, Datenschutz und Roadmap auf V1.5.0 abgestimmt.
+- GitHub-About-Text und Topic-Vorschläge als Projektdatei dokumentiert. Die Repository-Metadaten selbst müssen mangels verfügbarer Schreibfunktion manuell aktualisiert werden.
 - Projektgrenze zum eigenständigen Repository Anonymisator beibehalten.
 
 ## [1.4.0] – 2026-11-04
-- Student Müller auf den ChatGPT-basierten sozialrechtlichen Informations- und Selbsthilfeassistenten abgegrenzt.
+
+- Student Müller auf den promptbasierten sozialrechtlichen Informations- und Selbsthilfeassistenten abgegrenzt.
 - Android-/OCR-/Termux-Arbeiten als eigenständiges Projekt Anonymisator verlinkt.
 - README, Systemanweisung, Roadmap, Architektur, Datenschutz und Funktionsstatus auf die Projekttrennung ausgerichtet.
-- Neue Mindmap V1.4 als Mermaid-Text und SVG-Grafik ergänzt.
+- Mindmap V1.4 als Mermaid-Text und SVG-Grafik ergänzt.
 - Barrierefreiheitsleitlinie als Entwicklungsziel dokumentiert; keine Konformitätsprüfung behauptet.
 - Bestehende Lizenzdateien unverändert gelassen.
-- OCR-/Termux-Protokolle werden im Schwesterprojekt übernommen und aus dem aktiven Baum entfernt; die Git-Historie bleibt erhalten.
-- Architektur- und Datenschutzdokumentation auf den tatsächlich ChatGPT-basierten Betrieb abgestimmt.
-- README-Beispielablauf und Projektstruktur vervollständigt; Systemanweisung hinsichtlich Versionsstand, Tests und Projektgrenze konsolidiert.
-- Mindmap-SVG gestalterisch überarbeitet und Statushinweis ergänzt.
+- Architektur- und Datenschutzdokumentation auf die externe KI-Plattform und die Projektgrenze abgestimmt.
 
 ## [1.3.1] – 2026-11-04
-- README und Systemanweisung um die Zweckbestimmung zur persönlichen Nutzung der offiziellen Assistentenfassung ergänzt.
-- Individuelle Bearbeitung fremder Angelegenheiten im Auftrag oder Namen Dritter als nicht vorgesehene Nutzung abgegrenzt; allgemeine Rechtsinformationen und synthetische Testfälle bleiben möglich.
-- Haftungshinweise präzisiert; keine pauschale Freizeichnung von zwingender gesetzlicher Haftung.
+
+- Frühere Nutzungsbeschreibung und Haftungshinweise präzisiert.
 - Projektbeschreibung auf „gemeinwohlorientiert“ statt steuerrechtlich missverständlichem „gemeinnützig“ präzisiert.
-- Kostenfreiheit, Werbefreiheit und OSINT-orientierte Recherche anhand öffentlich zugänglicher Quellen beschrieben.
 - Klarstellung: Die Zweckbestimmung der Assistentenfassung ändert die bestehenden Lizenzen Apache 2.0 und CC BY-SA 4.0 nicht.
-- Keine Änderung an den Lizenzdateien; keine anwaltliche Prüfung oder rechtliche Freigabe behauptet.
+- Keine anwaltliche Prüfung oder rechtliche Freigabe behauptet.
 
 ## [1.3] – 2026-11-04
+
 - Erstveröffentlichung der Projektbasis im öffentlichen Repository.
-- Konsolidierte Systemanweisung auf V1.3 fortgeschrieben.
-- Mindmap V1.3 mit eindeutigen Statuskennzeichnungen ergänzt.
 - Lizenzmodell festgelegt: eigener Programmcode Apache-2.0, Projektdokumentation CC BY-SA 4.0.
 - Termux-/Android-Vorarbeiten genauer beschrieben.
-- Tesseract 5.5.4, verfügbare Sprachdaten deu/eng und einen erfolgreichen ersten lokalen OCR-Test dokumentiert; Qualitätsprüfung und weitere Integration bleiben offen.
+- Tesseract 5.5.4, verfügbare Sprachdaten deu/eng und einen ersten lokalen OCR-Test dokumentiert; Qualitätsprüfung und weitere Integration bleiben offen.
 - Dokumentationsstruktur für Architektur, Datenschutz, Roadmap, Funktionsstatus und Mitwirkung angelegt.
-- Textbasierten Musterfall zur Küchen-Erstausstattung erstellt: Antrag, Vermieterbestätigung, fiktiver Ablehnungsbescheid, Testprompts und Widerspruchsvergleich.
-- README-Anleitung auf den textbasierten Ablauf umgestellt; für den Test sind keine Screenshots oder Bild-Uploads erforderlich.
-
-## [1.2] – 2026-11-03
-- Vorherige konsolidierte Arbeitsfassung der Systemanweisung und Mindmap.
-- Fachliche Anforderungen, Datenschutz-Zielarchitektur und erste Android-Vorarbeiten dokumentiert.
+- Textbasierten Musterfall zur Küchen-Erstausstattung erstellt.
