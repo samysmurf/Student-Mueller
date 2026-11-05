@@ -4,37 +4,42 @@
 
 **Aktuelle Fassung: V1.5.0 · Stand: 05.11.2026**
 
-Student Müller ist ein kostenfreies, werbefreies Open-Source-Informations- und Selbsthilfeprojekt. Im Mittelpunkt steht eine kopierbare Systemanweisung für einen KI-Dienst der eigenen Wahl. Das Projekt betreibt keinen eigenen Chatbot-Server und keine eigene Fallbearbeitungsplattform.
+Student Müller ist ein kostenfreies, werbefreies Open-Source-Informations- und Selbsthilfeprojekt. Veröffentlicht wird eine kopierbare Systemanweisung für einen KI-Dienst der eigenen Wahl. Einzelne Nutzer übernehmen den Prompt selbstständig in ihren eigenen Chat und entscheiden eigenständig über dessen Verwendung.
+
+Das Projekt betreibt keinen eigenen Chatbot-Server, keine Fallannahme und keine Plattform zur Bearbeitung fremder Fälle.
 
 ## Projektidee
 
-Student Müller unterstützt Menschen dabei, deutsches Sozialrecht und Betreuungsrecht verständlich einzuordnen, Bescheide und behördliche Schreiben zu prüfen, amtliche Rechtsquellen zu finden und eigene Anträge oder Schreiben vorzubereiten.
+Student Müller unterstützt Menschen dabei, deutsches Sozialrecht, Betreuungsrecht und angrenzende Rechtsgebiete verständlich einzuordnen, Bescheide und behördliche Schreiben zu prüfen, amtliche Rechtsquellen zu finden und eigene Anträge oder Schreiben vorzubereiten.
 
-Die Systemanweisung V1.5.0 sieht insbesondere vor:
+Die Systemanweisung V1.5.0 enthält insbesondere:
 
-- ein Startmenü mit ausdrücklicher Abfrage des Bundeslandes,
-- die automatische Berücksichtigung des einschlägigen Bundesrechts und des relevanten Landesrechts,
-- Antworten in zwei Ebenen: verständliche Erklärung und präzise rechtliche Prüfung,
+- ein Startmenü, das beim ersten Prompt-Aufruf erscheint,
+- die ausdrückliche Abfrage des Bundeslandes, des Themas und des Nutzungskontexts,
+- die Trennung von bundesweit geltendem Bundesrecht und ergänzendem Landesrecht,
+- Antworten auf zwei Ebenen: verständliche Erklärung und präzise rechtliche Prüfung,
 - einen verbindlichen Quellenstandard mit Rechtsstand, Abrufdatum und Primärquellen,
 - ein erweitertes Betreuungsrechtsmodul einschließlich BGB, FamFG, BtOG und VBVG,
-- die differenzierte Prüfung von Unterstützung in Angelegenheiten anderer Personen unter Beachtung der tatsächlichen Rolle und des RDG,
-- die strukturierte Prüfung von Bescheiden, Fristen und eigenen Schreiben.
+- eine differenzierte Prüfung von Unterstützung in Angelegenheiten anderer Personen anhand der tatsächlichen Rolle und des RDG,
+- strukturierte Bescheid-, Fristen- und Schriftsatzabläufe.
 
-V1.5.0 ist ein Prompt und eine Dokumentation – keine staatlich anerkannte oder zertifizierte Rechtsanwendung. Eine Zertifizierung oder unabhängige anwaltliche Freigabe wird nicht behauptet.
+V1.5.0 ist ein Prompt und eine Dokumentation. Es ist weder eine staatlich anerkannte Rechtsanwendung noch eine anwaltlich zertifizierte oder unabhängig extern freigegebene Software.
 
 ## Student Müller ausprobieren
 
 1. [ChatGPT öffnen](https://chatgpt.com/) oder einen anderen geeigneten KI-Dienst verwenden.
 2. Die vollständige [Systemanweisung V1.5.0](SYSTEMANWEISUNG.md) öffnen und in einen neuen Chat übernehmen.
-3. Beim ersten Start das Startmenü beantworten. Dazu gehören Bundesland, Thema und Nutzungskontext.
+3. Das beim Erststart angezeigte Menü beantworten: Bundesland, Thema und Nutzungskontext.
 4. Zunächst eine einfache, nicht vertrauliche Testfrage verwenden.
-5. Für einen Dokumentenworkflow zunächst den vollständig fiktiven [Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) verwenden.
+5. Für einen Dokumentenworkflow den vollständig fiktiven [Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) verwenden.
 
-Der Beispielordner enthält synthetische Unterlagen, Testanfragen und Vergleichspunkte. Für den Test sind keine echten Dokumente, Screenshots oder Bild-Uploads erforderlich. Der Übungsfall ist keine Vorlage zur ungeprüften Übertragung auf reale Fälle.
+Der Beispielordner enthält synthetische Unterlagen, Testanfragen und Vergleichspunkte. Für diesen Test sind keine echten Dokumente, Screenshots oder Bild-Uploads erforderlich. Der Übungsfall ist keine Vorlage zur ungeprüften Übertragung auf reale Fälle.
 
 ## Bundesland und Rechtsraum
 
-Beim ersten Start fragt Student Müller ausdrücklich nach dem Bundesland. Standortdaten oder Vermutungen ersetzen diese Auswahl nicht. Bundesrecht gilt bundesweit. Ergänzend werden das für den konkreten Fall relevante Landesrecht und die landesspezifischen Zuständigkeiten berücksichtigt. Bei mehreren betroffenen Bundesländern wird geklärt, welches Land für die konkrete Behörde, das Gericht, die Einrichtung oder den Sachverhalt maßgeblich ist.
+Beim ersten Start fragt Student Müller ausdrücklich nach dem Bundesland, in dem die Angelegenheit rechtlich verortet ist. Standortdaten oder Vermutungen ersetzen diese Auswahl nicht.
+
+Bundesrecht gilt bundesweit. Ergänzend werden das für den konkreten Sachverhalt relevante Landesrecht und die landesspezifischen Zuständigkeiten berücksichtigt. Bei mehreren betroffenen Bundesländern wird geklärt, welches Land für die konkrete Behörde, das Gericht, die Einrichtung oder den Lebenssachverhalt maßgeblich ist. Bei Bedarf wird zusätzlich der konkrete Ort oder die Kommune abgefragt.
 
 ## Fachlicher Umfang
 
@@ -51,11 +56,13 @@ Beim ersten Start fragt Student Müller ausdrücklich nach dem Bundesland. Stand
 
 Der Assistent soll Tatsachen, Dokumenteninhalt, Annahmen und rechtliche Schlussfolgerungen voneinander trennen, Quellen sichtbar machen, Unsicherheiten benennen und fehlende Angaben gezielt erfragen.
 
-## Persönliche Nutzung und Unterstützung anderer Personen
+## Eigene Angelegenheiten und Unterstützung anderer Personen
 
-Der Schwerpunkt liegt auf der eigenständigen Bearbeitung der eigenen Angelegenheiten. Eine Unterstützung bei Angelegenheiten von Angehörigen oder anderen Personen ist nicht pauschal ausgeschlossen. Bei einer konkreten fremden Angelegenheit muss die tatsächliche Rolle des Nutzers geklärt und die rechtliche Einordnung insbesondere nach §§ 2, 3 und 6 RDG geprüft werden.
+Der Schwerpunkt liegt auf der eigenständigen Bearbeitung der eigenen Angelegenheiten. Eine Unterstützung bei Angelegenheiten von Angehörigen oder anderen Personen ist nicht pauschal ausgeschlossen.
 
-Unentgeltlichkeit allein ist weder eine pauschale Freistellung noch ein pauschales Verbot. Student Müller ersetzt keine gesetzlich erforderliche Befugnis und übernimmt keine Vertretung. Der Prompt-Entwickler betreibt keine Fallannahme und bearbeitet keine fremden Fälle im Namen anderer.
+Bei einer konkreten fremden Angelegenheit muss die tatsächliche Rolle des Nutzers geklärt und die rechtliche Einordnung insbesondere nach §§ 2, 3 und 6 RDG geprüft werden. Unentgeltlichkeit allein ist weder eine pauschale Freistellung noch ein pauschales Verbot.
+
+Student Müller übernimmt keine Vertretung. Der Prompt-Entwickler nimmt keine fremden Fälle entgegen und bearbeitet keine individuellen Angelegenheiten im Namen anderer Personen. Einzelheiten und Grenzen stehen in den [Nutzungsbedingungen](NUTZUNGSBEDINGUNGEN.md).
 
 ## Grenzen, Plattform und Verantwortung
 
@@ -79,12 +86,12 @@ Student Müller enthält keine eigene OCR-Engine, PDF-Schwärzungsfunktion, Meta
 | Startmenü und Bundeslandauswahl | als Prompt-Regel integriert; Darstellung abhängig von der KI-Plattform |
 | Sozial- und Betreuungsrecht | fachliche Module integriert; Aktualität je Einzelfall erneut zu prüfen |
 | Quellen- und Aktualitätsprotokoll | als verbindliche Arbeitsregel integriert |
-| 21 V1.5-Prüffälle | auf Regel- und Konsistenzebene durchgespielt; keine Live-Plattformtests |
+| 21 V1.5-Prüffälle | manuell auf Prompt-Regel- und Konsistenzebene durchgespielt; keine Live-Plattformtests |
 | Bescheidverständnis und Schriftsatzentwürfe | Arbeitsabläufe beschrieben; tatsächliche Ausgabe vom KI-Dienst abhängig |
 | Native Android-App / lokale OCR | nicht Bestandteil; separates Projekt Anonymisator |
 | unabhängige Rechtsprüfung / Zertifizierung | nicht behauptet |
 
-Einzelheiten stehen im [Funktionsstatus](docs/FUNKTIONSSTATUS.md), im [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md) und in der [Roadmap](ROADMAP.md).
+Das [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md) unterscheidet ausdrücklich zwischen konzeptioneller Prüfung und noch ausstehenden Laufzeittests. Weitere Angaben stehen im [Funktionsstatus](docs/FUNKTIONSSTATUS.md) und in der [Roadmap](ROADMAP.md).
 
 ## Dokumentation
 
