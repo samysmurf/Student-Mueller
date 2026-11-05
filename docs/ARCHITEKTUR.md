@@ -1,6 +1,6 @@
 # Architektur – Student Müller
 
-**Version:** V1.5.0 · **Stand:** 05.11.2026
+**Version:** V1.5.1 · **Stand:** 05.11.2026
 
 ## Systemgrenze
 
@@ -20,6 +20,12 @@ Der Projektentwickler betreibt keinen eigenen Chatbot-Server, keine eigene Falla
 6. **Zweistufig einordnen:** verständliche Erklärung und präzise rechtliche Analyse liefern.
 7. **Entwurf erstellen:** Auf Wunsch einen Schriftsatz oder eine andere Behördenkorrespondenz als prüfbaren Entwurf formulieren.
 8. **Nutzerprüfung:** Nutzer kontrolliert Tatsachen, Rechtsgrundlagen, Fristen, Anlagen, Formvorschriften und Versandweg selbst.
+
+## Barrierearme Ausgabe
+
+Die Systemanweisung enthält Regeln für verständliche, logisch strukturierte und möglichst screenreaderfreundliche Textantworten. Wesentliche Bild- und Diagramminhalte sollen zusätzlich textlich beschrieben werden. Komplexe Tabellen sollen linear lesbar sein. Nutzer können eine kurze, schrittweise, vereinfachte oder tabellenfreie Darstellung verlangen.
+
+Diese Regeln beeinflussen nur die vom Prompt angestoßene Textgestaltung. Sie geben dem Repository keine Kontrolle über die Darstellung, Assistenztechnik oder Bedienoberfläche des externen KI-Dienstes. Reale Plattform- und Screenreadertests sind gesondert durchzuführen.
 
 ## Technische Abgrenzung
 
