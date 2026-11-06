@@ -33,6 +33,10 @@ Die Skill-Referenz ist eine unveränderte Übernahme der im Entwicklungszweig `v
 
 Die originären Projekttexte und Skill-Anweisungen unterliegen der im Hauptrepository festgelegten CC BY-SA 4.0. Die Lizenz- und Herkunftshinweise im Hauptrepository bleiben maßgeblich.
 
+## Paket-Build
+
+Der reproduzierbare ZIP-Build läuft über [GitHub Actions](../../actions/workflows/package-student-mueller-plugin.yml). Der erfolgreiche Build #3 erzeugte das Artifact `student-mueller-skills-only-0.1.0`; Download über [den Actions-Lauf](../../actions/runs/42173751265). Das Artefakt ist noch nicht im OpenAI Submission Portal hochgeladen.
+
 ## Vor einer öffentlichen Einreichung offen
 
 1. Die integrierten quadratischen SVG-Dateien für `interface.logo` und `interface.composerIcon` im Submission-Portal auf korrekte Darstellung prüfen.
