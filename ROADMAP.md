@@ -36,7 +36,7 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [x] Statische Grundprüfung von Manifest, Skill-Frontmatter und Referenzkopie durchgeführt.
 - [ ] Frischen V-A09-Test nach der letzten freigegebenen Ausgabekontrolländerung bestehen.
 - [ ] Barrierefreiheits- und Core-Regressionsprüfungen in ChatGPT-Laufzeit durchführen.
-- [ ] Logo und Composer-Icon erstellen und in das Manifest aufnehmen.
+- [x] Logo und Composer-Icon als quadratische SVG-Dateien erstellen und im Manifest referenzieren.
 - [ ] Skill in ChatGPT installieren und Laufzeittests dokumentieren.
 - [ ] Paket-ZIP erstellen und automatische OpenAI-Prüfung durchlaufen.
 - [ ] Publisher-Identität verifizieren und öffentliche Einreichung abschließen.
