@@ -30,10 +30,15 @@ Die originären Projekttexte und die Skill-Anweisungen unterliegen der im Hauptr
 
 ## Vor einer öffentlichen Einreichung offen
 
+- Die quadratischen Branding-Dateien für `interface.logo` und `interface.composerIcon` fehlen noch; die offiziellen Submission-Checks verlangen beide Dateien.
+- Der Eintrag `interface.developerName` wird im Einreichungsportal durch die ausgewählte verifizierte Entwickleridentität überschrieben. Die Identitätsprüfung ist noch nicht erfolgt.
+
 1. Plugin-Paket mit dem offiziellen OpenAI-Validator bzw. Upload-Prüfungen testen.
 2. Listing-Metadaten und Publisher-Bezeichnung mit der verifizierten Entwickleridentität abgleichen.
 3. Kategorie und öffentliche Darstellung im Einreichungsportal bestätigen.
 4. Skill-Aktivierung, Startmenü, Quellenverhalten und sämtliche relevanten V1.5-Testfälle in einer unterstützten ChatGPT-Umgebung testen.
-5. Sicherstellen, dass der ZIP-Root genau einen Plugin-Ordner bzw. eine Plugin-Wurzel enthält und keine Dateien außerhalb des Plugin-Pakets.
+5. Sicherstellen, dass der ZIP-Root genau einen Plugin-Ordner bzw. eine Plugin-Wurzel enthält und keine Dateien außerhalb des Plugin-Pakets. Das ZIP wird aus dem Inhalt dieses Verzeichnisses erstellt, nicht aus dem gesamten GitHub-Repository.
+
+Der geplante Aktivierungs-, Regressions- und Paket-Test ist in [TESTPLAN_SKILL.md](TESTPLAN_SKILL.md) dokumentiert.
 
 Dieses Paket ist ein Entwicklungsstand und noch keine von OpenAI genehmigte oder veröffentlichte App.
