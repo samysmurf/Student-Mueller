@@ -5,7 +5,7 @@ Dieses Verzeichnis enthält das portable Plugin-Paket für die öffentliche Einr
 ## Architektur
 
 - Ein portables Plugin-Manifest: `plugin.json`
-- Ein Skill: `skills/student-mueller/SKILL.md`
+- Ein Skill: `skills/student-mueller/SKILL.md` (portable Agent-Plugins erkennen ihn automatisch über den Root-Ordner `skills/`; kein zusätzliches Manifestfeld erforderlich)
 - Eine vollständige fachliche Referenz: `skills/student-mueller/references/SYSTEMANWEISUNG_V1.5.1.md`
 - Kein MCP-Server
 - Keine API oder externe Laufzeit
