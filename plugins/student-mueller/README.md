@@ -28,7 +28,7 @@ Die originären Projekttexte und Skill-Anweisungen unterliegen der im Hauptrepos
 
 ## Vor einer öffentlichen Einreichung offen
 
-1. Quadratische Branding-Dateien für `interface.logo` und `interface.composerIcon` erstellen und in das Manifest aufnehmen. Die offiziellen Submission-Checks verlangen beide Dateien.
+1. Die integrierten quadratischen SVG-Dateien für `interface.logo` und `interface.composerIcon` im Submission-Portal auf korrekte Darstellung prüfen.
 2. Publisher-Identität im Submission Portal auswählen und verifizieren. Der Eintrag `interface.developerName` wird bei der Einreichung automatisch aus der ausgewählten verifizierten Entwickleridentität gesetzt.
 3. Finale Listing-Angaben und Kategorie prüfen.
 4. Skill in einer unterstützten ChatGPT-Umgebung installieren und tatsächlich testen.
