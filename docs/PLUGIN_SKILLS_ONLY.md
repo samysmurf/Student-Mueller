@@ -53,7 +53,7 @@ Die Implementierung folgt dem portablen Agent-Plugins-Paketformat:
 - Pflichtdatei `SKILL.md`;
 - optionale Referenzdateien im Unterordner `references/`.
 
-Ein portables Paket erkennt Skills unter dem Root-Verzeichnis `skills/` automatisch. Ein MCP-Manifest ist nicht erforderlich und wird bewusst nicht angelegt.
+Ein portables Paket erkennt Skills unter dem Root-Verzeichnis `skills/` automatisch. Deshalb wird im Agent-Plugins-Manifest bewusst kein `skills`-Pfad eingetragen; dieses Feld gehört zum Codex-Kompatibilitätsmanifest, nicht zum portablen Agent-Plugins-Root-Schema. Ein MCP-Manifest ist nicht erforderlich und wird bewusst nicht angelegt.
 
 Offizielle Dokumentation:
 - https://developers.openai.com/plugins/build/skills
@@ -101,7 +101,8 @@ Bisher erfolgte statische Prüfung:
 - Logo und Composer-Icon sind quadratische SVG-Dateien (1024 × 1024 ViewBox), im Manifest referenziert und formal als XML validiert.
 - Beide Dateien liegen deutlich unter der OpenAI-Grenze von 5 MiB; die Markenfarben erfüllen die dokumentierten Mindestkontraste.
 - Logo und Composer-Icon liegen als quadratische SVG-Dateien unter `assets/` und sind im Manifest eingetragen.
-- Beide quadratischen SVG-Branding-Dateien sind im Manifest referenziert und liegen im Plugin-Verzeichnis `assets/`.
+- Beide quadratischen SVG-Branding-Dateien sind im OpenAI-Interface referenziert und liegen im Plugin-Verzeichnis `assets/`.
+- Das Root-Manifest enthält ausschließlich portable Schema-Felder; die Skills werden über den festen Root-Pfad `skills/` erkannt.
 
 Noch nicht erfolgt:
 - ZIP-Upload und OpenAI-Validatorprüfung;
