@@ -15,6 +15,17 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [x] README, Nutzungsbedingungen und Projektbeschreibung auf V1.5.0 ausgerichtet.
 - [x] 21 manuelle Regel- und Konsistenztests dokumentiert.
 
+## Skills-only-Plugin
+
+- [x] Skills-only-Architektur ohne MCP-Server festgelegt.
+- [x] Plugin-Paket 0.1.0 im separaten Entwicklungszweig angelegt.
+- [x] Core V1.5.0 unverändert als Skill-Referenz übernommen.
+- [x] Statische Grundprüfung von Manifest, Skill-Frontmatter und Referenzkopie durchgeführt.
+- [ ] Logo und Composer-Icon erstellen und in das Manifest aufnehmen.
+- [ ] Skill in einer unterstützten ChatGPT-Umgebung installieren und Laufzeittests durchführen.
+- [ ] Paket-ZIP erstellen und automatische OpenAI-Prüfung durchlaufen.
+- [ ] Publisher-Identität verifizieren und öffentliche Einreichung abschließen.
+
 ## Nächste Qualitätsschritte
 
 - [ ] V1.5.0 in der tatsächlich verwendeten ChatGPT-Oberfläche durchspielen.
