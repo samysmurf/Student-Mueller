@@ -93,6 +93,10 @@ Student Müller enthält keine eigene OCR-Engine, PDF-Schwärzungsfunktion, Meta
 
 Das [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md) unterscheidet ausdrücklich zwischen konzeptioneller Prüfung und noch ausstehenden Laufzeittests. Weitere Angaben stehen im [Funktionsstatus](docs/FUNKTIONSSTATUS.md) und in der [Roadmap](ROADMAP.md).
 
+## ChatGPT-Plugin (in Entwicklung)
+
+Neben der weiterhin verfügbaren kopierbaren Systemanweisung wird eine zusätzliche Skills-only-Paketform für das öffentliche OpenAI Plugins Directory vorbereitet. Das Paket übernimmt Core V1.5.0 unverändert als Skill-Referenz und benötigt keinen eigenen MCP-Server. Es befindet sich im Entwicklungszweig [feature/skills-only-plugin](https://github.com/samysmurf/Student-Mueller/tree/feature/skills-only-plugin); es ist noch nicht von OpenAI geprüft oder veröffentlicht. Details: [Skills-only-Architektur](docs/PLUGIN_SKILLS_ONLY.md).
+
 ## Dokumentation
 
 - [Systemanweisung V1.5.0](SYSTEMANWEISUNG.md)
