@@ -39,7 +39,8 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [ ] Barrierefreiheits- und Core-Regressionsprüfungen in ChatGPT-Laufzeit durchführen.
 - [x] Logo und Composer-Icon als quadratische SVG-Dateien erstellen und im Manifest referenzieren.
 - [ ] Skill in ChatGPT installieren und Laufzeittests dokumentieren.
-- [ ] Paket-ZIP erstellen und automatische OpenAI-Prüfung durchlaufen.
+- [x] Plugin-ZIP reproduzierbar mit GitHub Actions erstellen und als Artifact bereitstellen.
+- [ ] ZIP im OpenAI Submission Portal hochladen und automatische Paket-/Skill-Prüfung durchlaufen.
 - [ ] Publisher-Identität verifizieren und öffentliche Einreichung abschließen.
 
 ## Nächste Qualitätsschritte
