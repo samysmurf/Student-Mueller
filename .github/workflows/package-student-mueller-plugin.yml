@@ -1,0 +1,66 @@
+name: Package Student Müller Skills-only plugin
+
+on:
+  push:
+    branches:
+      - feature/skills-only-plugin-v1.5.1
+    paths:
+      - "plugins/student-mueller/**"
+      - ".github/workflows/package-student-mueller-plugin.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Validate package structure and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd plugins/student-mueller
+          test -f plugin.json
+          test -f skills/student-mueller/SKILL.md
+          test -f skills/student-mueller/references/SYSTEMANWEISUNG_V1.5.1.md
+          test -f assets/logo.svg
+          test -f assets/composer-icon.svg
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("plugin.json").read_text(encoding="utf-8"))
+          assert data["$schema"] == "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          assert data["name"] == "student-mueller"
+          assert "skills" not in data, "Portable Agent Plugins manifest must discover root skills/ automatically"
+          interface = data["extensions"]["com.openai"]["interface"]
+          for field in ("displayName", "shortDescription", "longDescription", "developerName", "category", "logo", "composerIcon"):
+              assert interface.get(field), f"Missing interface field: {field}"
+          for field in ("logo", "composerIcon"):
+              path = interface[field]
+              assert path.startswith("./") and ".." not in Path(path).parts
+              assert Path(path[2:]).is_file(), f"Missing asset: {path}"
+          skill = Path("skills/student-mueller/SKILL.md").read_text(encoding="utf-8")
+          assert skill.startswith("---\\n") and "\\n---\\n" in skill[4:]
+          assert "references/SYSTEMANWEISUNG_V1.5.1.md" in skill
+          PY
+
+      - name: Build submission ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          cd plugins/student-mueller
+          zip -r ../../dist/student-mueller-skills-only-0.1.0.zip \\
+            plugin.json README.md LICENSE.md assets skills
+
+      - name: Upload ZIP artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: student-mueller-skills-only-0.1.0
+          path: dist/student-mueller-skills-only-0.1.0.zip
+          if-no-files-found: error
+          retention-days: 30
