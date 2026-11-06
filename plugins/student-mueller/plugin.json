@@ -40,5 +40,6 @@
         "brandColorDark": "#F8C84A"
       }
     }
-  }
+  },
+  "skills": "./skills/"
 }
