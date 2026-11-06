@@ -19,6 +19,7 @@ Das Plugin enthält:
 - ein portables `plugin.json`-Manifest;
 - einen Skill unter `skills/student-mueller/SKILL.md`;
 - eine unveränderte Kopie der Core-Systemanweisung V1.5.1 als Skill-Referenz;
+- zwei quadratische SVG-Branding-Dateien unter `assets/`, die im Manifest als Logo und Composer-Icon referenziert sind;
 - Paket- und Testdokumentation.
 
 Das Plugin enthält ausdrücklich nicht:
@@ -97,6 +98,7 @@ Bisher erfolgte statische Prüfung:
 - Skill-Verzeichnis liegt unmittelbar unter `skills/`.
 - Core-Referenz stimmt textlich vollständig mit der Hauptdatei V1.5.1 im genannten Entwicklungszweig überein.
 - Kein MCP-Manifest und keine MCP-Abhängigkeit vorhanden.
+- Logo und Composer-Icon liegen als quadratische SVG-Dateien unter `assets/` und sind im Manifest eingetragen.
 - Beide quadratischen SVG-Branding-Dateien sind im Manifest referenziert und liegen im Plugin-Verzeichnis `assets/`.
 
 Noch nicht erfolgt:
