@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased]
+
+- Skills-only-Plugin als zusätzliche Bereitstellungsform vorbereitet; Core V1.5.1 bleibt die fachliche Grundlage.
+- Technisches Plugin-Paket 0.1.0 mit portablem Manifest, einem Skill und unveränderter Core-Referenz V1.5.1 im Entwicklungszweig angelegt.
+- Eigenständigen Skill-Testplan mit Aktivierungsprüfungen, 21 Core-Regressionsfällen und verbindlichem V-A09-Freigabekriterium ergänzt.
+- Kein MCP-Server, keine API, keine Datenbank und keine eigene Laufzeit vorgesehen.
+- Öffentliche Einreichung bleibt bis zum frischen V-A09-Laufzeittest, den Branding-Assets und der OpenAI-Paketprüfung gesperrt.
+
+
 ## [1.5.1] – Vorbereitungsstand vom 05.11.2026
 
 - Barrierearme Antwort- und Dialogregeln in die Systemanweisung aufgenommen.
