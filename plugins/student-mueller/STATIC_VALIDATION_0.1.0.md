@@ -30,12 +30,20 @@
 | Kategorie | Bestanden | `Education & Research` ist eine unterstützte OpenAI-Kategorie |
 | Datenschutz-/Nutzungsbedingungen | Bestanden | Verlinkte Quelldokumente im Repository vorhanden |
 | MCP-Abhängigkeit | Nicht vorhanden | Absichtliches Skills-only-Paket; keine MCP-Konfiguration |
-| ZIP-Archiv | Offen | Noch nicht als Plugin-Unterordner-ZIP erzeugt und geprüft |
+| ZIP-Archiv | Bestanden | GitHub Actions Run #3 erfolgreich; ZIP erstellt und als Artifact hochgeladen; SHA-256: `6334d601bedee3b370898198981d6828f3d66367d4901c69c5827526d98d865b` |
 | OpenAI-Portalprüfung | Offen | Noch nicht hochgeladen |
 | Skill-Sicherheitsprüfung | Offen | OpenAI-Scan nach Upload erforderlich |
 | Laufzeittests | Offen | Installation und Aktivierung in einer unterstützten ChatGPT-Umgebung nicht durchgeführt |
 | V-A09 | Offen | Frischer Chat-Test nach letzter Ausgabekontrolländerung steht aus |
 | Barrierefreiheit | Offen | Plattform- und Gerätetests stehen aus |
+
+## Erzeugtes ZIP-Artefakt
+
+- GitHub Actions Run: https://github.com/samysmurf/Student-Mueller/actions/runs/42173751265
+- Artifact: `student-mueller-skills-only-0.1.0`
+- SHA-256: `6334d601bedee3b370898198981d6828f3d66367d4901c69c5827526d98d865b`
+- Der Workflow hat Struktur-/Manifestprüfung, ZIP-Erstellung und Artifact-Upload erfolgreich abgeschlossen.
+- Das Artefakt ist über die Actions-Run-Seite im Abschnitt Artifacts abrufbar. Es wurde noch nicht im OpenAI Submission Portal hochgeladen.
 
 ## Wichtige Formatkorrektur
 
