@@ -98,6 +98,8 @@ Bisher erfolgte statische Prüfung:
 - Skill-Verzeichnis liegt unmittelbar unter `skills/`.
 - Core-Referenz stimmt textlich vollständig mit der Hauptdatei V1.5.1 im genannten Entwicklungszweig überein.
 - Kein MCP-Manifest und keine MCP-Abhängigkeit vorhanden.
+- Logo und Composer-Icon sind quadratische SVG-Dateien (1024 × 1024 ViewBox), im Manifest referenziert und formal als XML validiert.
+- Beide Dateien liegen deutlich unter der OpenAI-Grenze von 5 MiB; die Markenfarben erfüllen die dokumentierten Mindestkontraste.
 - Logo und Composer-Icon liegen als quadratische SVG-Dateien unter `assets/` und sind im Manifest eingetragen.
 - Beide quadratischen SVG-Branding-Dateien sind im Manifest referenziert und liegen im Plugin-Verzeichnis `assets/`.
 
