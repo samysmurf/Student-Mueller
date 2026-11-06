@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Student Müller</title>
+  <desc id="desc">Logo mit geöffnetem Buch, ausgewogener Waage und Paragraphenzeichen in Marineblau, Gold und hellem Grau.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F2F5F9"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8C84A"/>
+      <stop offset="1" stop-color="#D99A13"/>
+    </linearGradient>
+  </defs>
+  <rect x="38" y="38" width="948" height="948" rx="164" fill="url(#paper)" stroke="#102F55" stroke-width="25"/>
+  <text x="160" y="535" font-family="Georgia,serif" font-size="570" font-weight="700" fill="#DCE3EC">§</text>
+  <path d="M795 128 C931 225 944 410 814 520 C892 390 880 250 795 128Z" fill="url(#gold)"/>
+  <!-- Scale: finial, beam, upright -->
+  <path d="M512 145 L548 190 L512 230 L476 190Z" fill="#102F55"/>
+  <path d="M512 218 V470" fill="none" stroke="#102F55" stroke-width="28" stroke-linecap="round"/>
+  <path d="M330 252 Q512 195 694 252" fill="none" stroke="#102F55" stroke-width="28" stroke-linecap="round"/>
+  <path d="M512 224 L512 260" stroke="#102F55" stroke-width="24" stroke-linecap="round"/>
+  <!-- Left pan -->
+  <path d="M345 247 L275 390 M345 247 L415 390" fill="none" stroke="#102F55" stroke-width="12" stroke-linecap="round"/>
+  <path d="M244 392 Q345 485 446 392 Z" fill="#102F55"/>
+  <path d="M258 397 Q345 457 432 397" fill="none" stroke="#FFFFFF" stroke-width="5" opacity=".9"/>
+  <!-- Right pan -->
+  <path d="M679 247 L609 390 M679 247 L749 390" fill="none" stroke="#102F55" stroke-width="12" stroke-linecap="round"/>
+  <path d="M578 392 Q679 485 780 392 Z" fill="#102F55"/>
+  <path d="M592 397 Q679 457 766 397" fill="none" stroke="#FFFFFF" stroke-width="5" opacity=".9"/>
+  <path d="M475 466 Q512 438 549 466 L570 492 H454Z" fill="#102F55"/>
+  <!-- Open book -->
+  <path d="M158 548 Q330 500 500 570 Q512 576 524 570 Q694 500 866 548 L843 662 Q668 626 524 699 Q512 705 500 699 Q356 626 181 662Z" fill="#102F55"/>
+  <path d="M190 559 Q350 524 497 590 L512 681 Q353 608 207 641Z" fill="#FFFFFF" stroke="#102F55" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M834 559 Q674 524 527 590 L512 681 Q671 608 817 641Z" fill="#FFFFFF" stroke="#102F55" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M512 585 V685" stroke="#DCA21D" stroke-width="10" stroke-linecap="round"/>
+  <path d="M245 594 Q350 575 450 620 M778 594 Q674 575 574 620" fill="none" stroke="#D7DEE8" stroke-width="7" stroke-linecap="round"/>
+  <!-- Wordmark -->
+  <text x="512" y="805" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="104" font-weight="700" letter-spacing="-3" fill="#102F55">Student</text>
+  <text x="512" y="900" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="104" font-weight="700" letter-spacing="-2" fill="#102F55">Müller</text>
+  <rect x="255" y="925" width="514" height="10" rx="5" fill="url(#gold)"/>
+</svg>
