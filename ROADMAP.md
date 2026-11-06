@@ -28,6 +28,19 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [ ] Später ergänzend mit Desktop-Screenreader und Textvergrößerung prüfen.
 - [ ] Ergebnisse mit Datum, Modell, Gerät, Assistenztechnik und tatsächlicher Ausgabe dokumentieren.
 
+## Skills-only-Plugin
+
+- [x] Skills-only-Architektur ohne MCP-Server festgelegt.
+- [x] Plugin-Paket 0.1.0 auf Basis Core V1.5.1 im separaten Entwicklungszweig angelegt.
+- [x] Core V1.5.1 einschließlich freigegebener §-40-SGB-II-Ausgabekontrolle unverändert als Skill-Referenz übernommen.
+- [x] Statische Grundprüfung von Manifest, Skill-Frontmatter und Referenzkopie durchgeführt.
+- [ ] Frischen V-A09-Test nach der letzten freigegebenen Ausgabekontrolländerung bestehen.
+- [ ] Barrierefreiheits- und Core-Regressionsprüfungen in ChatGPT-Laufzeit durchführen.
+- [ ] Logo und Composer-Icon erstellen und in das Manifest aufnehmen.
+- [ ] Skill in ChatGPT installieren und Laufzeittests dokumentieren.
+- [ ] Paket-ZIP erstellen und automatische OpenAI-Prüfung durchlaufen.
+- [ ] Publisher-Identität verifizieren und öffentliche Einreichung abschließen.
+
 ## Nächste Qualitätsschritte
 
 - [ ] V1.5.1 in der tatsächlich verwendeten ChatGPT-Oberfläche durchspielen.
