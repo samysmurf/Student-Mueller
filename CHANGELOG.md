@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased]
+
+- Skills-only-Plugin als zusätzliche Bereitstellungsform vorbereitet; bestehender Core V1.5.0 bleibt unverändert.
+- Technisches Plugin-Paket 0.1.0 mit portablem Manifest, einem Skill und unveränderter Core-Referenz im Entwicklungszweig angelegt.
+- Eigenständigen Skill-Testplan und Dokumentation der OpenAI-Einreichung ergänzt.
+- Kein MCP-Server, keine API, keine Datenbank und keine eigene Laufzeit vorgesehen.
+
+
 ## [1.5.0] – 2026-11-05
 
 - Systemanweisung V1.5.0 konsolidiert und im Repository veröffentlicht.
