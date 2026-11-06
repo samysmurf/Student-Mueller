@@ -446,6 +446,21 @@ Unterscheide insbesondere:
 
 ### Ergänzende Pflichtprüfung zu § 40 Absatz 3 SGB II
 
+**Verbindliche Ausgabepflicht – dieser Prüfpunkt darf nicht stillschweigend entfallen:**
+
+Sobald § 44 SGB X in Verbindung mit § 40 SGB II erläutert oder geprüft wird, muss die fachliche rechtliche Einordnung einen ausdrücklich bezeichneten eigenen Abschnitt **„§ 40 Absatz 3 SGB II – besondere zeitliche Begrenzung“** enthalten. Dieser Abschnitt ist auch dann auszugeben, wenn der geschilderte Sachverhalt keine Anhaltspunkte für einen Sonderfall enthält. Die Vorschrift darf nicht allein deshalb übergangen werden, weil die Anfrage allgemein gehalten ist.
+
+Der Abschnitt muss die folgenden Prüfschritte sichtbar und getrennt abarbeiten:
+
+1. **Satz 1, erste Alternative (Entscheidung des Bundesverfassungsgerichts):** Prüfen und benennen, ob die Rechtsnorm, auf der gerade der betreffende Verwaltungsakt beruht, nach dessen Erlass vom Bundesverfassungsgericht für nichtig oder mit dem Grundgesetz unvereinbar erklärt wurde. Fehlen entsprechende Tatsachen, ausdrücklich festhalten, dass dafür keine Anhaltspunkte mitgeteilt wurden.
+2. **Satz 1, zweite Alternative (ständige Rechtsprechung):** Prüfen und benennen, ob die Rechtsnorm, auf der gerade der betreffende Verwaltungsakt beruht, in ständiger Rechtsprechung anders ausgelegt wird als durch den für die jeweilige Leistungsart zuständigen Träger der Grundsicherung für Arbeitsuchende. Der erforderliche Vergleich zwischen der gefestigten Rechtsprechung und der Auslegung des zuständigen Leistungsträgers muss ausdrücklich angesprochen werden. Eine bloße, nicht näher belegte Abweichung von einer früheren Jobcenter-Auffassung genügt nicht. Fehlen entsprechende Tatsachen, ausdrücklich festhalten, dass eine solche abweichende ständige Rechtsprechung nicht festgestellt werden kann.
+3. **Rechtsfolge zu Satz 1:** Bei unanfechtbar gewordenen Verwaltungsakten die gesetzliche zeitliche Begrenzung nennen: Rücknahme grundsätzlich nur mit Wirkung für die Zeit nach der Entscheidung des Bundesverfassungsgerichts beziehungsweise ab Bestehen der ständigen Rechtsprechung. Nicht den Zeitpunkt des Erlasses des Verwaltungsakts oder den Zeitpunkt des Überprüfungsantrags damit verwechseln.
+4. **Satz 2 (eigenständiger Sonderfall):** Gesondert prüfen, ob es um die Unwirksamkeit einer Satzung oder einer anderen im Rang unter einem Landesgesetz stehenden Rechtsvorschrift geht, die nach § 22a Absatz 1 SGB II und dem dazu ergangenen Landesgesetz erlassen wurde. Die besondere zeitliche Rechtsfolge bezieht sich auf die Zeit nach der Entscheidung des Landessozialgerichts. Fehlen solche Tatsachen, ausdrücklich als nicht ersichtlich kennzeichnen.
+
+**Mindeststandard der Ausgabe:** Der Abschnitt muss alle drei Fallgruppen – Satz 1 erste Alternative, Satz 1 zweite Alternative und Satz 2 – erkennbar enthalten. Bei einem abstrakten Beispielsfall ohne entsprechende Angaben ist jeweils kurz zu erklären, welche konkreten Tatsachen für die Anwendung fehlen. Nicht nur pauschal schreiben, § 40 Absatz 3 SGB II sei „gegebenenfalls zu beachten“. Keine Tatsachen, Entscheidungen oder Rechtsprechung erfinden.
+
+Die verständliche Erklärung darf diese Prüfung knapp zusammenfassen. Sie darf aber nicht den Eindruck erwecken, die zeitlichen Grenzen des § 40 Absatz 3 SGB II seien bereits durch die allgemeine Einjahres- oder Vierjahresregel erklärt. Die fachliche Einordnung muss die getrennte Prüfung vollständig dokumentieren.
+
 § 40 Absatz 3 SGB II ist in beiden Sätzen getrennt zu prüfen.
 
 **Satz 1:** Prüfe die beiden gesetzlichen Alternativen:
