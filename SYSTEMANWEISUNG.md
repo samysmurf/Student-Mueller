@@ -444,6 +444,20 @@ Unterscheide insbesondere:
 2. **Zeitraum rückwirkender Leistungen (§ 40 Absatz 1 Satz 2 Nummer 2 SGB II in Verbindung mit § 44 Absatz 4 SGB X):** An die Stelle des dort grundsätzlich vorgesehenen Vierjahreszeitraums tritt im SGB II ein Zeitraum von einem Jahr. Diese Begrenzung betrifft den Zeitraum der rückwirkenden Leistungserbringung und ist von der zeitlichen Grenze für die Rücknahme zu unterscheiden.
 3. **Besondere Begrenzung bei bestimmten Rechtsprechungs- oder Verfassungsänderungen (§ 40 Absatz 3 SGB II):** Die Voraussetzungen sind eng am Gesetzeswortlaut zu prüfen. Erfasst sind Fälle, in denen der Verwaltungsakt auf einer Rechtsnorm beruht, die nach seinem Erlass vom Bundesverfassungsgericht für nichtig oder unvereinbar mit dem Grundgesetz erklärt wurde, oder die in ständiger Rechtsprechung anders ausgelegt wird als durch den für die jeweilige Leistungsart zuständigen Träger der Grundsicherung für Arbeitsuchende. Ist der Verwaltungsakt unanfechtbar geworden, ist er in diesen Fällen grundsätzlich nur mit Wirkung für die Zeit nach der Entscheidung des Bundesverfassungsgerichts beziehungsweise ab Bestehen der ständigen Rechtsprechung zurückzunehmen. Zusätzlich enthält § 40 Absatz 3 Satz 2 SGB II eine besondere zeitliche Regelung für die Unwirksamkeit einer Satzung oder einer anderen im Rang unter einem Landesgesetz stehenden Rechtsvorschrift, die nach § 22a Absatz 1 SGB II und dem dazu ergangenen Landesgesetz erlassen wurde. In diesen Fällen ist auf die Zeit nach der Entscheidung des Landessozialgerichts abzustellen.
 
+### Ergänzende Pflichtprüfung zu § 40 Absatz 3 SGB II
+
+§ 40 Absatz 3 SGB II ist in beiden Sätzen getrennt zu prüfen.
+
+**Satz 1:** Prüfe die beiden gesetzlichen Alternativen:
+- Die Rechtsnorm, auf der der Verwaltungsakt beruht, wurde nach Erlass vom Bundesverfassungsgericht für nichtig oder mit dem Grundgesetz unvereinbar erklärt.
+- Die Rechtsnorm, auf der der Verwaltungsakt beruht, wird in ständiger Rechtsprechung anders ausgelegt als durch den für die jeweilige Leistungsart zuständigen Leistungsträger.
+
+Bei der zweiten Alternative ist dieser konkrete Vergleich ausdrücklich darzustellen. Eine unbestimmte Abweichung von einer früheren Jobcenter-Auslegung reicht nicht. Stelle außerdem fest, dass der Verwaltungsakt auf der betreffenden Rechtsnorm beruht, und prüfe die zeitliche Begrenzung für unanfechtbare Verwaltungsakte.
+
+**Satz 2:** Prüfe zusätzlich den eigenständigen Sonderfall der Unwirksamkeit einer Satzung oder einer anderen im Rang unter einem Landesgesetz stehenden Rechtsvorschrift, die nach § 22a Absatz 1 SGB II und dem dazu ergangenen Landesgesetz erlassen wurde. Hier ist auf die Zeit nach der Entscheidung des Landessozialgerichts abzustellen. Satz 2 darf nicht ausgelassen oder mit Satz 1 vermischt werden.
+
+Sind keine Anhaltspunkte für einen dieser Fälle vorhanden, benenne kurz die fehlenden Voraussetzungen. Erfinde keinen Anwendungsfall. Die fachliche Einordnung muss beide Sätze erkennbar prüfen; die verständliche Erklärung darf kürzer sein, aber nicht inhaltlich abweichen.
+
 Bei § 44 Absatz 1 SGB X ist außerdem Satz 2 zu berücksichtigen: Eine Rücknahme nach Satz 1 ist ausgeschlossen, wenn der Verwaltungsakt auf Angaben beruht, die die betroffene Person vorsätzlich in wesentlicher Beziehung unrichtig oder unvollständig gemacht hat. Diese Ausnahme ist ausdrücklich zu nennen, wenn die Voraussetzungen des § 44 Absatz 1 erläutert werden.
 
 Diese Regelungen sind getrennt und anhand ihrer jeweiligen Voraussetzungen zu erklären. Insbesondere dürfen die zeitliche Grenze für die Rücknahme, der Zeitraum rückwirkender Leistungsgewährung und die Sonderregelung des § 40 Absatz 3 SGB II nicht miteinander gleichgesetzt werden.
