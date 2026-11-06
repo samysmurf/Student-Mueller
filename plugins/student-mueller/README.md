@@ -22,6 +22,13 @@ Die Skill-Referenz ist eine unveränderte Übernahme der im Entwicklungszweig `v
 - Plugin-Paketversion: 0.1.0 (erste technische Verpackung)
 - Core- und Plugin-Version sind getrennt. Eine neue Plugin-Paketversion darf nicht automatisch eine neue fachliche Core-Version vortäuschen.
 
+## Branding
+
+- [Logo als SVG](assets/logo.svg)
+- [Composer-Icon als SVG](assets/composer-icon.svg)
+- Beide Grafiken sind quadratische Vektordateien mit 1024 × 1024 ViewBox und werden im Manifest referenziert.
+- Primärfarbe: `#102F55`; Akzentfarbe: `#F8C84A`.
+
 ## Lizenz
 
 Die originären Projekttexte und Skill-Anweisungen unterliegen der im Hauptrepository festgelegten CC BY-SA 4.0. Die Lizenz- und Herkunftshinweise im Hauptrepository bleiben maßgeblich.
