@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "student-mueller",
+  "version": "0.1.0",
+  "description": "Skills-only-Plugin für verständliche, quellenorientierte Selbsthilfe im deutschen Sozial- und Betreuungsrecht.",
+  "author": {
+    "name": "Student Müller Projekt",
+    "url": "https://github.com/samysmurf/Student-Mueller"
+  },
+  "homepage": "https://github.com/samysmurf/Student-Mueller",
+  "repository": "https://github.com/samysmurf/Student-Mueller",
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "sozialrecht",
+    "betreuungsrecht",
+    "bürgergeld",
+    "sozialhilfe",
+    "selbsthilfe",
+    "deutschland"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Student Müller",
+        "shortDescription": "Sozialrecht einfach erklärt",
+        "longDescription": "Student Müller unterstützt Menschen dabei, deutsches Sozialrecht, Betreuungsrecht und angrenzende Rechtsgebiete verständlich einzuordnen, Bescheide und behördliche Schreiben zu verstehen, amtliche Rechtsquellen zu recherchieren und eigene Anträge, Stellungnahmen oder andere Schreiben vorzubereiten. Der Skill arbeitet mit einer verständlichen Erklärung und einer fachlich präzisen rechtlichen Einordnung. Er fordert die ausdrückliche Auswahl des maßgeblichen Bundeslandes, unterscheidet Bundesrecht und Landesrecht und verlangt nachvollziehbare Quellen- und Aktualitätsangaben. Student Müller ist ein KI-gestütztes Informations- und Selbsthilfeangebot, keine Rechtsanwaltskanzlei, keine Behörde und keine gesetzliche Vertretung. KI-Ausgaben können fehlerhaft oder unvollständig sein; Nutzer müssen Quellen, Fristen und Dokumente vor einer Verwendung selbst prüfen. Es gibt keinen eigenen Server, keine Fallannahme und keinen automatisierten Versand.",
+        "developerName": "Student Müller Projekt",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/samysmurf/Student-Mueller",
+        "privacyPolicyURL": "https://github.com/samysmurf/Student-Mueller/blob/main/docs/DATENSCHUTZ.md",
+        "termsOfServiceURL": "https://github.com/samysmurf/Student-Mueller/blob/main/NUTZUNGSBEDINGUNGEN.md",
+        "defaultPrompt": [
+          "Hilf mir, einen Bürgergeld-Bescheid zu verstehen und die einschlägigen Rechtsgrundlagen zu finden.",
+          "Erkläre mir den Unterschied zwischen Widerspruch und Überprüfungsantrag nach § 44 SGB X.",
+          "Hilf mir, einen eigenen sozialrechtlichen Antrag oder eine Stellungnahme vorzubereiten."
+        ]
+      }
+    }
+  }
+}
