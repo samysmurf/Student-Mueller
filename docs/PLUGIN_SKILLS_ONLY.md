@@ -75,7 +75,7 @@ Nach der aktuellen OpenAI-Dokumentation:
 ## 6. Offene Einreichungsvoraussetzungen
 
 Vor der Einreichung sind mindestens folgende Punkte zu erledigen:
-1. quadratische Logo- und Composer-Icon-Dateien erstellen und im Manifest referenzieren;
+1. die integrierten quadratischen SVG-Dateien für Logo und Composer-Icon im Submission-Portal auf korrekte Darstellung prüfen;
 2. Publisher-Identität im Submission Portal auswählen und verifizieren;
 3. finale Listing-Angaben und Kategorie prüfen;
 4. Skill in einer unterstützten ChatGPT-Umgebung installieren und tatsächlich testen;
@@ -97,6 +97,7 @@ Bisher erfolgte statische Prüfung:
 - Skill-Verzeichnis liegt unmittelbar unter `skills/`.
 - Core-Referenz stimmt textlich vollständig mit der Hauptdatei V1.5.1 im genannten Entwicklungszweig überein.
 - Kein MCP-Manifest und keine MCP-Abhängigkeit vorhanden.
+- Beide quadratischen SVG-Branding-Dateien sind im Manifest referenziert und liegen im Plugin-Verzeichnis `assets/`.
 
 Noch nicht erfolgt:
 - ZIP-Upload und OpenAI-Validatorprüfung;
