@@ -6,7 +6,8 @@
 - Technisches Plugin-Paket 0.1.0 mit portablem Manifest, einem Skill und unveränderter Core-Referenz V1.5.1 im Entwicklungszweig angelegt.
 - Eigenständigen Skill-Testplan mit Aktivierungsprüfungen, 21 Core-Regressionsfällen und verbindlichem V-A09-Freigabekriterium ergänzt.
 - Kein MCP-Server, keine API, keine Datenbank und keine eigene Laufzeit vorgesehen.
-- Eigenständiges quadratisches Logo und Composer-Icon als SVG erstellt, im Plugin-Manifest verknüpft und formal validiert.
+- Eigenständiges quadratisches Logo und Composer-Icon als SVG erstellt, im OpenAI-Interface verknüpft und formal validiert.
+- Portables Manifest an das offizielle Agent-Plugins-Root-Schema angepasst; Codex-spezifisches `skills`-Feld entfernt.
 - Öffentliche Einreichung bleibt bis zum frischen V-A09-Laufzeittest, den Branding-Assets und der OpenAI-Paketprüfung gesperrt.
 
 
