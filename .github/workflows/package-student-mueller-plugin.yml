@@ -54,7 +54,7 @@ jobs:
           set -euo pipefail
           mkdir -p dist
           cd plugins/student-mueller
-          zip -r ../../dist/student-mueller-skills-only-0.1.0.zip \\
+          zip -r ../../dist/student-mueller-skills-only-0.1.0.zip \
             plugin.json README.md LICENSE.md assets skills
 
       - name: Upload ZIP artifact
