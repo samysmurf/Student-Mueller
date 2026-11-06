@@ -84,6 +84,8 @@ Vor der Einreichung sind mindestens folgende Punkte zu erledigen:
 6. vollständiges ZIP aus dem Inhalt von `plugins/student-mueller/` erstellen, nicht aus dem gesamten GitHub-Repository;
 7. automatische Paket- und Skill-Prüfungen im Portal erfolgreich durchlaufen.
 
+Der erste reproduzierbare ZIP-Build wurde mit GitHub Actions Run #3 erfolgreich erstellt. Das Artefakt `student-mueller-skills-only-0.1.0` ist über https://github.com/samysmurf/Student-Mueller/actions/runs/42173751265 abrufbar. Der OpenAI-Portal-Upload ist noch offen.
+
 Die öffentlichen URL-Felder für Website, Datenschutz, Nutzungsbedingungen und Support sind bei Skills-only-ZIP-Einreichungen laut aktueller Fehlerreferenz optional. Die bereits vorhandenen Projektseiten bleiben dennoch als transparente Informationsquellen verlinkt.
 
 ## 7. Teststatus
