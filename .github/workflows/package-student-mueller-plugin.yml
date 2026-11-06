@@ -44,7 +44,7 @@ jobs:
               assert path.startswith("./") and ".." not in Path(path).parts
               assert Path(path[2:]).is_file(), f"Missing asset: {path}"
           skill = Path("skills/student-mueller/SKILL.md").read_text(encoding="utf-8")
-          assert skill.startswith("---\\n") and "\\n---\\n" in skill[4:]
+          assert skill.startswith("---\n") and "\n---\n" in skill[4:]
           assert "references/SYSTEMANWEISUNG_V1.5.1.md" in skill
           PY
 
