@@ -33,7 +33,11 @@
           "Erkläre mir meinen Bescheid verständlich und prüfe die Rechtsgrundlagen.",
           "Prüfe einen sozialrechtlichen Sachverhalt anhand der aktuellen amtlichen Quellen.",
           "Hilf mir, einen eigenen Antrag oder Widerspruch vorzubereiten."
-        ]
+        ],
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/composer-icon.svg",
+        "brandColor": "#102F55",
+        "brandColorDark": "#F8C84A"
       }
     }
   }
