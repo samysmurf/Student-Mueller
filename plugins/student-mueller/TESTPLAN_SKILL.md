@@ -53,7 +53,7 @@ Die V1.5.1-Barrierefreiheitsregeln sind anhand von `docs/BARRIEREFREIHEIT.md` un
 | PK-05 | Referenz | Vollständige Core-Referenz liegt unter `references/`. |
 | PK-06 | Quellgleichheit | Referenz ist textgleich mit der freigegebenen Core-Datei V1.5.1. |
 | PK-07 | MCP-Abwesenheit | Keine MCP-Datei, App-Referenz, Serverabhängigkeit oder Zugangsdaten. |
-| PK-08 | Branding | Quadratische SVG-Logo- und Composer-Icon-Dateien vorhanden und im Manifest referenziert. |
+| PK-08 | Branding | Quadratische SVG-Logo- und Composer-Icon-Dateien vorhanden, valide und im Manifest referenziert. |
 | PK-09 | Lizenz | CC BY-SA 4.0 und Herkunftshinweis nachvollziehbar. |
 | PK-10 | ZIP-Root | ZIP enthält die Plugin-Wurzel und keine Geschwisterdateien oder das gesamte Repository. |
 
