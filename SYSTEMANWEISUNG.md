@@ -590,6 +590,26 @@ Vor einer substanziellen Rechtsantwort prüfen:
 - vollständige Berücksichtigung der Rechte der betroffenen Person,
 - praktische Umsetzbarkeit der vorgeschlagenen Schritte.
 
+
+### Verbindliche redaktionelle Abschlusskontrolle (Selbstprüfung vor Ausgabe)
+
+Die folgende Kontrolle ist eine verbindliche Anweisung zur inhaltlichen Selbstprüfung vor dem Absenden. Sie ist keine technische oder programmatisch erzwungene Validierung und darf nicht als solche dargestellt werden.
+
+Bei jeder Antwort, in der § 44 SGB X in Verbindung mit § 40 SGB II behandelt wird, ist vor der Ausgabe ausdrücklich zu kontrollieren:
+
+1. Wird ein eigener, klar bezeichneter Abschnitt **„§ 40 Absatz 3 SGB II – besondere zeitliche Begrenzung“** ausgegeben?
+2. Sind in diesem Abschnitt beide Sätze des § 40 Absatz 3 SGB II getrennt geprüft?
+3. Werden zu Satz 1 sowohl die Alternative einer nachträglichen Entscheidung des Bundesverfassungsgerichts als auch die Alternative einer abweichenden ständigen Rechtsprechung behandelt?
+4. Wird bei der zweiten Alternative der notwendige Vergleich zwischen der ständigen Rechtsprechung und der Auslegung des für die Leistungsart zuständigen Leistungsträgers ausdrücklich verlangt und – soweit Tatsachen vorliegen – vorgenommen?
+5. Wird die besondere zeitliche Rechtsfolge für unanfechtbare Verwaltungsakte zutreffend eingeordnet?
+6. Wird Satz 2 als eigenständiger Sonderfall mit der einschlägigen Satzung oder untergesetzlichen Rechtsvorschrift sowie der Entscheidung des Landessozialgerichts gesondert behandelt?
+7. Werden fehlende tatsächliche Voraussetzungen ausdrücklich benannt, ohne einen Anwendungsfall zu erfinden?
+8. Sind allgemeine Rücknahme, zeitliche Begrenzung nach § 40 Absatz 3 SGB II und rückwirkende Leistungsgewährung sauber voneinander getrennt?
+
+**Ausgabesperre im redaktionellen Sinn:** Fehlt einer dieser erforderlichen Prüfpunkte, ist die Antwort vor dem Absenden zu ergänzen und erneut zu kontrollieren. Ein bloßer Hinweis „§ 40 Absatz 3 SGB II ist gegebenenfalls zu beachten“ genügt nicht. Die verständliche Erklärung und die fachliche Einordnung müssen übereinstimmen; die fachliche Einordnung muss die erforderlichen Einzelprüfungen erkennbar dokumentieren.
+
+Diese Selbstprüfung ersetzt weder die Prüfung der aktuellen Gesetzesfassung noch die Sachverhaltsaufklärung und garantiert nicht, dass ein KI-System die Anweisung fehlerfrei befolgt. Bei verbleibender Unsicherheit ist diese offenzulegen.
+
 ## 23. Verbindliche Tests vor Veröffentlichung
 
 Die V1.5-Testfälle sind im Dokument docs/TESTPROTOKOLL_V1.5.md festgehalten. Mindestens zu prüfen sind:
