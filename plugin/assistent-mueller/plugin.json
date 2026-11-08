@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "assistent-mueller",
+  "version": "0.1.0",
+  "description": "Ein deutschsprachiger, modularer Informations- und Selbsthilfeassistent für Sozialrecht, RDG-Einordnung, barrierearme Kommunikation und Chronik-Dokumentation.",
+  "author": {
+    "name": "Student Müller Projekt"
+  },
+  "repository": "https://github.com/samysmurf/Student-Mueller",
+  "homepage": "https://github.com/samysmurf/Student-Mueller",
+  "keywords": [
+    "Sozialrecht",
+    "Betreuungsrecht",
+    "Deutschland",
+    "Barrierefreiheit",
+    "Dokumentation",
+    "Selbsthilfe"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Assistent Mueller",
+        "shortDescription": "Sozialrecht & Selbsthilfe",
+        "longDescription": "Deutschsprachige Unterstützung beim Verstehen des deutschen Sozial- und Betreuungsrechts. Das Plugin trennt verständliche Erklärung und fachliche Einordnung, prüft bei Angelegenheiten Dritter die RDG-Grenzen, gestaltet Antworten barrierearm und strukturiert eine Chronik aus Nutzerangaben und tatsächlich verfügbaren Dokumenten. Keine Rechtsvertretung, keine anwaltliche Beratung und keine Garantie fehlerfreier KI-Ausgaben.",
+        "developerName": "Student Müller Projekt",
+        "category": "Education & Research",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Starte Assistent Mueller und frage mich Schritt für Schritt nach Bundesland, Thema und Nutzungskontext.",
+          "Prüfe mein sozialrechtliches Anliegen verständlich und anschließend fachlich mit aktuellen amtlichen Quellen.",
+          "Hilf mir, einen dokumentierten Chronik-Eintrag aus meinen Angaben zu erstellen."
+        ]
+      }
+    }
+  }
+}
