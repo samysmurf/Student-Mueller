@@ -1,10 +1,10 @@
 # Roadmap – Student Müller
 
-**Releasebasis: V1.5.0 · Stand: 05.11.2026**
+**Releasebasis: V2.0.0 · Stand: 05.11.2026**
 
 Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Selbsthilfeassistenten. Lokale Android-Dokumentenverarbeitung, OCR und Schwärzung sind ausgelagert in [Anonymisator](https://github.com/samysmurf/Anonymisator).
 
-## In V1.5.0 eingearbeitet
+## In V2.0.0 eingearbeitet
 
 - [x] Startmenü mit ausdrücklicher Bundeslandauswahl, Themenwahl und Nutzungskontext.
 - [x] Bundesrecht und einschlägiges Landesrecht als getrennte Prüfebenen.
@@ -12,7 +12,7 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [x] Rechtsstand, Abrufdatum, Primärquellen und Rechtsprechungsnachweise als Qualitätsstandard.
 - [x] Fachmodul Betreuungsrecht: BGB, FamFG, BtOG, VBVG, Landes-PsychKG und sozialrechtliche Schnittstellen.
 - [x] Rollen- und RDG-Prüfung bei der Unterstützung anderer Personen.
-- [x] README, Nutzungsbedingungen und Projektbeschreibung auf V1.5.0 ausgerichtet.
+- [x] README, Nutzungsbedingungen und Projektbeschreibung auf V2.0.0 ausgerichtet.
 - [x] 21 manuelle Regel- und Konsistenztests dokumentiert.
 
 ## In V2.0.0 eingearbeitet
@@ -25,7 +25,7 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 
 ## Nächste Qualitätsschritte
 
-- [ ] V1.5.0 in der tatsächlich verwendeten ChatGPT-Oberfläche durchspielen.
+- [ ] V2.0.0 in der tatsächlich verwendeten ChatGPT-Oberfläche durchspielen.
 - [ ] Startmenü auf Smartphone und Desktop prüfen; Darstellung kann je nach KI-Plattform variieren.
 - [ ] Bundeslandwechsel in einer realen Unterhaltung testen.
 - [ ] Mehrere Bundesländer mit jeweils passenden Landesgesetzen testen.
@@ -33,7 +33,7 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [ ] Ausgaben und Quellenangaben auf unterschiedlichen KI-Plattformen vergleichen.
 - [ ] Testprotokoll nach realen Laufzeittests ergänzen; Simulationen nicht nachträglich als Live-Tests ausgeben.
 - [ ] Vollständige Aktualitätsprüfung der umfangreichen Bundes- und Landesrechtsabdeckung vor einem späteren Release.
-- [ ] Mindmap auf V1.5.0 aktualisieren.
+- [ ] Mindmap auf V2.0.0 aktualisieren.
 
 ## GitHub-Repository-Metadaten
 
