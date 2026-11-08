@@ -2,7 +2,7 @@
 
 **Verstehen. Prüfen. Selbstbestimmt handeln.**
 
-**Aktuelle Fassung: V2.0.0 · Stand: 05.11.2026**
+**Aktuelle Fassung: V2.0.0 · Stand: 08.11.2026**
 
 Student Müller ist ein kostenfreies, werbefreies Open-Source-Informations- und Selbsthilfeprojekt. Veröffentlicht wird eine kopierbare Systemanweisung für einen KI-Dienst der eigenen Wahl. Einzelne Nutzer übernehmen den Prompt selbstständig in ihren eigenen Chat und entscheiden eigenständig über dessen Verwendung.
 
@@ -124,9 +124,9 @@ Die Zuordnung und vollständigen Lizenzhinweise stehen in [LICENSE](LICENSE), [L
 **Leitgedanke:** Ein niedrigschwelliges Werkzeug für Verständlichkeit, Selbstbestimmung und gesellschaftliche Teilhabe – mit transparenten Grenzen und überprüfbaren Quellen.
 
 
-## Assistent Mueller – Plugin-Prototyp
+## Assistent Mueller Plugin 1.0.0-alpha.1
 
-Auf dem Entwicklungsbranch [`plugin/assistent-mueller-v0.1.0`](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0) entsteht ein portabler Skills-only-Prototyp des Plugins **Assistent Mueller** (Version 0.1.0). Er bündelt die Module Sozialrecht, RDG-Prüfung, Barrierefreiheit und Chronik-Dokumentation.
+Auf dem Entwicklungsbranch [`plugin/assistent-mueller-v0.1.0`](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0) liegt die portable Skills-only-Alpha des Plugins **Assistent Mueller** (Version 1.0.0-alpha.1). Sie bündelt Sozialrecht, RDG-Prüfung, Barrierefreiheit, Chronik-Dokumentation, zentrale Steuerung und technische Projektbegleitung.
 
 - [Plugin-Manifest](plugin/assistent-mueller/plugin.json)
 - [Plugin-Aufbau und Funktionsgrenzen](plugin/assistent-mueller/README.md)
@@ -136,7 +136,7 @@ Auf dem Entwicklungsbranch [`plugin/assistent-mueller-v0.1.0`](https://github.co
 - [Vision – Barrierefreiheit](plugin/assistent-mueller/skills/vision-barrierefreiheit/SKILL.md)
 - [Chronik – Dokumentation](plugin/assistent-mueller/skills/chronik-dokumentation/SKILL.md)
 
-Der Prototyp ist noch nicht als privates ChatGPT-Plugin installiert oder getestet. Das Repository ist öffentlich; die Dateien dieses Branches sind daher öffentlich einsehbar. Technische Verbindungen zu Gmail oder Google Kalender bestehen nicht allein durch die Skills.
+Die private Plugin-Instanz wurde mit Plugin Creator gespeichert. Ein Live-End-to-End-Test der Skills in der ChatGPT-Laufzeit steht noch aus. Das Repository ist öffentlich; die Dateien dieses Branches sind daher öffentlich einsehbar. Technische Verbindungen zu Gmail oder Google Kalender bestehen nicht allein durch die Skills.
 
 
 ### First Start: Gmail und Google Calendar
