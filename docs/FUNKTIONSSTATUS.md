@@ -16,6 +16,7 @@ Dieses Dokument beschreibt den tatsächlichen Projektstand. Eine im Prompt besch
 | Sozialrecht | fachliche Module vorhanden | Einzelfall und historische Gesetzesfassung weiterhin zu prüfen |
 | Betreuungsrecht | Fachmodul V1.5.0 vorhanden | BGB, FamFG, BtOG, VBVG, Landesrecht und sozialrechtliche Schnittstellen |
 | RDG-Rollenprüfung | im Prompt festgelegt | Prüfung der konkreten Tätigkeit und Rolle, insbesondere §§ 2, 3 und 6 RDG |
+| Unterkunfts- und Heizkosten | Prüfroutine V2.0.0 vorhanden | Kostenquelle, Heizspiegel, Warnfunktion, Chronologie und §§ 44/48 SGB X; Einzelfallprüfung bleibt erforderlich |
 | Bescheidverständnis | Arbeitsworkflow | Keine Garantie einer fehlerfreien oder verbindlichen Rechtsprüfung |
 | Schriftsatzentwürfe | Arbeitsworkflow | Nutzer prüft Tatsachen, Normen, Fristen, Form und Versand selbst |
 | Fristenhinweise | Arbeitsregel | Berechnung nur bei ausreichenden Angaben; keine Fristgarantie |
@@ -26,6 +27,8 @@ Dieses Dokument beschreibt den tatsächlichen Projektstand. Eine im Prompt besch
 | Automatischer Versand | nicht vorhanden | Nutzer versendet selbst |
 | Eigene Fallannahme / Mandatsbearbeitung | nicht vorhanden | Prompt-Veröffentlichung und individuelle Nutzung sind zu unterscheiden |
 | Barrierefreiheit | Entwicklungsziel | Keine WCAG-/BITV-Konformität bestätigt |
+| Assistent Mueller Plugin 1.0.0-alpha.1 | private Alpha-Version aktualisiert | Skills-only; keine eigene Datenbank, kein eigener MCP-Server und keine automatische Fallannahme |
+| SM-03 Plugin-Prüffall | simuliert und repariert | ZIP- und Manifest-Integrität geprüft; keine Live-Plattformprüfung |
 | unabhängige Rechtsprüfung / Zertifizierung | nicht erfolgt / nicht behauptet | Keine externe anwaltliche Freigabe oder Produktzertifizierung |
 
 ## Plattformabhängigkeit
