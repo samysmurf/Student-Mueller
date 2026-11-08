@@ -1,6 +1,6 @@
 # Roadmap – Student Müller
 
-**Releasebasis: V2.0.0 · Stand: 05.11.2026**
+**Releasebasis: V2.0.0 · Stand: 08.11.2026**
 
 Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Selbsthilfeassistenten. Lokale Android-Dokumentenverarbeitung, OCR und Schwärzung sind ausgelagert in [Anonymisator](https://github.com/samysmurf/Anonymisator).
 
