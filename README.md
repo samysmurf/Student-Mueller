@@ -2,7 +2,7 @@
 
 **Verstehen. Prüfen. Selbstbestimmt handeln.**
 
-**Aktuelle Fassung: V2.0.0 · Stand: 05.11.2026**
+**Aktuelle Fassung: V2.0.0 · Stand: 08.11.2026**
 
 Student Müller ist ein kostenfreies, werbefreies Open-Source-Informations- und Selbsthilfeprojekt. Veröffentlicht wird eine kopierbare Systemanweisung für einen KI-Dienst der eigenen Wahl. Einzelne Nutzer übernehmen den Prompt selbstständig in ihren eigenen Chat und entscheiden eigenständig über dessen Verwendung.
 
@@ -72,6 +72,10 @@ Student Müller ist keine Rechtsanwaltskanzlei, kein Gericht und keine Behörde.
 Eingaben und Ausgaben werden über die vom Nutzer gewählte externe KI-Plattform verarbeitet. Das Projekt kann deren technische Verarbeitung, Speicherung oder Bedingungen nicht steuern. Vor Eingabe vertraulicher Inhalte sind die Nutzungs- und Datenschutzhinweise des jeweiligen Anbieters zu prüfen. Nicht erforderliche personenbezogene Daten sollten zuvor durch neutrale Platzhalter ersetzt werden.
 
 Die Haftung richtet sich nach geltendem Recht. Zwingende gesetzliche Haftung bleibt unberührt; ein pauschaler Ausschluss sämtlicher Ansprüche wird nicht erklärt.
+
+## Assistent Mueller Plugin 1.0.0-alpha.1
+
+Neben der kopierbaren Systemanweisung gibt es eine separate Skills-only-Plugin-Alpha mit sechs Skills für Steuerung, Sozialrecht, RDG-Prüfung, Barrierefreiheit, Chronik und technische Projektbegleitung. Die private Plugin-Instanz wurde auf Version **1.0.0-alpha.1** aktualisiert. Der Quellcode liegt im öffentlichen Branch [plugin/assistent-mueller-v0.1.0](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0/plugin/assistent-mueller). Die private Sichtbarkeit der Plugin-Instanz macht den GitHub-Branch nicht privat. Das Plugin besitzt keinen eigenen MCP-Server, keine Datenbank und keine automatische Fallannahme; ein Live-End-to-End-Test steht noch aus.
 
 ## Projektgrenze: Anonymisator
 
