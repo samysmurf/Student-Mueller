@@ -21,7 +21,8 @@ Die Systemanweisung V1.5.0 enthält insbesondere:
 - einen verbindlichen Quellenstandard mit Rechtsstand, Abrufdatum und Primärquellen,
 - ein erweitertes Betreuungsrechtsmodul einschließlich BGB, FamFG, BtOG und VBVG,
 - eine differenzierte Prüfung von Unterstützung in Angelegenheiten anderer Personen anhand der tatsächlichen Rolle und des RDG,
-- strukturierte Bescheid-, Fristen- und Schriftsatzabläufe.
+- strukturierte Bescheid-, Fristen- und Schriftsatzabläufe,
+- eine vertiefte Prüfung von Unterkunfts- und Heizkosten nach § 22 SGB II einschließlich Heizspiegel-Datengrundlage, Warnfunktion und Chronologie.
 
 V1.5.0 ist ein Prompt und eine Dokumentation. Es ist weder eine staatlich anerkannte Rechtsanwendung noch eine anwaltlich zertifizierte oder unabhängig extern freigegebene Software.
 
@@ -86,6 +87,7 @@ Student Müller enthält keine eigene OCR-Engine, PDF-Schwärzungsfunktion, Meta
 | Startmenü und Bundeslandauswahl | als Prompt-Regel integriert; Darstellung abhängig von der KI-Plattform |
 | Sozial- und Betreuungsrecht | fachliche Module integriert; Aktualität je Einzelfall erneut zu prüfen |
 | Quellen- und Aktualitätsprotokoll | als verbindliche Arbeitsregel integriert |
+| SM-03 Plugin-Prüffall | simuliert und repariert | Integritätsprüfung des Alpha-Pakets bestanden; kein Live-End-to-End-Test |
 | 21 V1.5-Prüffälle | manuell auf Prompt-Regel- und Konsistenzebene durchgespielt; keine Live-Plattformtests |
 | Bescheidverständnis und Schriftsatzentwürfe | Arbeitsabläufe beschrieben; tatsächliche Ausgabe vom KI-Dienst abhängig |
 | Native Android-App / lokale OCR | nicht Bestandteil; separates Projekt Anonymisator |
