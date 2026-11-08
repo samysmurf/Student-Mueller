@@ -1,13 +1,15 @@
-# Assistent Mueller – Plugin-Prototyp 0.1.0
+# Assistent Mueller – Plugin-Prototyp 0.1.1
 
 **Status:** privater Test vorgesehen · **Basis:** Student Müller V1.5.1
 
-Dieses Verzeichnis enthält die portable Skills-only Plugin-Quelle für **Assistent Mueller**. Das Plugin bündelt vier vom Projekt ausgewählte Fachmodule und eine zentrale Steuerung:
+Dieses Verzeichnis enthält die portable Skills-only Plugin-Quelle für **Assistent Mueller**. Es bündelt die vier ausdrücklich benannten Rollen, ein Chronik-Modul und eine zentrale Steuerung:
 
-- `student` – deutsches Sozial- und Betreuungsrecht, Selbsthilfe und verständliche Einordnung
-- `rdg` – unabhängige Prüfung der Grenzen nach dem Rechtsdienstleistungsgesetz
-- `vision` – barrierearme, screenreaderfreundliche und verständliche Kommunikation
-- `chronik` – strukturierte Dokumentation von Nutzerangaben, E-Mails und Kalenderdaten, soweit diese tatsächlich verfügbar sind
+- `@student Müller` – deutsches Sozial- und Betreuungsrecht, Selbsthilfe und verständliche Einordnung
+- `@rdg` – unabhängige Prüfung der Grenzen nach dem Rechtsdienstleistungsgesetz
+- `@Vision` – barrierearme, screenreaderfreundliche und verständliche Kommunikation
+- `@Siggi` – technische und konzeptionelle Projektbegleitung
+- `Chronik` – strukturierte Dokumentation von Nutzerangaben, E-Mails und Kalenderdaten, soweit diese tatsächlich verfügbar sind
+- `Assistent-Steuerung` – zentrale Koordination und Routing
 
 ## Aufbau
 
@@ -19,7 +21,8 @@ assistent-mueller/
     ├── student-sozialrecht/SKILL.md
     ├── rdg-pruefung/SKILL.md
     ├── vision-barrierefreiheit/SKILL.md
-    └── chronik-dokumentation/SKILL.md
+    ├── chronik-dokumentation/SKILL.md
+    └── siggi-projektbegleitung/SKILL.md
 ```
 
 ## Wichtige Funktionsgrenzen
