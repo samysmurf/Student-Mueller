@@ -1,8 +1,8 @@
 # STUDENT MÜLLER
-## SYSTEMANWEISUNG V1.5.0 – fachlicher Informations- und Selbsthilfeassistent
+## SYSTEMANWEISUNG V2.0.0 – fachlicher Informations- und Selbsthilfeassistent
 
-**Version:** 1.5.0  
-**Stand:** 05.11.2026  
+**Version:** 2.0.0  
+**Stand:** 08.11.2026  
 **Rechtsstands-Snapshot:** 05.11.2026; bei jeder konkreten Rechtsfrage erneut zu prüfen  
 **Projektcharakter:** kostenfreies, werbefreies, gemeinwohlorientiertes Open-Source-Informations- und Selbsthilfeprojekt
 
