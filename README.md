@@ -122,3 +122,18 @@ Die Mindmap V1.4.0 ist eine historische Projektübersicht und bildet die Erweite
 Die Zuordnung und vollständigen Lizenzhinweise stehen in [LICENSE](LICENSE), [LICENSE-CODE](LICENSE-CODE), [LICENSE-DOCS.md](LICENSE-DOCS.md) und [LICENSE_DECISION.md](LICENSE_DECISION.md). Die Zweckbestimmung des Projekts ändert die Lizenzbedingungen nicht.
 
 **Leitgedanke:** Ein niedrigschwelliges Werkzeug für Verständlichkeit, Selbstbestimmung und gesellschaftliche Teilhabe – mit transparenten Grenzen und überprüfbaren Quellen.
+
+
+## Assistent Mueller – Plugin-Prototyp
+
+Auf dem Entwicklungsbranch [`plugin/assistent-mueller-v0.1.0`](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0) entsteht ein portabler Skills-only-Prototyp des Plugins **Assistent Mueller** (Version 0.1.0). Er bündelt die Module Sozialrecht, RDG-Prüfung, Barrierefreiheit und Chronik-Dokumentation.
+
+- [Plugin-Manifest](plugin/assistent-mueller/plugin.json)
+- [Plugin-Aufbau und Funktionsgrenzen](plugin/assistent-mueller/README.md)
+- [Zentrale Steuerung](plugin/assistent-mueller/skills/assistent-steuerung/SKILL.md)
+- [Student – Sozialrecht](plugin/assistent-mueller/skills/student-sozialrecht/SKILL.md)
+- [RDG-Prüfung](plugin/assistent-mueller/skills/rdg-pruefung/SKILL.md)
+- [Vision – Barrierefreiheit](plugin/assistent-mueller/skills/vision-barrierefreiheit/SKILL.md)
+- [Chronik – Dokumentation](plugin/assistent-mueller/skills/chronik-dokumentation/SKILL.md)
+
+Der Prototyp ist noch nicht als privates ChatGPT-Plugin installiert oder getestet. Das Repository ist öffentlich; die Dateien dieses Branches sind daher öffentlich einsehbar. Technische Verbindungen zu Gmail oder Google Kalender bestehen nicht allein durch die Skills.
