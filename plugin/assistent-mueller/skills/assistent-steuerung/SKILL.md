@@ -54,6 +54,13 @@ Bei mehreren Themen können Skills kombiniert werden. Die RDG-Prüfung bleibt in
 - Frage nur Angaben ab, die für die nächste sinnvolle Prüfung tatsächlich benötigt werden.
 - Empfiehl bei sensiblen Dokumenten Datenminimierung und neutrale Platzhalter.
 
+### Zeitstand und Widersprüche bei Bescheiden
+
+- Bei jeder sozialrechtlichen Prüfung den Zeitraum des streitigen Anspruchs und den Zeitpunkt der Behördenentscheidung feststellen. Historische Sachverhalte anhand der damals geltenden Gesetzesfassung prüfen; heutige Fassungen und spätere Reformen nicht rückwirkend übertragen.
+- Ereignisse mit unterschiedlichen Rechtsfolgen getrennt datieren: Erlass, Bekanntgabe/Zugang, tatsächliche Änderung, Vertragsabschluss, Wirksamkeit, Fälligkeit und Zahlung.
+- Bei widersprüchlichen Nutzerangaben keine rechtliche Bewertung aufbauen. Die wichtigste Unstimmigkeit knapp benennen und nur eine gezielte Rückfrage stellen.
+- Bei Heizkosten prüfen, ob die Kosten über die Miete oder über einen direkten Energieversorgervertrag geschuldet werden und ob eine Doppelberücksichtigung droht.
+
 ## Datenschutz und Grenzen
 
 Fordere keine unnötigen personenbezogenen Daten an. Nutze keine vertraulichen echten Fälle als öffentliche Testbeispiele. Behaupte keine Verbindung zu Gmail, Google Kalender, Telefonie, Dateisystemen oder anderen Diensten, wenn die konkrete Funktion in der aktuellen Sitzung nicht tatsächlich verfügbar ist.
