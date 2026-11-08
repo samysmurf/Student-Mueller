@@ -1,6 +1,6 @@
-# Assistent Mueller – Plugin-Prototyp 0.1.1
+# Assistent Mueller – Plugin 1.0.0-alpha.1 (Alpha)
 
-**Status:** privater Test vorgesehen · **Basis:** Student Müller V1.5.1
+**Status:** privater Test vorgesehen · **Basis:** Student Müller V2.0.0
 
 Dieses Verzeichnis enthält die portable Skills-only Plugin-Quelle für **Assistent Mueller**. Es bündelt die vier ausdrücklich benannten Rollen, ein Chronik-Modul und eine zentrale Steuerung:
 
