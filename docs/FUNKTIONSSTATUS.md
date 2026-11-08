@@ -1,6 +1,6 @@
 # Funktionsstatus – Student Müller
 
-**Version:** V2.0.0 (Vorbereitungsbranch)  
+**Version:** V2.0.0  
 **Stand:** 08.11.2026
 
 Dieses Dokument beschreibt den tatsächlichen Projektstand. Eine im Prompt beschriebene Arbeitsregel ist nicht automatisch eine technisch garantierte Plattformfunktion.
