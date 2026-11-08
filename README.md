@@ -2,7 +2,7 @@
 
 **Verstehen. Prüfen. Selbstbestimmt handeln.**
 
-**Aktuelle Fassung: V1.5.1 · Stand: 05.11.2026**
+**Aktuelle Fassung: V2.0.0 · Stand: 05.11.2026**
 
 Student Müller ist ein kostenfreies, werbefreies Open-Source-Informations- und Selbsthilfeprojekt. Veröffentlicht wird eine kopierbare Systemanweisung für einen KI-Dienst der eigenen Wahl. Einzelne Nutzer übernehmen den Prompt selbstständig in ihren eigenen Chat und entscheiden eigenständig über dessen Verwendung.
 
@@ -12,7 +12,7 @@ Das Projekt betreibt keinen eigenen Chatbot-Server, keine Fallannahme und keine 
 
 Student Müller unterstützt Menschen dabei, deutsches Sozialrecht, Betreuungsrecht und angrenzende Rechtsgebiete verständlich einzuordnen, Bescheide und behördliche Schreiben zu prüfen, amtliche Rechtsquellen zu finden und eigene Anträge oder Schreiben vorzubereiten.
 
-Die Systemanweisung V1.5.1 enthält insbesondere:
+Die Systemanweisung V2.0.0 enthält insbesondere:
 
 - ein Startmenü, das beim ersten Prompt-Aufruf erscheint,
 - die ausdrückliche Abfrage des Bundeslandes, des Themas und des Nutzungskontexts,
@@ -24,12 +24,12 @@ Die Systemanweisung V1.5.1 enthält insbesondere:
 - strukturierte Bescheid-, Fristen- und Schriftsatzabläufe,
 - barrierearme Antwort- und Dialogregeln mit Textalternativen für visuelle Inhalte.
 
-V1.5.1 ist ein Prompt und eine Dokumentation. Es ist weder eine staatlich anerkannte Rechtsanwendung noch eine anwaltlich zertifizierte oder unabhängig extern freigegebene Software.
+V2.0.0 ist ein Prompt und eine Dokumentation. Es ist weder eine staatlich anerkannte Rechtsanwendung noch eine anwaltlich zertifizierte oder unabhängig extern freigegebene Software.
 
 ## Student Müller ausprobieren
 
 1. [ChatGPT öffnen](https://chatgpt.com/) oder einen anderen geeigneten KI-Dienst verwenden.
-2. Die vollständige [Systemanweisung V1.5.1](SYSTEMANWEISUNG.md) öffnen und in einen neuen Chat übernehmen.
+2. Die vollständige [Systemanweisung V2.0.0](SYSTEMANWEISUNG.md) öffnen und in einen neuen Chat übernehmen.
 3. Das beim Erststart angezeigte Menü beantworten: Bundesland, Thema und Nutzungskontext.
 4. Zunächst eine einfache, nicht vertrauliche Testfrage verwenden.
 5. Für einen Dokumentenworkflow den vollständig fiktiven [Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) verwenden.
@@ -79,25 +79,25 @@ Die lokale Android-Dokumentenverarbeitung ist ein eigenständiges Schwesterproje
 
 Student Müller enthält keine eigene OCR-Engine, PDF-Schwärzungsfunktion, Metadatenbereinigung oder lokale Anonymisierungsfunktion. Es besteht keine gemeinsame Laufzeit, keine direkte KI-Schnittstelle und keine automatische Datenübertragung zwischen den Projekten. Student Müller setzt weder die Fertigstellung noch die Verfügbarkeit von Anonymisator voraus.
 
-## Status V1.5.1
+## Status V2.0.0
 
 | Bereich | Stand |
 |---|---|
-| Systemanweisung V1.5.1 | in Vorbereitung auf eigenem Branch; nicht in main übernommen |
+| Systemanweisung V2.0.0 | in Vorbereitung auf eigenem Branch; nicht in main übernommen |
 | Startmenü und Bundeslandauswahl | als Prompt-Regel integriert; Darstellung abhängig von der KI-Plattform |
 | Sozial- und Betreuungsrecht | fachliche Module integriert; Aktualität je Einzelfall erneut zu prüfen |
 | Quellen- und Aktualitätsprotokoll | als verbindliche Arbeitsregel integriert |
-| 21 Prüffälle V1.5.0 | manuell auf Prompt-Regel- und Konsistenzebene durchgespielt; keine Live-Plattformtests |
+| 21 Prüffälle V2.0.0 | manuell auf Prompt-Regel- und Konsistenzebene durchgespielt; keine Live-Plattformtests |
 | Bescheidverständnis und Schriftsatzentwürfe | Arbeitsabläufe beschrieben; tatsächliche Ausgabe vom KI-Dienst abhängig |
 | Native Android-App / lokale OCR | nicht Bestandteil; separates Projekt Anonymisator |
-| Barrierefreiheit V1.5.1 | Prompt-Regeln und Testfälle vorbereitet; reale Tests offen; keine WCAG-/BITV-Konformität behauptet |
+| Barrierefreiheit V2.0.0 | Prompt-Regeln und Testfälle vorbereitet; reale Tests offen; keine WCAG-/BITV-Konformität behauptet |
 | unabhängige Rechtsprüfung / Zertifizierung | nicht behauptet |
 
-Das [Testprotokoll V1.5.0](docs/TESTPROTOKOLL_V1.5.md) dokumentiert die fachlichen Regeltests. Das neue [Testprotokoll Barrierefreiheit V1.5.1](docs/TESTPROTOKOLL_V1.5.1.md) enthält geplante Prüfungen, die noch nicht auf realen Plattformen oder Geräten durchgeführt wurden. Weitere Angaben stehen im [Funktionsstatus](docs/FUNKTIONSSTATUS.md) und in der [Roadmap](ROADMAP.md).
+Das [Testprotokoll V2.0.0](docs/TESTPROTOKOLL_V1.5.md) dokumentiert die fachlichen Regeltests. Das neue [Testprotokoll Barrierefreiheit V2.0.0](docs/TESTPROTOKOLL_V2.0.0.md) enthält geplante Prüfungen, die noch nicht auf realen Plattformen oder Geräten durchgeführt wurden. Weitere Angaben stehen im [Funktionsstatus](docs/FUNKTIONSSTATUS.md) und in der [Roadmap](ROADMAP.md).
 
 ## Dokumentation
 
-- [Systemanweisung V1.5.1](SYSTEMANWEISUNG.md)
+- [Systemanweisung V2.0.0](SYSTEMANWEISUNG.md)
 - [Nutzungsbedingungen und Nutzungshinweise](NUTZUNGSBEDINGUNGEN.md)
 - [Projektbeschreibung](PROJEKTBESCHREIBUNG.md)
 - [GitHub-Profiltext und Topics](GITHUB_PROJEKTPROFIL.md)
@@ -106,12 +106,12 @@ Das [Testprotokoll V1.5.0](docs/TESTPROTOKOLL_V1.5.md) dokumentiert die fachlich
 - [Datenschutz](docs/DATENSCHUTZ.md)
 - [Funktionsstatus](docs/FUNKTIONSSTATUS.md)
 - [Roadmap](ROADMAP.md)
-- [Barrierefreiheit – Entwicklungsleitlinie V1.5.1](docs/BARRIEREFREIHEIT.md)
-- [Testprotokoll Barrierefreiheit V1.5.1](docs/TESTPROTOKOLL_V1.5.1.md)
+- [Barrierefreiheit – Entwicklungsleitlinie V2.0.0](docs/BARRIEREFREIHEIT.md)
+- [Testprotokoll Barrierefreiheit V2.0.0](docs/TESTPROTOKOLL_V2.0.0.md)
 - [Fiktiver Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md)
 - [Mitwirken](CONTRIBUTING.md) · [Sicherheitsmeldungen](SECURITY.md)
 
-Die Mindmap V1.4.0 ist eine historische Projektübersicht und bildet die Erweiterungen aus V1.5.1 noch nicht vollständig ab.
+Die Mindmap V1.4.0 ist eine historische Projektübersicht und bildet die Erweiterungen aus V2.0.0 noch nicht vollständig ab.
 
 ## Lizenzen
 
