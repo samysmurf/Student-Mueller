@@ -49,3 +49,8 @@ Die Plugin-Quelle liegt auf einem eigenen Git-Branch. Da das GitHub-Repository �
 ## Lizenzhinweis
 
 Die Lizenzzuordnung des Hauptprojekts bleibt maßgeblich: Projekttexte und Dokumentation grundsätzlich CC BY-SA 4.0; eigener Programmcode grundsätzlich Apache-2.0. Drittinhalte und Rechte Dritter sind gesondert zu behandeln. Siehe die Lizenzdateien im Repository-Stamm.
+
+
+## Version 1.0.0-alpha.1
+
+Alpha-Release mit integrierter SM-03-Reparatur. Die Version ist für weitere synthetische Tests vorgesehen und keine juristische Zertifizierung oder Freigabe für ungeprüfte reale Fälle.
