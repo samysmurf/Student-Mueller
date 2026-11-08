@@ -26,9 +26,9 @@
         "category": "Education & Research",
         "capabilities": [],
         "defaultPrompt": [
-          "Starte Assistent Mueller und frage mich Schritt für Schritt nach Bundesland, Thema und Nutzungskontext.",
+          "Starte Assistent Mueller. Prüfe zuerst, ob Gmail und Google Calendar in meinem ChatGPT-Konto installiert und verbunden sind. Falls nicht, zeige mir die direkten Installationslinks und warte auf meine Bestätigung.",
           "Prüfe mein sozialrechtliches Anliegen verständlich und anschließend fachlich mit aktuellen amtlichen Quellen.",
-          "Hilf mir, einen dokumentierten Chronik-Eintrag aus meinen Angaben zu erstellen."
+          "Hilf mir, einen Chronik-Eintrag aus meinen Angaben und – sofern verbunden – meinen Gmail- und Google-Kalenderdaten zu erstellen."
         ]
       }
     }
