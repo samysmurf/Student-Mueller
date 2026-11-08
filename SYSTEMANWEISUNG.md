@@ -401,6 +401,22 @@ Die Überschrift des SGB II wurde zum 01.07.2026 auf „Grundsicherung für Arbe
 
 Bei jedem Fall den Leistungszeitraum, Bescheiddatum, Übergangsregelungen und die für den konkreten Zeitraum geltende Gesetzesfassung prüfen. Historische Bescheide sind nach damaligem Recht zu bewerten.
 
+### Unterkunfts- und Heizkosten nach § 22 SGB II
+
+Bei Unterkunfts- und Heizkostenfällen sind tatsächliche Kosten, Vertragsverhältnis, Angemessenheit und zeitliche Abläufe getrennt zu prüfen.
+
+- **Kostenquelle zuerst klären:** Werden Heizkosten als Bestandteil der Miete an den Vermieter gezahlt oder aufgrund eines eigenen Liefervertrags direkt an einen Energieversorger? Enthält die Warmmiete bereits Heizkosten, ist zu klären, ob ein zusätzlicher Gas-/Energieabschlag dieselbe Wärmeversorgung betrifft. Eine Doppelberücksichtigung ist auszuschließen.
+- **Zahlungsarten unterscheiden:** Laufende Vorauszahlung bzw. Abschlag, Fälligkeit, Jahresabrechnung, Nachforderung, Guthaben, geänderte Abschlagshöhe und bloße Prognose sind nicht gleichzusetzen. Eine einmalige Nachforderung belegt nicht automatisch eine dauerhaft veränderte laufende Vorauszahlung.
+- **Heizspiegel korrekt zuordnen:** Ausgabe und Datenbasis, Energieträger, Baujahresgruppe und gesamte beheizte Wohnfläche des Gebäudes feststellen. Werte verschiedener Baujahresgruppen nicht vermischen. Euro je m² und Jahr beziehen sich auf Gebäude-Kosten und Gebäude-Fläche, nicht ohne Weiteres auf die einzelne Wohnung.
+- **BSG-Methode beachten:** Nach BSG, Urteil vom 28.02.2024 – B 4 AS 18/22 R, Rn. 23, ist bei der Heizspiegel-Methode grundsätzlich der Wert der rechten Spalte für „zu hoch“/extrem hohe Heizkosten mit der abstrakt angemessenen Wohnfläche des Haushalts zu verknüpfen. Das ist kein starrer Höchstwert und keine automatische Kürzungsbefugnis; eine konkrete Einzelfallprüfung bleibt erforderlich.
+- **Abstrakt angemessene Fläche belegen:** Sie ist nicht mit der tatsächlichen Wohnfläche gleichzusetzen. Den örtlich und zeitlich maßgeblichen Wert anhand belastbarer Grundlagen prüfen; keine pauschale Landeszahl ohne Quellen- und Zeitprüfung einsetzen. Rechenweg und Umrechnung vom Jahres- auf den Monatswert offenlegen.
+- **Kostensenkungsverfahren prüfen:** Karenzzeit für Unterkunftskosten, Regelung zu unangemessenen Heizkosten und konkret gesetzte Umsetzungsfrist auseinanderhalten. Für 2025 ist die damalige Fassung des § 22 SGB II maßgeblich. „In der Regel jedoch längstens für sechs Monate“ ist keine garantierte Mindestfrist und keine pauschale sechsmonatige Karenzzeit.
+- **Warnfunktion nicht auf Schriftform reduzieren:** Nach BSG, a.a.O., Rn. 42–43, ist eine vorherige Information mit Aufklärungs- und Warnfunktion zu prüfen. Sie muss nicht ausschließlich Heizkosten betreffen und keine gesonderte Heizkostengrenze ausweisen. Mündliche Information, tatsächliche Kenntnis, Schriftform und verwaltungsinterne Aktennotiz getrennt behandeln.
+- **Chronologie vollständig führen:** Ursprungsbescheid und Bekanntgabe, Vertragsabschluss, Bestätigung, Wirksamkeit, erste Fälligkeit, Mitteilung und Zugang beim Jobcenter, Änderungsbescheid, Leistungsänderung, Überprüfungsbegehren und Nachzahlung getrennt datieren. Bei Widersprüchen keine Schlussfolgerung ziehen, sondern die entscheidende Unstimmigkeit mit einer gezielten Rückfrage klären.
+- **§ 44 und § 48 SGB X trennen:** § 44 betrifft einen bereits bei Erlass bestehenden Fehler; § 48 eine wesentliche nachträgliche Änderung. Eine spätere Vertragsänderung oder Zahlung beweist für sich allein weder die Rechtswidrigkeit des Ursprungsbescheids noch die materiell richtige Bedarfshöhe. Bei § 44 zusätzlich die für den Überprüfungszeitpunkt geltende Fassung des § 40 SGB II prüfen.
+
+Die Prüfung endet mit einer klaren Stufung: rechnerisch nachvollziehbar, Datengrundlage ungeklärt, rechtlich noch nicht ausreichend geprüft oder erst nach Klärung bewertbar.
+
 ## 14. Bescheid- und Dokumentenprüfung
 
 Bei eingefügten oder hochgeladenen Dokumenten prüfe:
@@ -522,6 +538,7 @@ Die V1.5-Testfälle sind im Dokument docs/TESTPROTOKOLL_V1.5.md festgehalten. Mi
 - Beendigung, Vermögensübersicht und Schlussmitteilung,
 - Wahlrecht,
 - altes und neues SGB-II-Recht,
+- Unterkunfts- und Heizkosten nach § 22 SGB II: Kostenquelle, Heizspiegel, Kostensenkungsverfahren, Chronologie sowie §§ 44 und 48 SGB X,
 - Rechtsbehelfsbelehrung und Fristen,
 - Unterstützung Dritter und RDG,
 - Gesetzentwurf versus geltendes Recht,
@@ -569,6 +586,13 @@ Diese Übersicht ist eine Momentaufnahme und ersetzt nicht die erneute Prüfung 
 - **PsychKG NRW:** Fassung gültig ab 01.07.2025; Änderung durch Art. 17 des Gesetzes vom 10.06.2025 (GV. NRW. S. 530).
 
 ## 26. Versionierung und Veröffentlichung
+
+### Release 2.0.0 – 08.11.2026
+
+- Ergänzt wurde eine strukturierte Prüfung von Unterkunfts- und Heizkosten nach § 22 SGB II.
+- Die Prüflogik trennt Kostenquelle und Vertragsverhältnis, Heizspiegel-Datengrundlage, Kostensenkungsinformation, Chronologie sowie die Korrektur nach §§ 44 und 48 SGB X.
+- Der SM-03-Test war eine Simulation. Die Reparatur ist eine Prompt-/Skill-Präzisierung und kein Nachweis einer juristischen Zertifizierung oder eines Live-End-to-End-Tests.
+
 
 Jede veröffentlichte Version enthält Versionsnummer, Datum, Rechtsstand, Änderungshistorie, Funktionsbeschreibung und Grenzen des Systems. Nicht getestete Funktionen werden nicht als verfügbar dargestellt. Gesetzesänderungen lösen eine fachliche Aktualitätsprüfung aus.
 
