@@ -1,20 +1,20 @@
 # Funktionsstatus – Student Müller
 
-**Version:** V1.5.0  
-**Stand:** 05.11.2026
+**Version:** V2.0.0  
+**Stand:** 08.11.2026
 
 Dieses Dokument beschreibt den tatsächlichen Projektstand. Eine im Prompt beschriebene Arbeitsregel ist nicht automatisch eine technisch garantierte Plattformfunktion.
 
 | Komponente | Status | Einordnung |
 |---|---|---|
-| Systemanweisung V1.5.0 | veröffentlicht | Prompt und fachliche Arbeitsregeln |
+| Systemanweisung V2.0.0 | veröffentlicht | Prompt und fachliche Arbeitsregeln |
 | Startmenü | im Prompt festgelegt | Muss beim ersten Aufruf erscheinen; tatsächliche Darstellung hängt vom KI-Dienst ab |
 | Bundeslandauswahl | im Prompt festgelegt | Bundesland wird ausdrücklich erfragt und als Gesprächskontext geführt |
 | Bundesrecht / Landesrecht | Arbeitsregel | Landesrecht ist anhand des ausgewählten Landes und des konkreten Sachverhalts zu prüfen |
 | Zwei Antwortebenen | im Prompt festgelegt | Verständliche Erklärung plus präzise rechtliche Analyse |
 | Quellenstandard | im Prompt festgelegt | Rechtsstand, Abrufdatum, amtliche Primärquellen und nachvollziehbare Fundstellen |
 | Sozialrecht | fachliche Module vorhanden | Einzelfall und historische Gesetzesfassung weiterhin zu prüfen |
-| Betreuungsrecht | Fachmodul V1.5.0 vorhanden | BGB, FamFG, BtOG, VBVG, Landesrecht und sozialrechtliche Schnittstellen |
+| Betreuungsrecht | Fachmodul V2.0.0 vorhanden | BGB, FamFG, BtOG, VBVG, Landesrecht und sozialrechtliche Schnittstellen |
 | RDG-Rollenprüfung | im Prompt festgelegt | Prüfung der konkreten Tätigkeit und Rolle, insbesondere §§ 2, 3 und 6 RDG |
 | Unterkunfts- und Heizkosten | Prüfroutine V2.0.0 vorhanden | Kostenquelle, Heizspiegel, Warnfunktion, Chronologie und §§ 44/48 SGB X; Einzelfallprüfung bleibt erforderlich |
 | Bescheidverständnis | Arbeitsworkflow | Keine Garantie einer fehlerfreien oder verbindlichen Rechtsprüfung |
