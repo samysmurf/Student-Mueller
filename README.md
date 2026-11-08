@@ -137,3 +137,14 @@ Auf dem Entwicklungsbranch [`plugin/assistent-mueller-v0.1.0`](https://github.co
 - [Chronik – Dokumentation](plugin/assistent-mueller/skills/chronik-dokumentation/SKILL.md)
 
 Der Prototyp ist noch nicht als privates ChatGPT-Plugin installiert oder getestet. Das Repository ist öffentlich; die Dateien dieses Branches sind daher öffentlich einsehbar. Technische Verbindungen zu Gmail oder Google Kalender bestehen nicht allein durch die Skills.
+
+
+### First Start: Gmail und Google Calendar
+
+Für die Chronik müssen die beiden ChatGPT-Apps **Gmail** und **Google Calendar** vom jeweiligen Nutzer selbst installiert und mit dem eigenen Google-Konto verbunden werden. Die Installation des Assistent-Mueller-Plugins stellt diese Verbindungen nicht automatisch her.
+
+- [Gmail in ChatGPT installieren oder öffnen](https://chatgpt.com/plugins/plugin_connector_1p_95d39881713c8191931482a62d6edff9)
+- [Google Calendar in ChatGPT installieren oder öffnen](https://chatgpt.com/plugins/plugin_connector_1p_f8509de903288191b14a160c6c5d20b0)
+- [Offizielle Anleitung: Apps in ChatGPT verbinden und verwalten](https://help.openai.com/de-de/articles/20001494-connecting-and-managing-app-accounts-in-chatgpt)
+
+Beide Apps müssen separat eingerichtet und autorisiert werden. Jeder Nutzer eines geteilten Plugins benötigt seine eigene App-Verbindung und sein eigenes Google-Konto. Details: [First-Start-Anleitung](plugin/assistent-mueller/FIRST_START.md).
