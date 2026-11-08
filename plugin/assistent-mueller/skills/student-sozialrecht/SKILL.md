@@ -48,6 +48,42 @@ Lege keine Frist fest, wenn Zugang, Zustellung, Rechtsbehelfsbelehrung oder maß
 
 Bei Überprüfungsanträgen nach § 44 SGB X in Verbindung mit dem SGB II sind die allgemeine Rücknahme, die besondere Regelung des § 40 SGB II, der Zeitraum rückwirkender Leistungsgewährung und Übergangsrecht getrennt zu prüfen. Übertrage keine heutige Fassung ungeprüft auf vergangene Zeiträume.
 
+## Zusatzprüfung: Unterkunfts- und Heizkosten (§ 22 SGB II)
+
+Bei Heizkostenfällen sind die folgenden Punkte getrennt zu erfassen. Keine rechtliche Schlussfolgerung ziehen, solange entscheidungserhebliche Widersprüche offen sind.
+
+### 1. Tatsächliche Kosten und Vertragsverhältnis
+- Kläre zuerst, wer die Heizkosten fordert: Vermieter über Betriebskostenvorauszahlungen oder ein eigener Energieversorger aufgrund eines direkten Liefervertrags.
+- Wenn die Warmmiete Heizkosten bereits enthält, prüfe ausdrücklich, ob ein zusätzlicher Gas-/Energieabschlag daneben besteht und ob es sich um dieselbe Wärmeversorgung handelt. Doppelerfassung ausschließen.
+- Unterscheide laufende Vorauszahlung/Abschlag, Fälligkeit, Jahresabrechnung/Nachforderung, Guthaben, neue Abschlagshöhe und bloße Prognose.
+- Erfasse bisherigen Betrag, neuen Betrag, Vereinbarungsdatum, Bestätigungsdatum, Wirksamkeitsdatum, erste Fälligkeit und tatsächliche Zahlung getrennt.
+
+### 2. Heizspiegel: korrekte Datengrundlage
+- Ausgabe und Datenbasis, Energieträger, Baujahresgruppe sowie gesamte beheizte Wohnfläche des Gebäudes feststellen. Nicht Werte verschiedener Baujahres-Flyer vermischen.
+- Heizspiegelwerte in Euro je m²/Jahr beziehen sich auf Gebäude-Kosten und Gebäude-Fläche, nicht ohne Nachweis auf die einzelne Wohnung.
+- Nach BSG, Urteil vom 28.02.2024 – B 4 AS 18/22 R, Rn. 23, ist grundsätzlich der Wert der rechten Spalte für „zu hoch“/extrem hohe Heizkosten mit der abstrakt angemessenen Wohnfläche des Haushalts zu verknüpfen. Das ist keine starre Höchstgrenze; die konkrete Einzelfallprüfung bleibt erforderlich.
+- Abstrakt angemessene Wohnfläche nicht mit tatsächlicher Wohnfläche gleichsetzen. Örtliche und zeitliche Grundlagen belegen, Rechenweg und Monatsumrechnung offenlegen.
+
+### 3. Kostensenkungsverfahren und Fristen
+- Karenzzeit für Unterkunftskosten, Regelung zu unangemessenen Heizkosten und konkrete Umsetzungsfrist auseinanderhalten.
+- Für 2025 die damalige Fassung des § 22 SGB II verwenden. „In der Regel jedoch längstens für sechs Monate“ ist keine garantierte Mindestfrist und keine pauschale Karenzzeit.
+- Nach BSG, a.a.O., Rn. 42–43, ist eine vorherige Information mit Aufklärungs- und Warnfunktion zu prüfen. Sie muss nicht ausschließlich Heizkosten betreffen und keine gesonderte Heizkostengrenze ausweisen.
+- Nicht allein aus fehlender Schriftform auf fehlende Information schließen. Mündliche Mitteilungen, tatsächliche Kenntnis und Aktennotiz getrennt behandeln.
+
+### 4. Zeitachse und Widerspruchsprüfung
+- Ursprungsbescheid/Bekanntgabe, Vertragsabschluss, Bestätigung, Wirksamkeit, erste Fälligkeit, Mitteilung/Zugang beim Jobcenter, Änderungsbescheid, Leistungsänderung, Überprüfungsbegehren und Nachzahlung getrennt datieren.
+- Bei widersprüchlichen Angaben die Schlussfolgerung aussetzen und genau eine klärende Frage stellen. Angaben nicht stillschweigend harmonisieren.
+
+### 5. Richtige Korrekturvorschrift
+- § 44 SGB X betrifft einen bereits bei Erlass bestehenden Fehler; § 48 SGB X eine wesentliche Änderung nach Erlass.
+- Eine spätere Vertragsänderung oder Nachzahlung beweist allein nicht, dass der Ursprungsbescheid rechtswidrig war oder die spätere Bedarfshöhe materiell zutrifft.
+- Bei § 44 SGB X im SGB II die zum Überprüfungszeitpunkt geltende Fassung des § 40 SGB II prüfen; 2026er Recht nicht ungeprüft auf 2025 übertragen.
+
+### 6. Quellen- und Ergebnisstandard
+- Primärquellen bevorzugen: historische Gesetzesfassung, amtliche BSG-Entscheidung, einschlägiger Heizspiegel und örtliche Richtlinie.
+- Ausgabe, Datenbasis, Baujahresgruppe, Gebäudegrößenklasse, Energieträger und Kosten-/Verbrauchsspalte nennen.
+- Ergebnis als rechnerisch nachvollziehbar, Datengrundlage ungeklärt, rechtlich nicht ausreichend geprüft oder erst nach Klärung bewertbar kennzeichnen.
+
 ## Betreuungsrecht
 
 Bei betreuungsrechtlichen Fragen sind insbesondere zu unterscheiden:
