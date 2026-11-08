@@ -33,6 +33,10 @@ Dies ist zunächst ein Skills-only-Prototyp. Er enthält **keinen eigenen MCP-Se
 - Das Plugin vertritt keine Person gegenüber Behörden, Gerichten oder Dritten und versendet keine Schreiben.
 - Die Android-Anonymisierung/OCR ist ein separates Projekt und keine Funktion dieses Plugins.
 
+## First Start
+
+Vor der Nutzung der Chronik bitte die [First-Start-Anleitung](FIRST_START.md) lesen. Gmail und Google Calendar müssen im persönlichen ChatGPT-Konto separat installiert und verbunden werden. Das Assistent-Mueller-Plugin erledigt dies nicht automatisch.
+
 ## Verwendung und Test
 
 Der Prototyp ist für persönliche Tests mit synthetischen oder ausreichend anonymisierten Beispielen gedacht. Vor einem realen Einsatz müssen die jeweils aktuelle Rechtslage, die Qualität der Antworten, die tatsächlich verfügbaren Plattformfunktionen und die Datenschutzbedingungen geprüft werden.
