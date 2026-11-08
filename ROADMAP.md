@@ -28,6 +28,14 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [ ] Später ergänzend mit Desktop-Screenreader und Textvergrößerung prüfen.
 - [ ] Ergebnisse mit Datum, Modell, Gerät, Assistenztechnik und tatsächlicher Ausgabe dokumentieren.
 
+## In V2.0.0 eingearbeitet
+
+- [x] Strukturierte Unterkunfts- und Heizkostenprüfung nach § 22 SGB II mit historischer Gesetzesfassung.
+- [x] Heizspiegel-Datengrundlage und BSG-Methode mit konkreter Einzelfallprüfung.
+- [x] Trennung von Warmmiete und Direktvertrag sowie Schutz vor Doppelberücksichtigung.
+- [x] Chronologie- und Widerspruchsprüfung sowie Abgrenzung von §§ 44 und 48 SGB X.
+- [x] Assistent Mueller Plugin als private Alpha-Version 1.0.0-alpha.1 aktualisiert.
+
 ## Nächste Qualitätsschritte
 
 - [ ] V1.5.1 in der tatsächlich verwendeten ChatGPT-Oberfläche durchspielen.
