@@ -2,7 +2,7 @@
 
 **Verstehen. Prüfen. Selbstbestimmt handeln.**
 
-**Aktuelle Fassung: V1.5.0 · Stand: 05.11.2026**
+**Aktuelle Fassung: V2.0.0 · Stand: 05.11.2026**
 
 Student Müller ist ein kostenfreies, werbefreies Open-Source-Informations- und Selbsthilfeprojekt. Veröffentlicht wird eine kopierbare Systemanweisung für einen KI-Dienst der eigenen Wahl. Einzelne Nutzer übernehmen den Prompt selbstständig in ihren eigenen Chat und entscheiden eigenständig über dessen Verwendung.
 
@@ -12,7 +12,7 @@ Das Projekt betreibt keinen eigenen Chatbot-Server, keine Fallannahme und keine 
 
 Student Müller unterstützt Menschen dabei, deutsches Sozialrecht, Betreuungsrecht und angrenzende Rechtsgebiete verständlich einzuordnen, Bescheide und behördliche Schreiben zu prüfen, amtliche Rechtsquellen zu finden und eigene Anträge oder Schreiben vorzubereiten.
 
-Die Systemanweisung V1.5.0 enthält insbesondere:
+Die Systemanweisung V2.0.0 enthält insbesondere:
 
 - ein Startmenü, das beim ersten Prompt-Aufruf erscheint,
 - die ausdrückliche Abfrage des Bundeslandes, des Themas und des Nutzungskontexts,
@@ -24,12 +24,12 @@ Die Systemanweisung V1.5.0 enthält insbesondere:
 - strukturierte Bescheid-, Fristen- und Schriftsatzabläufe,
 - eine vertiefte Prüfung von Unterkunfts- und Heizkosten nach § 22 SGB II einschließlich Heizspiegel-Datengrundlage, Warnfunktion und Chronologie.
 
-V1.5.0 ist ein Prompt und eine Dokumentation. Es ist weder eine staatlich anerkannte Rechtsanwendung noch eine anwaltlich zertifizierte oder unabhängig extern freigegebene Software.
+V2.0.0 ist ein Prompt und eine Dokumentation. Es ist weder eine staatlich anerkannte Rechtsanwendung noch eine anwaltlich zertifizierte oder unabhängig extern freigegebene Software.
 
 ## Student Müller ausprobieren
 
 1. [ChatGPT öffnen](https://chatgpt.com/) oder einen anderen geeigneten KI-Dienst verwenden.
-2. Die vollständige [Systemanweisung V1.5.0](SYSTEMANWEISUNG.md) öffnen und in einen neuen Chat übernehmen.
+2. Die vollständige [Systemanweisung V2.0.0](SYSTEMANWEISUNG.md) öffnen und in einen neuen Chat übernehmen.
 3. Das beim Erststart angezeigte Menü beantworten: Bundesland, Thema und Nutzungskontext.
 4. Zunächst eine einfache, nicht vertrauliche Testfrage verwenden.
 5. Für einen Dokumentenworkflow den vollständig fiktiven [Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) verwenden.
@@ -79,11 +79,11 @@ Die lokale Android-Dokumentenverarbeitung ist ein eigenständiges Schwesterproje
 
 Student Müller enthält keine eigene OCR-Engine, PDF-Schwärzungsfunktion, Metadatenbereinigung oder lokale Anonymisierungsfunktion. Es besteht keine gemeinsame Laufzeit, keine direkte KI-Schnittstelle und keine automatische Datenübertragung zwischen den Projekten. Student Müller setzt weder die Fertigstellung noch die Verfügbarkeit von Anonymisator voraus.
 
-## Status V1.5.0
+## Status V2.0.0
 
 | Bereich | Stand |
 |---|---|
-| Systemanweisung V1.5.0 | in GitHub eingepflegt |
+| Systemanweisung V2.0.0 | in GitHub eingepflegt |
 | Startmenü und Bundeslandauswahl | als Prompt-Regel integriert; Darstellung abhängig von der KI-Plattform |
 | Sozial- und Betreuungsrecht | fachliche Module integriert; Aktualität je Einzelfall erneut zu prüfen |
 | Quellen- und Aktualitätsprotokoll | als verbindliche Arbeitsregel integriert |
@@ -97,7 +97,7 @@ Das [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md) unterscheidet ausdrücklich
 
 ## Dokumentation
 
-- [Systemanweisung V1.5.0](SYSTEMANWEISUNG.md)
+- [Systemanweisung V2.0.0](SYSTEMANWEISUNG.md)
 - [Nutzungsbedingungen und Nutzungshinweise](NUTZUNGSBEDINGUNGEN.md)
 - [Projektbeschreibung](PROJEKTBESCHREIBUNG.md)
 - [GitHub-Profiltext und Topics](GITHUB_PROJEKTPROFIL.md)
@@ -110,7 +110,7 @@ Das [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md) unterscheidet ausdrücklich
 - [Fiktiver Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md)
 - [Mitwirken](CONTRIBUTING.md) · [Sicherheitsmeldungen](SECURITY.md)
 
-Die Mindmap V1.4.0 ist eine historische Projektübersicht und bildet die Erweiterungen aus V1.5.0 noch nicht vollständig ab.
+Die Mindmap V1.4.0 ist eine historische Projektübersicht und bildet die Erweiterungen aus V2.0.0 noch nicht vollständig ab.
 
 ## Lizenzen
 
