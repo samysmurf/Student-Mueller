@@ -1,10 +1,10 @@
 # Roadmap – Student Müller
 
-**Releasebasis: V1.5.1 (Vorbereitungsbranch) · Stand: 05.11.2026**
+**Releasebasis: V2.0.0 · Stand: 05.11.2026**
 
 Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Selbsthilfeassistenten. Lokale Android-Dokumentenverarbeitung, OCR und Schwärzung sind ausgelagert in [Anonymisator](https://github.com/samysmurf/Anonymisator).
 
-## In V1.5.0 eingearbeitet
+## In V2.0.0 eingearbeitet
 
 - [x] Startmenü mit ausdrücklicher Bundeslandauswahl, Themenwahl und Nutzungskontext.
 - [x] Bundesrecht und einschlägiges Landesrecht als getrennte Prüfebenen.
@@ -12,10 +12,10 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [x] Rechtsstand, Abrufdatum, Primärquellen und Rechtsprechungsnachweise als Qualitätsstandard.
 - [x] Fachmodul Betreuungsrecht: BGB, FamFG, BtOG, VBVG, Landes-PsychKG und sozialrechtliche Schnittstellen.
 - [x] Rollen- und RDG-Prüfung bei der Unterstützung anderer Personen.
-- [x] README, Nutzungsbedingungen und Projektbeschreibung auf V1.5.0 ausgerichtet.
+- [x] README, Nutzungsbedingungen und Projektbeschreibung auf V2.0.0 ausgerichtet.
 - [x] 21 manuelle Regel- und Konsistenztests dokumentiert.
 
-## V1.5.1 – Barrierearme Kommunikation (Vorbereitung)
+## V2.0.0 – Barrierearme Kommunikation (Vorbereitung)
 
 - [x] Barrierearme Antwort- und Dialogregeln in der Systemanweisung ergänzt.
 - [x] Textalternativen für Grafiken, Diagramme und Mindmaps verbindlich vorgesehen.
@@ -23,7 +23,7 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [x] Nutzerkontrolle über kurze, schrittweise, vereinfachte und screenreaderfreundliche Ausgabeformen festgelegt.
 - [x] Plattformgrenzen und rechtliche Einordnung dokumentiert; keine Konformität behauptet.
 - [x] Eigenständigen Prüfkatalog mit 12 Barrierefreiheits-Testfällen angelegt.
-- [x] [Testprotokoll Barrierefreiheit V1.5.1](docs/TESTPROTOKOLL_V1.5.1.md) verlinkt; alle zwölf Fälle sind noch offen.
+- [x] [Testprotokoll Barrierefreiheit V2.0.0](docs/TESTPROTOKOLL_V2.0.0.md) verlinkt; alle zwölf Fälle sind noch offen.
 - [ ] Testfälle auf mindestens einer konkreten KI-Plattform mit Android-TalkBack durchführen.
 - [ ] Später ergänzend mit Desktop-Screenreader und Textvergrößerung prüfen.
 - [ ] Ergebnisse mit Datum, Modell, Gerät, Assistenztechnik und tatsächlicher Ausgabe dokumentieren.
@@ -38,7 +38,7 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 
 ## Nächste Qualitätsschritte
 
-- [ ] V1.5.1 in der tatsächlich verwendeten ChatGPT-Oberfläche durchspielen.
+- [ ] V2.0.0 in der tatsächlich verwendeten ChatGPT-Oberfläche durchspielen.
 - [ ] Startmenü auf Smartphone und Desktop prüfen; Darstellung kann je nach KI-Plattform variieren.
 - [ ] Bundeslandwechsel in einer realen Unterhaltung testen.
 - [ ] Mehrere Bundesländer mit jeweils passenden Landesgesetzen testen.
@@ -46,7 +46,7 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [ ] Ausgaben und Quellenangaben auf unterschiedlichen KI-Plattformen vergleichen.
 - [ ] Testprotokoll nach realen Laufzeittests ergänzen; Simulationen nicht nachträglich als Live-Tests ausgeben.
 - [ ] Vollständige Aktualitätsprüfung der umfangreichen Bundes- und Landesrechtsabdeckung vor einem späteren Release.
-- [ ] Mindmap auf V1.5.1 aktualisieren und eine vollständige Textalternative bereitstellen.
+- [ ] Mindmap auf V2.0.0 aktualisieren und eine vollständige Textalternative bereitstellen.
 
 ## GitHub-Repository-Metadaten
 
