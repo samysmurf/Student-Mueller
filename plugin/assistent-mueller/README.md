@@ -1,6 +1,8 @@
-# Assistent Mueller – Plugin 1.0.0-alpha.1 (Alpha)
+# Assistent Mueller – Plugin 1.0.0-alpha.2 (Alpha)
 
-**Status:** private Alpha-Version in Plugin Creator gespeichert · **Basis:** Student Müller V2.0.0
+**Status:** private Alpha-Version · **Basis:** Student Müller V2.0.0 · **Teststand:** 1.0.0-alpha.2
+
+**[Assistent Mueller in ChatGPT öffnen / Plugin aufrufen](https://chatgpt.com/plugins/plugins_6af0c35601e08191b5292f62c1086ad8)** (private Plugin-Instanz; Anmeldung und Berechtigung erforderlich)
 
 Dieses Verzeichnis enthält die portable Skills-only Plugin-Quelle für **Assistent Mueller**. Es bündelt die vier ausdrücklich benannten Rollen, ein Chronik-Modul und eine zentrale Steuerung:
 
@@ -54,3 +56,11 @@ Die Lizenzzuordnung des Hauptprojekts bleibt maßgeblich: Projekttexte und Dokum
 ## Version 1.0.0-alpha.1
 
 Alpha-Release mit integrierter SM-03-Reparatur. Die Version ist für weitere synthetische Tests vorgesehen und keine juristische Zertifizierung oder Freigabe für ungeprüfte reale Fälle.
+
+
+## Version 1.0.0-alpha.2 – 09.11.2026
+
+- Nutzerbestätigter Integrationstest in einer neuen ChatGPT-Instanz mit allen sechs Skills: bestanden.
+- Nutzerbestätigtes Update auf 1.0.0-alpha.2: bestanden.
+- Testnachweis und Abgrenzung der Prüfebenen: siehe [TESTREPARATUR_SM-03.md](TESTREPARATUR_SM-03.md) und [TESTPROTOKOLL_PLUGIN_ALPHA.md](TESTPROTOKOLL_PLUGIN_ALPHA.md).
+- Die Bestätigung ist als Nutzerangabe dokumentiert; sie ist keine unabhängig reproduzierte automatisierte Host-Prüfung.
