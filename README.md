@@ -73,9 +73,13 @@ Eingaben und Ausgaben werden über die vom Nutzer gewählte externe KI-Plattform
 
 Die Haftung richtet sich nach geltendem Recht. Zwingende gesetzliche Haftung bleibt unberührt; ein pauschaler Ausschluss sämtlicher Ansprüche wird nicht erklärt.
 
-## Assistent Mueller Plugin 1.0.0-alpha.1
+## Assistent Mueller Plugin 1.0.0-alpha.2
 
-Neben der kopierbaren Systemanweisung gibt es eine separate Skills-only-Plugin-Alpha mit sechs Skills für Steuerung, Sozialrecht, RDG-Prüfung, Barrierefreiheit, Chronik und technische Projektbegleitung. Die private Plugin-Instanz wurde auf Version **1.0.0-alpha.1** aktualisiert. Der Quellcode liegt im öffentlichen Branch [plugin/assistent-mueller-v0.1.0](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0/plugin/assistent-mueller). Die private Sichtbarkeit der Plugin-Instanz macht den GitHub-Branch nicht privat. Das Plugin besitzt keinen eigenen MCP-Server, keine Datenbank und keine automatische Fallannahme; ein Live-End-to-End-Test steht noch aus.
+Neben der kopierbaren Systemanweisung gibt es eine separate Skills-only-Plugin-Alpha mit sechs Skills für Steuerung, Sozialrecht, RDG-Prüfung, Barrierefreiheit, Chronik und technische Projektbegleitung. Die private Plugin-Instanz steht auf **1.0.0-alpha.2**. Der Nutzer hat am 09.11.2026 den Integrationstest in einer neuen ChatGPT-Instanz mit allen sechs Skills sowie das Update auf alpha.2 als bestanden bestätigt. Diese Abnahme ist als Nutzerbestätigung dokumentiert; sie ist kein unabhängig reproduzierter automatisierter Host-Test und keine juristische Zertifizierung.
+
+**[Assistent Mueller direkt in ChatGPT öffnen](https://chatgpt.com/plugins/plugins_6af0c35601e08191b5292f62c1086ad8)** (private Plugin-Instanz; Anmeldung und Berechtigung erforderlich).
+
+Der Quellcode liegt im öffentlichen Branch [plugin/assistent-mueller-v0.1.0](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0/plugin/assistent-mueller). Die private Sichtbarkeit der Plugin-Instanz macht den GitHub-Branch nicht privat. Das Plugin besitzt keinen eigenen MCP-Server, keine Datenbank und keine automatische Fallannahme. Details zum Teststatus stehen im [Plugin-Alpha-Testprotokoll](plugin/assistent-mueller/TESTPROTOKOLL_PLUGIN_ALPHA.md) und im [SM-03-Reparaturprotokoll](plugin/assistent-mueller/TESTREPARATUR_SM-03.md).
 
 ## Projektgrenze: Anonymisator
 
