@@ -37,3 +37,12 @@ Die Nutzerbewertung des simulierten Testfalls SM-03 lautet „passed“. Die nac
 ## Umfang der Änderung
 
 Geändert wurden ausschließlich `plugin.json`, `README.md`, `skills/assistent-steuerung/SKILL.md` und `skills/student-sozialrecht/SKILL.md`; alle übrigen Rollen und Skills wurden unverändert übernommen. Es wurden keine GitHub-Branches, verbundenen Konten oder Installationen verändert.
+
+
+## Test- und Abnahmevermerk – 09.11.2026
+
+Der Nutzer meldet, dass in einer neuen ChatGPT-Instanz der Integrationstest mit allen sechs Skills sowie das Update auf **1.0.0-alpha.2** bestanden wurden.
+
+**Prüfstatus:** Nutzerbestätigtes Host-Ergebnis. Es wurde in diesem Repository-Update nicht unabhängig automatisiert reproduziert. Paket-/Quellprüfung, tatsächliche Host-Ausführung und materielle rechtliche Bewertung des simulierten Einzelfalls bleiben getrennte Prüfebenen.
+
+Die im simulierten Sachverhalt festgehaltenen Fragen (Warmmiete 550 € einschließlich Heizkosten bei zusätzlichem Gasabschlag; 75 € ursprünglicher und 58 € späterer Abschlag; 17 € monatliche Nachzahlung) gelten durch den Integrationstest nicht automatisch als materiell-rechtlich geklärt. Insbesondere darf die Nachzahlung nicht ohne Prüfung der Vertrags- und Kostenquelle als Beweis für einen Anspruch in Höhe von 75 € behandelt werden.
