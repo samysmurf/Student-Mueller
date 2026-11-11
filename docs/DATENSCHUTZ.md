@@ -45,7 +45,7 @@ https://github.com/samysmurf/Student-Mueller/issues
 
 **GitHub-Issues sind grundsätzlich öffentlich einsehbar.** Dort dürfen keine Aktenzeichen, Gesundheitsdaten, Adressen, Kontodaten, Zugangsdaten, vertraulichen Schreiben oder sonstigen personenbezogenen Falldetails veröffentlicht werden. Support-Anfragen sollen ausschließlich technische oder allgemeine Projektfragen enthalten. Für individuelle Rechtsfragen ist dieser Supportkanal nicht vorgesehen.
 
-Der Projektentwickler kann öffentliche Beiträge lesen und zur Beantwortung sowie zur Verbesserung des Projekts verwenden. GitHub ist für den technischen Betrieb und seine eigene Datenverarbeitung verantwortlich. Löschungen oder Änderungen in GitHub können durch Forks, lokale Kopien, Suchmaschinen-Caches oder andere Weiterverbreitungen nicht vollständig rückgängig gemacht werden.
+Der Projektentwickler kann öffentliche Beiträge lesen und zur Beantwortung der Anfrage sowie zur Pflege des Projekts verwenden. Soweit der Projektentwickler dabei selbst Inhalte und Profilangaben zur Bearbeitung einer Support-Anfrage nutzt, erfolgt dies eng begrenzt zum Zweck der Projektunterstützung und -sicherheit; als Rechtsgrundlage kommt das berechtigte Interesse nach Art. 6 Abs. 1 lit. f DSGVO in Betracht. Ein Widerspruch kann über den GitHub-Projektkanal mitgeteilt werden, ohne dort sensible Falldaten zu veröffentlichen. GitHub ist daneben für den technischen Betrieb und seine eigene Datenverarbeitung verantwortlich. Löschungen oder Änderungen in GitHub können durch Forks, lokale Kopien, Suchmaschinen-Caches oder andere Weiterverbreitungen nicht vollständig rückgängig gemacht werden.
 
 GitHubs Datenschutzerklärung:
 https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement
