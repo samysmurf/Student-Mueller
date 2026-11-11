@@ -1,16 +1,17 @@
-# Assistent Mueller – Plugin 1.0.0-alpha.3 (Alpha)
+# Assistent Mueller – Plugin 1.0.0-alpha.4 (Quellkandidat)
 
-**Status:** private Alpha-Version · **Basis:** Student Müller V2.0.0 · **Paketversion:** 1.0.0-alpha.3
+**Status:** Quellkandidat auf Feature-Branch; noch nicht in die private Plugin-Instanz importiert · **Basis:** Student Müller V2.0.0 · **Paketversion im Quellkandidaten:** 1.0.0-alpha.4 · **bisherige private Plugin-Instanz:** 1.0.0-alpha.3
 
 **[Assistent Mueller in ChatGPT öffnen / Plugin aufrufen](https://chatgpt.com/plugins/plugins_6af0c35601e08191b5292f62c1086ad8)** (private Plugin-Instanz; Anmeldung und Berechtigung erforderlich)
 
-Dieses Verzeichnis enthält die portable Skills-only Plugin-Quelle für **Assistent Mueller**. Es bündelt die vier ausdrücklich benannten Rollen, ein Chronik-Modul und eine zentrale Steuerung:
+Dieses Verzeichnis enthält die portable Skills-only Plugin-Quelle für **Assistent Mueller**. Es bündelt die vier ausdrücklich benannten Rollen, die Chronik, eine eigenständige Aussagenherkunftsprüfung und eine zentrale Steuerung:
 
 - `@student Müller` – deutsches Sozial- und Betreuungsrecht, Selbsthilfe und verständliche Einordnung
 - `@rdg` – unabhängige Prüfung der Grenzen nach dem Rechtsdienstleistungsgesetz
 - `@Vision` – barrierearme, screenreaderfreundliche und verständliche Kommunikation
 - `@Siggi` – technische und konzeptionelle Projektbegleitung
 - `Chronik` – strukturierte Dokumentation von Nutzerangaben, E-Mails und Kalenderdaten, soweit diese tatsächlich verfügbar sind
+- `Aussagenherkunft` – Rekonstruktion von Ursprungsquelle, Beobachtungsgrundlage, Empfängern, Weiterleitungen und Gegendarstellungen
 - `Assistent-Steuerung` – zentrale Koordination und Routing
 
 ## Aufbau
@@ -24,6 +25,7 @@ assistent-mueller/
     ├── rdg-pruefung/SKILL.md
     ├── vision-barrierefreiheit/SKILL.md
     ├── chronik-dokumentation/SKILL.md
+    ├── aussagen-provenienz/SKILL.md
     └── siggi-projektbegleitung/SKILL.md
 ```
 
@@ -69,5 +71,14 @@ Alpha-Release mit sechs modularen Skills. Die Version ist für weitere synthetis
 ## Version 1.0.0-alpha.3 – 11.11.2026
 
 - Metadatenkorrektur: Autor im Plugin-Manifest auf **Andreas Brill** gesetzt.
-- Paketversion an die aktualisierte private Plugin-Veröffentlichung 1.0.0-alpha.3 angeglichen.
+- Paketversion an die private Plugin-Veröffentlichung 1.0.0-alpha.3 angeglichen.
 - Keine Skill-Inhalte oder Funktionsabläufe geändert; der bestätigte Integrationstest aus alpha.2 wird dadurch nicht als neuer Test ausgegeben.
+
+## Version 1.0.0-alpha.4 – Entwicklungsbranch / Quellkandidat
+
+- Neues Modul **Aussagenherkunft** zur Trennung von Dokumenteninhalt, Beobachtungsgrundlage und tatsächlichem Wahrheitsgehalt.
+- Rekonstruiert Erstquelle, zeitliche Abfolge, Empfänger, Weiterleitungen, Zitate und Gegendarstellungen.
+- Verhindert, dass abhängige Wiederholungen ohne unabhängige Quelle als Mehrfachbestätigung gezählt werden.
+- Ergänzt einen Testplan mit acht ausschließlich synthetischen Fällen.
+- Die Chronik bleibt eigenständig und wird nur um eine Verknüpfung zur Provenienzprüfung ergänzt.
+- **Noch nicht importiert und nicht hostgetestet.** Die bestehende private Plugin-Instanz bleibt alpha.3, bis ein separater Import und Test erfolgt.
