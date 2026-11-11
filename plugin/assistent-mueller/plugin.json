@@ -34,9 +34,7 @@
         "websiteURL": "https://github.com/samysmurf/Student-Mueller",
         "supportURL": "https://github.com/samysmurf/Student-Mueller/blob/main/SUPPORT.md",
         "privacyPolicyURL": "https://github.com/samysmurf/Student-Mueller/blob/main/docs/DATENSCHUTZ.md",
-        "termsOfServiceURL": "https://github.com/samysmurf/Student-Mueller/blob/main/NUTZUNGSBEDINGUNGEN.md",
-        "logo": "./assets/assistent-mueller.png",
-        "composerIcon": "./assets/assistent-mueller.png"
+        "termsOfServiceURL": "https://github.com/samysmurf/Student-Mueller/blob/main/NUTZUNGSBEDINGUNGEN.md"
       }
     }
   }
