@@ -55,14 +55,14 @@ Die Lizenzzuordnung des Hauptprojekts bleibt maßgeblich: Projekttexte und Dokum
 
 ## Version 1.0.0-alpha.1
 
-Alpha-Release mit integrierter SM-03-Reparatur. Die Version ist für weitere synthetische Tests vorgesehen und keine juristische Zertifizierung oder Freigabe für ungeprüfte reale Fälle.
+Alpha-Release mit sechs modularen Skills. Die Version ist für weitere synthetische Tests vorgesehen und keine juristische Zertifizierung oder Freigabe für ungeprüfte reale Fälle.
 
 
 ## Version 1.0.0-alpha.2 – 09.11.2026
 
 - Nutzerbestätigter Integrationstest in einer neuen ChatGPT-Instanz mit allen sechs Skills: bestanden.
 - Nutzerbestätigtes Update auf 1.0.0-alpha.2: bestanden.
-- Testnachweis und Abgrenzung der Prüfebenen: siehe [TESTREPARATUR_SM-03.md](TESTREPARATUR_SM-03.md) und [TESTPROTOKOLL_PLUGIN_ALPHA.md](TESTPROTOKOLL_PLUGIN_ALPHA.md).
+- Allgemeiner Teststatus und Abgrenzung der Prüfebenen: siehe [TESTPROTOKOLL_PLUGIN_ALPHA.md](TESTPROTOKOLL_PLUGIN_ALPHA.md).
 - Die Bestätigung ist als Nutzerangabe dokumentiert; sie ist keine unabhängig reproduzierte automatisierte Host-Prüfung.
 
 
