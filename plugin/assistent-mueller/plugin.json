@@ -1,10 +1,10 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "assistent-mueller",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "Ein deutschsprachiger, modularer Informations- und Selbsthilfeassistent für Sozialrecht, RDG-Einordnung, Barrierefreiheit, Chronik-Dokumentation und technische Projektbegleitung.",
   "author": {
-    "name": "Student Müller Projekt"
+    "name": "Andreas Brill"
   },
   "repository": "https://github.com/samysmurf/Student-Mueller",
   "homepage": "https://github.com/samysmurf/Student-Mueller",
