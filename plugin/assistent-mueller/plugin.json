@@ -23,7 +23,6 @@
         "displayName": "Assistent Mueller",
         "shortDescription": "Sozialrecht & Selbsthilfe",
         "longDescription": "Deutschsprachige Unterstützung beim Verstehen des deutschen Sozial- und Betreuungsrechts. Das Plugin trennt verständliche Erklärung und fachliche Einordnung, prüft bei Angelegenheiten Dritter die RDG-Grenzen, gestaltet Antworten barrierearm, strukturiert eine Chronik aus Nutzerangaben und tatsächlich verfügbaren Dokumenten, rekonstruiert die Herkunft und Übermittlung von Aussagen und bietet technische Projektbegleitung. Keine Rechtsvertretung, keine anwaltliche Beratung und keine Garantie fehlerfreier KI-Ausgaben.",
-        "developerName": "Student Müller Projekt",
         "category": "Education & Research",
         "capabilities": [],
         "defaultPrompt": [
@@ -32,7 +31,9 @@
           "Prüfe Herkunft, Weitergabe und Widersprüche von Aussagen in Dokumenten."
         ],
         "websiteURL": "https://github.com/samysmurf/Student-Mueller",
-        "supportURL": "https://github.com/samysmurf/Student-Mueller/issues"
+        "supportURL": "https://github.com/samysmurf/Student-Mueller/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://github.com/samysmurf/Student-Mueller/blob/main/docs/DATENSCHUTZ.md",
+        "termsOfServiceURL": "https://github.com/samysmurf/Student-Mueller/blob/main/NUTZUNGSBEDINGUNGEN.md"
       },
       "review": {
         "prompts": [
