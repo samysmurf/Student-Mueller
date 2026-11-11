@@ -1,89 +1,90 @@
-# Nutzungsbedingungen und Nutzungshinweise – Student Müller
+# Nutzungsbedingungen – Student Müller und Assistent Mueller
 
-**Version:** 1.5.0 · **Stand:** 05.11.2026
+**Version:** 2.0.0  
+**Stand:** 11.11.2026
 
-Diese Hinweise beschreiben Zweck, Nutzung und Grenzen des öffentlichen Student-Müller-Prompts. Sie ersetzen keine Prüfung der Bedingungen des jeweils verwendeten KI-Dienstes.
+Diese Nutzungsbedingungen gelten für die Nutzung der öffentlichen Projektmaterialien von Student Müller und des Skills-only-Plugins Assistent Mueller. Die Bedingungen des jeweils verwendeten KI-Dienstes gelten daneben eigenständig.
 
-## 1. Was Student Müller ist
+## 1. Zweck und Funktionsumfang
 
-Student Müller ist eine frei zugängliche Systemanweisung für einen KI-Dienst der eigenen Wahl. Nutzer übernehmen den Prompt selbstständig in ihren eigenen Chat. Das Projekt stellt keine eigene Chatbot-Plattform bereit und nimmt keine individuellen Fälle entgegen.
+Student Müller und Assistent Mueller sind kostenfreie Open-Source-Informations- und Selbsthilfeprojekte. Sie sollen Nutzern helfen, Informationen zu deutschem Sozial- und Betreuungsrecht verständlich einzuordnen, Dokumente zu strukturieren, Quellen zu recherchieren und eigene nächste Schritte oder Schreiben vorzubereiten.
 
-Student Müller soll verständliche Informationen zum deutschen Sozialrecht, Betreuungsrecht und sachlich verbundenen Rechtsgebieten liefern, Dokumente strukturiert einordnen und Nutzer bei der Vorbereitung eigener Schreiben unterstützen.
+Assistent Mueller ist ein Skills-only-Plugin. Es enthält keinen eigenen MCP-Server, keine eigene Datenbank, keine eigenständige Chat-Plattform und keine automatische Fallannahme. Gmail und Google Calendar sind externe, separat zu installierende und zu autorisierende Dienste. Ein Skill allein erteilt keine technische Berechtigung.
 
-## 2. Selbstbestimmte Nutzung
+## 2. Keine Rechtsvertretung und keine individuelle Mandatsannahme
 
-Die Nutzung ist freiwillig. Nutzer entscheiden selbst,
+Der Assistent ist weder Rechtsanwalt noch Rechtsanwaltskanzlei, Behörde oder Gericht. Durch die Nutzung entsteht kein Mandats-, Beratungs- oder Vertretungsverhältnis mit dem Projektentwickler.
 
-- welche Informationen sie eingeben,
-- ob sie Dokumente oder Auszüge bereitstellen,
-- welche Antworten sie übernehmen,
-- ob sie weitere Beratung einholen,
-- und ob sie selbst ein Schreiben versenden.
+Das Projekt nimmt keine individuellen Fälle zur eigenständigen Bearbeitung entgegen und vertritt keine Nutzer gegenüber Behörden, Gerichten, Arbeitgebern, Versicherungen oder sonstigen Dritten. Der Assistent versendet keine Schreiben und trifft keine Entscheidungen für Nutzer.
 
-Der Prompt versendet keine Schreiben und trifft keine Entscheidungen gegenüber Behörden, Gerichten oder anderen Stellen.
+Die rechtliche Zulässigkeit einer Unterstützung anderer Personen hängt von der konkreten Tätigkeit, Rolle und Befugnis ab. Die einschlägigen Grenzen des Rechtsdienstleistungsgesetzes bleiben zu beachten.
 
-## 3. Eigene Angelegenheiten und Unterstützung anderer Personen
+## 3. Eigenverantwortung und Pflicht zur Prüfung
 
-Der Schwerpunkt liegt auf der Selbsthilfe in eigenen Angelegenheiten.
+**Jeder Nutzer ist selbst dafür verantwortlich, welche Angaben er macht, welche Ergebnisse er mit dem Assistenten erarbeitet und wie er diese Ergebnisse verwendet oder weitergibt.**
 
-Eine Unterstützung bei Angelegenheiten von Angehörigen oder anderen Personen ist nicht pauschal ausgeschlossen. Bei einer konkreten fremden Angelegenheit sind die tatsächliche Rolle des Nutzers, eine mögliche Vollmacht oder sonstige Vertretungsbefugnis sowie die gesetzlichen Grenzen zu beachten.
+KI-Ausgaben können falsch, unvollständig, missverständlich, veraltet oder auf unzutreffenden Annahmen aufgebaut sein. Eine überzeugend formulierte Antwort, ein Quellenverweis oder ein berechnetes Datum beweist nicht, dass das Ergebnis richtig ist.
 
-Die rechtliche Einordnung richtet sich nach der tatsächlichen Tätigkeit. Insbesondere sind §§ 2, 3 und 6 RDG zu berücksichtigen. Eine unentgeltliche Tätigkeit ist nicht automatisch in jedem Fall zulässig; sie ist aber auch nicht allein wegen des Drittbezugs pauschal verboten.
+Vor jeder tatsächlichen Verwendung muss der Nutzer eigenständig und anhand geeigneter, möglichst amtlicher Quellen prüfen, ob das Ergebnis für den konkreten Sachverhalt und den maßgeblichen Zeitpunkt zutrifft. Das umfasst insbesondere:
 
-Diese Hinweise erteilen keine pauschale Erlaubnis zur Erbringung von Rechtsdienstleistungen. Sie verbieten zugleich nicht allgemein die private Unterstützung von Angehörigen oder Vertrauenspersonen.
+- die aktuell geltenden und für den Sachverhalt zeitlich maßgeblichen Gesetze und Verordnungen,
+- Änderungen, Übergangsregelungen und gegebenenfalls Landesrecht,
+- Existenz, Inhalt und Aktualität zitierter Urteile und sonstiger Quellen,
+- die Richtigkeit und Vollständigkeit der eingegebenen Tatsachen,
+- Fristbeginn, Fristende, Zuständigkeit und Verfahrensvoraussetzungen,
+- Form, Unterschrift, Anlagen, Versandweg und Zugangsnachweis,
+- die Eignung eines Entwurfs für den konkreten Empfänger und Zweck.
 
-## 4. Keine anwaltliche Vertretung und keine Behördenentscheidung
+Ein Nutzer darf einen KI-Entwurf nicht ungeprüft als rechtlich richtig behandeln oder allein auf eine KI-Ausgabe vertrauen. Bei erheblichen Folgen, kurzen Fristen, Freiheitsentziehung oder komplexen Streitigkeiten sollte qualifizierte Beratung eingeholt werden.
 
-Student Müller ist kein Rechtsanwalt, keine Rechtsanwaltskanzlei, kein Gericht und keine Behörde. Die Nutzung des Prompts begründet kein Mandatsverhältnis mit dem Projektentwickler.
+## 4. Keine Gewähr für Ergebnisse
 
-KI-Ausgaben können unvollständig, fehlerhaft, veraltet oder für den konkreten Sachverhalt ungeeignet sein. Eine Antwort ersetzt keine verbindliche Entscheidung der zuständigen Behörde oder des Gerichts und keine erforderliche Beratung durch eine hierzu befugte Person.
+Es wird keine Garantie für Richtigkeit, Vollständigkeit, Aktualität, Verfügbarkeit, Eignung für einen bestimmten Zweck oder einen bestimmten rechtlichen, behördlichen oder gerichtlichen Erfolg übernommen.
 
-Bei drohenden Fristabläufen, Freiheitsentziehung, erheblichen finanziellen Folgen oder komplexen Streitigkeiten sollte zeitnah eine geeignete Beratungsstelle oder beruflich befugte Person einbezogen werden.
+Der Assistent kann Quellen nennen oder eine Recherche anregen, aber die tatsächliche Verfügbarkeit und Qualität von Recherchefunktionen hängt von der verwendeten Plattform, dem Konto, den aktivierten Funktionen und der jeweiligen Sitzung ab. Nicht ausgeführte Recherchen oder Tests dürfen nicht als erfolgt verstanden werden.
 
-## 5. Quellen, Fristen und eigene Kontrolle
+## 5. Eingaben, Rechte Dritter und Datenschutz
 
-Nutzer müssen vor einer tatsächlichen Verwendung insbesondere kontrollieren:
+Nutzer sind dafür verantwortlich, dass sie zur Eingabe, Verarbeitung und Weitergabe der von ihnen bereitgestellten Inhalte berechtigt sind. Sie müssen Rechte und schutzwürdige Interessen betroffener Dritter beachten.
 
-- ob die zitierten Gesetze und Entscheidungen existieren,
-- ob die angegebene Gesetzesfassung zum Sachverhalt passt,
-- ob die Rechtslage zwischenzeitlich geändert wurde,
-- ob Fristen und Fristbeginn zutreffend ermittelt wurden,
-- ob Tatsachen, Belege und Anlagen vollständig und richtig sind,
-- ob Formvorschriften und Übermittlungswege eingehalten werden.
+Es sollen nur erforderliche Daten eingegeben werden. Nicht benötigte Namen, Adressen, Aktenzeichen, Gesundheitsdaten, Kontodaten und andere Identifikationsmerkmale sollen zuvor entfernt oder durch neutrale Platzhalter ersetzt werden. Zugangsdaten, Passwörter, API-Schlüssel, Einmalcodes und vollständige Zahlungsdaten dürfen nicht eingegeben werden.
 
-Eine im Prompt enthaltene Quellenregel ist eine Arbeitsvorgabe, keine Garantie, dass jeder KI-Dienst sie technisch zuverlässig erfüllt.
+Die Verarbeitung erfolgt über den vom Nutzer gewählten KI-Dienst. Für dessen Datenverarbeitung gelten dessen eigene Bedingungen und Datenschutzhinweise. Details zu den Grenzen des Plugins enthält die [Datenschutzerklärung](DATENSCHUTZ.md).
 
-## 6. Externe KI-Plattform und Datenschutz
+## 6. Nutzung verbundener Dienste
 
-Die Eingaben werden über den vom Nutzer gewählten KI-Dienst verarbeitet. Dessen Nutzungsbedingungen, Datenschutzregeln, Speicher- und Trainingsoptionen sowie technische Funktionen gelten zusätzlich.
+Externe Dienste wie Gmail und Google Calendar müssen Nutzer selbst installieren, verbinden und autorisieren. Sie entscheiden über die Berechtigungen und müssen diese vor der Verbindung prüfen. Das Plugin verspricht weder einen Zugriff noch eine erfolgreiche Aktion, wenn die entsprechende Verbindung oder Funktion in der aktuellen Sitzung nicht tatsächlich verfügbar ist.
 
-Der Projektentwickler betreibt keine eigene Datenverarbeitung für die einzelnen Chats und kann die Verarbeitung durch den externen Anbieter nicht steuern. Vor dem Hochladen vertraulicher Unterlagen sollten nicht erforderliche personenbezogene Daten geschwärzt oder durch neutrale Platzhalter ersetzt werden.
+Telefonate werden ausschließlich anhand der vom Nutzer selbst mitgeteilten Angaben dokumentiert. Eine automatische Gesprächsaufzeichnung oder Anruflisten-Auswertung ist nicht Bestandteil des Projekts.
 
-Student Müller enthält keine lokale OCR, keine dauerhafte PDF-Schwärzung und keine Metadatenbereinigung. Diese Funktionen gehören zum getrennten Projekt Anonymisator und dürfen nicht als Bestandteil von Student Müller verstanden werden.
+## 7. Unzulässige oder missbräuchliche Nutzung
 
-## 7. Kosten und Werbung
+Nutzer dürfen das Projekt nicht verwenden, um rechtswidrige Handlungen, Täuschung, Dokumentenfälschung, Identitätsmissbrauch, unbefugte Datenverarbeitung oder die Verletzung von Rechten Dritter zu unterstützen. Die Nutzungsbedingungen der jeweiligen Plattform und die anwendbaren Gesetze sind einzuhalten.
 
-Student Müller wird als kostenfreies und werbefreies Open-Source-Projekt veröffentlicht. Die Nutzung eines externen KI-Dienstes kann dessen eigenen Bedingungen, Kontomodellen, Nutzungslimits oder Entgelten unterliegen. Das Projekt kann keine kostenlose Nutzung jedes externen Anbieters garantieren.
+## 8. Haftung
 
-## 8. Haftung und zwingendes Recht
+Die Nutzung eines KI-Systems erfolgt mit dem Bewusstsein, dass dessen Ausgaben fehlerhaft sein können. Der Nutzer bleibt für die Prüfung seiner Eingaben, der Ausgaben und der daraus abgeleiteten Handlungen verantwortlich.
 
-Die Nutzung erfolgt unter Beachtung des geltenden Rechts. Diese Hinweise schließen keine Haftung aus, soweit ein Ausschluss gesetzlich unzulässig ist. Insbesondere bleiben zwingende gesetzliche Haftungstatbestände unberührt.
+Der Projektentwickler haftet nach den gesetzlichen Vorschriften. Eine Haftung für Vorsatz, grobe Fahrlässigkeit, Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit sowie sonstige zwingende gesetzliche Haftung wird durch diese Bedingungen nicht ausgeschlossen. Soweit eine Haftungsbegrenzung gesetzlich zulässig ist, bleibt sie auf den rechtlich zulässigen Umfang beschränkt.
 
-Es wird keine Garantie für Vollständigkeit, Aktualität, Fehlerfreiheit, Verfügbarkeit oder einen bestimmten rechtlichen Erfolg übernommen.
+Insbesondere wird keine Haftung für eine ungeprüfte oder unsachgemäße Verwendung von KI-Ausgaben, für unrichtige oder unvollständige Nutzereingaben oder für Entscheidungen übernommen, die Nutzer eigenständig auf Grundlage ungeprüfter Ergebnisse treffen, soweit eine solche Begrenzung nach zwingendem Recht zulässig ist.
 
-## 9. Lizenzen
+OpenAI ist nicht Entwickler oder Betreiber dieses unabhängigen Open-Source-Projekts. Die Nutzung von ChatGPT und die Verantwortlichkeit von OpenAI richten sich ausschließlich nach den jeweils geltenden OpenAI-Bedingungen und dem anwendbaren Recht. Diese Projektbedingungen können weder die Haftung von OpenAI ausschließen noch deren Vertragsbedingungen ändern. Umgekehrt begründet die Veröffentlichung dieses Projekts keine Partnerschaft, Empfehlung oder Billigung durch OpenAI.
 
-Die Lizenzierung der Projektdateien richtet sich nach den im Repository ausgewiesenen Lizenzen:
+## 9. Kosten, Werbung und externe Plattformen
 
-- eigener Programmcode: Apache License 2.0,
-- originäre Projekttexte und Dokumentation: CC BY-SA 4.0.
+Die Projektmaterialien werden kostenfrei und ohne eigene Werbung bereitgestellt. Der verwendete KI-Dienst oder verbundene Drittanbieter können eigene Tarife, Nutzungslimits oder Entgelte vorsehen. Dafür ist der jeweilige Anbieter verantwortlich.
 
-Drittinhalte und Inhalte mit gesonderten Rechten bleiben davon unberührt. Die Lizenzbedingungen sind unabhängig von diesen Nutzungshinweisen einzuhalten.
+## 10. Lizenzen
 
-## 10. Projektgrenze und Kontakt
+Die Lizenzierung richtet sich nach den im Repository veröffentlichten Lizenzdateien. Eigener Programmcode steht grundsätzlich unter Apache License 2.0; originäre Projekttexte und Dokumentation grundsätzlich unter CC BY-SA 4.0. Drittinhalte und Rechte Dritter bleiben unberührt.
 
-Student Müller und Anonymisator sind getrennte Projekte. Es gibt keine gemeinsame Laufzeit und keine automatische Übertragung von Falldaten.
+## 11. Änderungen und Support
 
-Projekt und Versionsstand: [Student Müller auf GitHub](https://github.com/samysmurf/Student-Mueller).
+Projektinformationen, Funktionen und Nutzungsbedingungen können bei Änderungen der Software, der Plattform oder der Rechtslage aktualisiert werden. Der Versions- und Änderungsstand ist im Repository einsehbar.
 
-**Hinweis:** Diese Nutzungsbedingungen sind eine Projektinformation und keine anwaltlich geprüfte AGB-Freigabe.
+Öffentliche Projektunterstützung erfolgt ausschließlich über die [GitHub-Projektseite](https://github.com/samysmurf/Student-Mueller) und deren Issue-Bereich. Bitte dort keine personenbezogenen Falldaten, vertraulichen Dokumente oder Zugangsdaten veröffentlichen. Support ist keine individuelle Rechtsberatung und begründet keine Pflicht zur Bearbeitung persönlicher Rechtsfälle.
+
+## 12. Rechtsvorbehalt
+
+Diese Bedingungen sind auf die beschriebenen Projektfunktionen zugeschnitten. Sie ersetzen keine anwaltliche Prüfung der rechtlichen Einordnung des konkreten Angebots. Zwingende gesetzliche Rechte und Haftungstatbestände bleiben unberührt.
