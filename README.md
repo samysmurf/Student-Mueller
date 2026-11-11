@@ -77,9 +77,9 @@ Die Haftung richtet sich nach geltendem Recht. Zwingende gesetzliche Haftung ble
 
 Neben der kopierbaren Systemanweisung gibt es eine separate Skills-only-Plugin-Alpha mit sechs Skills für Steuerung, Sozialrecht, RDG-Prüfung, Barrierefreiheit, Chronik und technische Projektbegleitung. Die private Plugin-Instanz steht auf **1.0.0-alpha.3**. Der Integrationstest mit allen sechs Skills und das Update auf alpha.2 wurden am 09.11.2026 vom Nutzer bestätigt. Alpha.3 enthält eine Korrektur der Autorenangabe in den Plugin-Metadaten und gleicht die Quellversion an die veröffentlichte Plugin-Version an. Die Alpha.3-Metadatenkorrektur ist kein erneuter Funktionstest. Die Abnahme aus alpha.2 ist als Nutzerbestätigung dokumentiert; sie ist kein unabhängig reproduzierter automatisierter Host-Test und keine juristische Zertifizierung.
 
-**[Assistent Mueller direkt in ChatGPT öffnen](https://chatgpt.com/plugins/plugins_6af0c35601e08191b5292f62c1086ad8)** (private Plugin-Instanz; Anmeldung und Berechtigung erforderlich).
+**Private Testinstanz:** Der Zugriff ist kontogebunden. Der persönliche Installationslink wird bewusst nicht im öffentlichen Repository hinterlegt.
 
-Der Quellcode liegt im öffentlichen Branch [plugin/assistent-mueller-v0.1.0](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0/plugin/assistent-mueller). Die private Sichtbarkeit der Plugin-Instanz macht den GitHub-Branch nicht privat. Das Plugin besitzt keinen eigenen MCP-Server, keine Datenbank und keine automatische Fallannahme. Details zum Teststatus stehen im allgemeinen [Plugin-Alpha-Testprotokoll](plugin/assistent-mueller/TESTPROTOKOLL_PLUGIN_ALPHA.md).
+Der bisherige Plugin-Quellstand liegt im öffentlichen Branch [plugin/assistent-mueller-v0.1.0](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0/plugin/assistent-mueller). Der weiterentwickelte Alpha-4-Quellkandidat basiert auf dem aktuellen `main` und wird im [Draft-Pull-Request #3](https://github.com/samysmurf/Student-Mueller/pull/3) geprüft; er ist noch nicht importiert oder hostgetestet. Die private Plugin-Instanz bleibt alpha.3. Das Plugin besitzt keinen eigenen MCP-Server, keine Datenbank und keine automatische Fallannahme. Die zugehörigen Einreichungs- und Prüfunterlagen werden getrennt in einem privaten Repository geführt.
 
 ## Projektgrenze: Anonymisator
 
