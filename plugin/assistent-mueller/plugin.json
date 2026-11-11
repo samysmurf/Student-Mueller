@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "assistent-mueller",
-  "version": "1.0.0-alpha.3",
-  "description": "Ein deutschsprachiger, modularer Informations- und Selbsthilfeassistent für Sozialrecht, RDG-Einordnung, Barrierefreiheit, Chronik-Dokumentation und technische Projektbegleitung.",
+  "version": "1.0.0-alpha.4",
+  "description": "Ein deutschsprachiger, modularer Informations- und Selbsthilfeassistent für Sozialrecht, RDG-Einordnung, Barrierefreiheit, Chronik, Aussagenherkunft und technische Projektbegleitung.",
   "author": {
     "name": "Andreas Brill"
   },
@@ -22,14 +22,15 @@
       "interface": {
         "displayName": "Assistent Mueller",
         "shortDescription": "Sozialrecht & Selbsthilfe",
-        "longDescription": "Deutschsprachige Unterstützung beim Verstehen des deutschen Sozial- und Betreuungsrechts. Das Plugin trennt verständliche Erklärung und fachliche Einordnung, prüft bei Angelegenheiten Dritter die RDG-Grenzen, gestaltet Antworten barrierearm, strukturiert eine Chronik aus Nutzerangaben und tatsächlich verfügbaren Dokumenten und bietet technische Projektbegleitung. Keine Rechtsvertretung, keine anwaltliche Beratung und keine Garantie fehlerfreier KI-Ausgaben.",
+        "longDescription": "Deutschsprachige Unterstützung beim Verstehen des deutschen Sozial- und Betreuungsrechts. Das Plugin trennt verständliche Erklärung und fachliche Einordnung, prüft bei Angelegenheiten Dritter die RDG-Grenzen, gestaltet Antworten barrierearm, strukturiert eine Chronik aus Nutzerangaben und tatsächlich verfügbaren Dokumenten, rekonstruiert die Herkunft und Übermittlung von Aussagen und bietet technische Projektbegleitung. Keine Rechtsvertretung, keine anwaltliche Beratung und keine Garantie fehlerfreier KI-Ausgaben.",
         "developerName": "Student Müller Projekt",
         "category": "Education & Research",
         "capabilities": [],
         "defaultPrompt": [
           "Starte Assistent Mueller mit @Siggi als technischer und konzeptioneller Koordination. Nutze @student Müller für Sozial- und Betreuungsrecht, @rdg für die unabhängige RDG-Grenzprüfung und @Vision für barrierearme Kommunikation. Prüfe zuerst, ob Gmail und Google Calendar in meinem ChatGPT-Konto installiert und verbunden sind. Falls nicht, zeige mir die direkten Installationslinks und warte auf meine Bestätigung.",
           "Prüfe mein sozialrechtliches Anliegen mit @student Müller verständlich und anschließend fachlich mit aktuellen amtlichen Quellen. Lass @rdg unabhängig die Grenzen prüfen und berücksichtige @Vision.",
-          "Hilf mir mit @Siggi bei der technischen und konzeptionellen Projektarbeit oder erstelle mit dem Chronik-Modul einen Eintrag aus meinen Angaben und – sofern tatsächlich verbunden – meinen Gmail- und Google-Kalenderdaten."
+          "Hilf mir mit @Siggi bei der technischen und konzeptionellen Projektarbeit oder erstelle mit dem Chronik-Modul einen Eintrag aus meinen Angaben und – sofern tatsächlich verbunden – meinen Gmail- und Google-Kalenderdaten.",
+          "Nutze das Modul Aussagenherkunft, um die Quelle, Beobachtungsgrundlage, Weitergabe und mögliche Abhängigkeit wiederholter Behauptungen in Dokumenten zu prüfen. Trenne dokumentierte Aussage und tatsächlichen Wahrheitsgehalt und verwende nur synthetische Daten in öffentlichen Tests."
         ]
       }
     }
