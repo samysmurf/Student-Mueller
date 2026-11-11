@@ -73,9 +73,9 @@ Eingaben und Ausgaben werden über die vom Nutzer gewählte externe KI-Plattform
 
 Die Haftung richtet sich nach geltendem Recht. Zwingende gesetzliche Haftung bleibt unberührt; ein pauschaler Ausschluss sämtlicher Ansprüche wird nicht erklärt.
 
-## Assistent Mueller Plugin 1.0.0-alpha.2
+## Assistent Mueller Plugin 1.0.0-alpha.3
 
-Neben der kopierbaren Systemanweisung gibt es eine separate Skills-only-Plugin-Alpha mit sechs Skills für Steuerung, Sozialrecht, RDG-Prüfung, Barrierefreiheit, Chronik und technische Projektbegleitung. Die private Plugin-Instanz steht auf **1.0.0-alpha.2**. Der Nutzer hat am 09.11.2026 den Integrationstest in einer neuen ChatGPT-Instanz mit allen sechs Skills sowie das Update auf alpha.2 als bestanden bestätigt. Diese Abnahme ist als Nutzerbestätigung dokumentiert; sie ist kein unabhängig reproduzierter automatisierter Host-Test und keine juristische Zertifizierung.
+Neben der kopierbaren Systemanweisung gibt es eine separate Skills-only-Plugin-Alpha mit sechs Skills für Steuerung, Sozialrecht, RDG-Prüfung, Barrierefreiheit, Chronik und technische Projektbegleitung. Die private Plugin-Instanz steht auf **1.0.0-alpha.3**. Der Integrationstest mit allen sechs Skills und das Update auf alpha.2 wurden am 09.11.2026 vom Nutzer bestätigt. Alpha.3 enthält eine Korrektur der Autorenangabe in den Plugin-Metadaten und gleicht die Quellversion an die veröffentlichte Plugin-Version an. Die Alpha.3-Metadatenkorrektur ist kein erneuter Funktionstest. Die Abnahme aus alpha.2 ist als Nutzerbestätigung dokumentiert; sie ist kein unabhängig reproduzierter automatisierter Host-Test und keine juristische Zertifizierung.
 
 **[Assistent Mueller direkt in ChatGPT öffnen](https://chatgpt.com/plugins/plugins_6af0c35601e08191b5292f62c1086ad8)** (private Plugin-Instanz; Anmeldung und Berechtigung erforderlich).
 
