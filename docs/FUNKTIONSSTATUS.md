@@ -28,7 +28,7 @@ Dieses Dokument beschreibt den tatsächlichen Projektstand. Eine im Prompt besch
 | Eigene Fallannahme / Mandatsbearbeitung | nicht vorhanden | Prompt-Veröffentlichung und individuelle Nutzung sind zu unterscheiden |
 | Barrierefreiheit | Entwicklungsziel | Keine WCAG-/BITV-Konformität bestätigt |
 | Assistent Mueller Plugin 1.0.0-alpha.1 | private Alpha-Version aktualisiert | Skills-only; keine eigene Datenbank, kein eigener MCP-Server und keine automatische Fallannahme |
-| SM-03 Plugin-Prüffall | simuliert und repariert | ZIP- und Manifest-Integrität geprüft; keine Live-Plattformprüfung |
+| Plugin-Paketprüfung | dokumentiert | Manifest-/ZIP-Prüfung; keine Live-Plattformprüfung |
 | unabhängige Rechtsprüfung / Zertifizierung | nicht erfolgt / nicht behauptet | Keine externe anwaltliche Freigabe oder Produktzertifizierung |
 
 ## Plattformabhängigkeit
