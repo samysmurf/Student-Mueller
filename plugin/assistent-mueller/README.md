@@ -1,6 +1,6 @@
-# Assistent Mueller – Plugin 1.0.0-alpha.2 (Alpha)
+# Assistent Mueller – Plugin 1.0.0-alpha.3 (Alpha)
 
-**Status:** private Alpha-Version · **Basis:** Student Müller V2.0.0 · **Teststand:** 1.0.0-alpha.2
+**Status:** private Alpha-Version · **Basis:** Student Müller V2.0.0 · **Paketversion:** 1.0.0-alpha.3
 
 **[Assistent Mueller in ChatGPT öffnen / Plugin aufrufen](https://chatgpt.com/plugins/plugins_6af0c35601e08191b5292f62c1086ad8)** (private Plugin-Instanz; Anmeldung und Berechtigung erforderlich)
 
@@ -64,3 +64,10 @@ Alpha-Release mit integrierter SM-03-Reparatur. Die Version ist für weitere syn
 - Nutzerbestätigtes Update auf 1.0.0-alpha.2: bestanden.
 - Testnachweis und Abgrenzung der Prüfebenen: siehe [TESTREPARATUR_SM-03.md](TESTREPARATUR_SM-03.md) und [TESTPROTOKOLL_PLUGIN_ALPHA.md](TESTPROTOKOLL_PLUGIN_ALPHA.md).
 - Die Bestätigung ist als Nutzerangabe dokumentiert; sie ist keine unabhängig reproduzierte automatisierte Host-Prüfung.
+
+
+## Version 1.0.0-alpha.3 – 11.11.2026
+
+- Metadatenkorrektur: Autor im Plugin-Manifest auf **Andreas Brill** gesetzt.
+- Paketversion an die aktualisierte private Plugin-Veröffentlichung 1.0.0-alpha.3 angeglichen.
+- Keine Skill-Inhalte oder Funktionsabläufe geändert; der bestätigte Integrationstest aus alpha.2 wird dadurch nicht als neuer Test ausgegeben.
