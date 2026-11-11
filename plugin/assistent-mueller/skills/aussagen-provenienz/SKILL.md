@@ -16,7 +16,7 @@ Das Modul ergänzt die Chronik. Es ersetzt weder die Chronik noch eine medizinis
 Eine Quelle kann beweisen, **dass eine Aussage zu einem bestimmten Zeitpunkt dokumentiert oder weitergegeben wurde**. Sie beweist nicht automatisch, dass der inhaltlich behauptete Vorgang tatsächlich stattgefunden hat.
 
 Beispiel:
-- Eine E-Mail vom 11. Februar beweist, dass ihr Absender die darin enthaltene Darstellung an den Empfänger übermittelt hat.
+- Eine E-Mail vom 14. Juni beweist, dass ihr Absender die darin enthaltene Darstellung an den Empfänger übermittelt hat.
 - Sie beweist nicht allein, dass der Absender den Vorgang selbst beobachtet hat.
 - Eine spätere E-Mail, die dieselbe Darstellung wiedergibt, ist keine unabhängige Bestätigung, wenn sie auf der früheren Nachricht beruht.
 
