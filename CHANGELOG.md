@@ -5,7 +5,7 @@
 - Plugin-Instanz auf 1.0.0-alpha.2 aktualisiert; private Sichtbarkeit und bestehende Plugin-Identität beibehalten.
 - Nutzerbestätigten Integrationstest in einer neuen ChatGPT-Instanz mit allen sechs Skills als bestanden dokumentiert.
 - Nutzerbestätigtes Update auf alpha.2 dokumentiert; keine unabhängige automatisierte Host-Reproduktion behauptet.
-- SM-03-Reparatur- und Testprotokoll um Abnahmehinweis und offene Sachverhaltsvorbehalte ergänzt.
+- Interne Alpha-Testdokumentation und Manifestabgleich aktualisiert.
 - Direkten ChatGPT-Aufruflink zur privaten Plugin-Instanz im README ergänzt.
 - Keine Änderung an Student Müller V2.0.0/Systemanweisung oder am separaten Projekt Anonymisator.
 

@@ -21,7 +21,7 @@ Diese Roadmap betrifft ausschließlich den promptbasierten Informations- und Sel
 - [x] Heizspiegel-Datengrundlage und BSG-Methode mit konkreter Einzelfallprüfung.
 - [x] Trennung von Warmmiete und Direktvertrag sowie Schutz vor Doppelberücksichtigung.
 - [x] Chronologie- und Widerspruchsprüfung sowie Abgrenzung von §§ 44 und 48 SGB X.
-- [x] Assistent Mueller Plugin als private Alpha-Version 1.0.0-alpha.1 aktualisiert; SM-03-Reparatur dokumentiert.
+- [x] Assistent Mueller Plugin als private Alpha-Version 1.0.0-alpha.1 aktualisiert; allgemeine interne Test- und Manifestpflege dokumentiert.
 
 ## Nächste Qualitätsschritte
 
