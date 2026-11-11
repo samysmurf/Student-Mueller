@@ -1,11 +1,12 @@
 # Assistent Mueller – allgemeiner Alpha-Teststatus
 
 **Dokumentationsstand:** 11.11.2026  
-**Plugin-Version:** 1.0.0-alpha.3
+**Private Plugin-Instanz:** 1.0.0-alpha.3  
+**Öffentlicher Quellkandidat:** 1.0.0-alpha.4 (Feature-Branch, noch nicht hostgetestet)
 
 ## Prüfumfang
 
-Das Plugin enthält sechs Skills: zentrale Steuerung, Sozial- und Betreuungsrecht, RDG-Grenzprüfung, Barrierefreiheit, Chronik-Dokumentation sowie technische Projektbegleitung.
+Die bestätigte private Alpha.3-Instanz enthält sechs Skills: zentrale Steuerung, Sozial- und Betreuungsrecht, RDG-Grenzprüfung, Barrierefreiheit, Chronik-Dokumentation sowie technische Projektbegleitung. Der Alpha.4-Quellkandidat ergänzt als siebtes Modul die Aussagenherkunftsprüfung.
 
 ## Bisheriger Teststatus
 
@@ -29,3 +30,13 @@ Die Nutzerbestätigung ist kein unabhängiger Auditbericht. Eine erneute Prüfun
 ## Support
 
 Öffentliche technische Projektunterstützung erfolgt über [GitHub](https://github.com/samysmurf/Student-Mueller/issues). Bitte dort keine vertraulichen oder personenbezogenen Falldaten veröffentlichen.
+
+
+## Alpha.4 – neuer Quellkandidat
+
+Der Feature-Branch feature/aussagen-provenienz-alpha-4 ergänzt ein eigenständiges Modul zur Aussagenherkunft. Die Quelländerung ist noch kein Release und wurde nicht in der privaten Plugin-Instanz importiert.
+
+- Testplan: TESTPLAN_AUSSAGENHERKUNFT.md
+- Abgedeckte Risiken: Abhängigkeit wiederholter Behauptungen, Hörensagen, Zeitstempel-Verwechslung, OCR-Fehler, Gegendarstellungen, Telefonangaben, Empfänger/Weiterleitungen und Datenschutz bei öffentlichen Tests.
+- Status: Spezifikation erstellt; Quellrouting und Manifest aktualisiert; Host- und Fachtests noch offen.
+- Abnahmeregel: Alpha.4 erst nach erfolgreichem Import, separatem Host-Test und Ausführung der synthetischen Testfälle als getestet bezeichnen.
