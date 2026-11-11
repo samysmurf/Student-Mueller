@@ -79,7 +79,7 @@ Neben der kopierbaren Systemanweisung gibt es eine separate Skills-only-Plugin-A
 
 **[Assistent Mueller direkt in ChatGPT öffnen](https://chatgpt.com/plugins/plugins_6af0c35601e08191b5292f62c1086ad8)** (private Plugin-Instanz; Anmeldung und Berechtigung erforderlich).
 
-Der Quellcode liegt im öffentlichen Branch [plugin/assistent-mueller-v0.1.0](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0/plugin/assistent-mueller). Die private Sichtbarkeit der Plugin-Instanz macht den GitHub-Branch nicht privat. Das Plugin besitzt keinen eigenen MCP-Server, keine Datenbank und keine automatische Fallannahme. Details zum Teststatus stehen im [Plugin-Alpha-Testprotokoll](plugin/assistent-mueller/TESTPROTOKOLL_PLUGIN_ALPHA.md) und im [SM-03-Reparaturprotokoll](plugin/assistent-mueller/TESTREPARATUR_SM-03.md).
+Der Quellcode liegt im öffentlichen Branch [plugin/assistent-mueller-v0.1.0](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0/plugin/assistent-mueller). Die private Sichtbarkeit der Plugin-Instanz macht den GitHub-Branch nicht privat. Das Plugin besitzt keinen eigenen MCP-Server, keine Datenbank und keine automatische Fallannahme. Details zum Teststatus stehen im allgemeinen [Plugin-Alpha-Testprotokoll](plugin/assistent-mueller/TESTPROTOKOLL_PLUGIN_ALPHA.md).
 
 ## Projektgrenze: Anonymisator
 
@@ -95,7 +95,6 @@ Student Müller enthält keine eigene OCR-Engine, PDF-Schwärzungsfunktion, Meta
 | Startmenü und Bundeslandauswahl | als Prompt-Regel integriert; Darstellung abhängig von der KI-Plattform |
 | Sozial- und Betreuungsrecht | fachliche Module integriert; Aktualität je Einzelfall erneut zu prüfen |
 | Quellen- und Aktualitätsprotokoll | als verbindliche Arbeitsregel integriert |
-| SM-03 Plugin-Prüffall | simuliert und repariert | Integritätsprüfung des Alpha-Pakets bestanden; kein Live-End-to-End-Test |
 | 21 V1.5-Prüffälle | manuell auf Prompt-Regel- und Konsistenzebene durchgespielt; keine Live-Plattformtests |
 | Bescheidverständnis und Schriftsatzentwürfe | Arbeitsabläufe beschrieben; tatsächliche Ausgabe vom KI-Dienst abhängig |
 | Native Android-App / lokale OCR | nicht Bestandteil; separates Projekt Anonymisator |
@@ -107,11 +106,13 @@ Das [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md) unterscheidet ausdrücklich
 
 - [Systemanweisung V2.0.0](SYSTEMANWEISUNG.md)
 - [Nutzungsbedingungen und Nutzungshinweise](NUTZUNGSBEDINGUNGEN.md)
+- [Öffentlicher GitHub-Support](SUPPORT.md)
 - [Projektbeschreibung](PROJEKTBESCHREIBUNG.md)
 - [GitHub-Profiltext und Topics](GITHUB_PROJEKTPROFIL.md)
 - [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md)
 - [Architektur](docs/ARCHITEKTUR.md)
-- [Datenschutz](docs/DATENSCHUTZ.md)
+- [Datenschutzhinweise](docs/DATENSCHUTZ.md)
+- [Öffentlicher GitHub-Support](SUPPORT.md)
 - [Funktionsstatus](docs/FUNKTIONSSTATUS.md)
 - [Roadmap](ROADMAP.md)
 - [Barrierefreiheit – Entwicklungsleitlinie](docs/BARRIEREFREIHEIT.md)
