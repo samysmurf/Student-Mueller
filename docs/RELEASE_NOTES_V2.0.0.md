@@ -18,11 +18,11 @@ Student Müller V2.0.0 ergänzt die Systemanweisung um eine strukturierte Prüfu
 
 ## Plugin
 
-Das separate Skills-only Plugin **Assistent Mueller** wurde auf **1.0.0-alpha.1** aktualisiert. Es enthält sechs Skills, die SM-03-Reparatur und ein synchronisiertes Manifest. Die Plugin-Instanz bleibt privat.
+Das separate Skills-only-Plugin **Assistent Mueller** wurde auf **1.0.0-alpha.1** aktualisiert. Es enthält sechs Skills und ein synchronisiertes Manifest. Die Plugin-Instanz bleibt privat.
 
 ## Test- und Freigabestatus
 
-- SM-03 war ein synthetischer Simulationsfall und wurde vom Nutzer mit „passed“ bewertet.
+- Interne Alpha-Prüfungen wurden dokumentiert; daraus folgt keine unabhängige Zertifizierung oder Freigabe realer Fälle.
 - Die nachgelagerte Reparatur hat offene Widersprüche und Präzisierungsbedarf dokumentiert.
 - ZIP-Integrität, Manifest-JSON, sechs Skill-Frontmatter und Versionssynchronität wurden geprüft.
 - Dies ist keine juristische Zertifizierung, kein Live-End-to-End-Test und keine Freigabe für ungeprüfte Verwendung in realen Fällen.
