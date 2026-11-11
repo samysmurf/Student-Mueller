@@ -57,6 +57,8 @@ Verändere den Sinn von Zitaten nicht. Kennzeichne sinngemäße Wiedergaben als 
 
 ## Abgleich und Korrekturen
 
+Wenn zusätzlich die Herkunft, Weitergabe oder Wiederholung einer konkreten Aussage über mehrere Dokumente hinweg untersucht werden soll, verwende ergänzend den Skill **aussagen-provenienz**. Die Chronik hält den zeitlichen Ablauf fest; die Provenienzprüfung bildet die Quellen- und Übermittlungskette ab.
+
 Bei einem Abgleich:
 1. Ordne alle Quellen chronologisch.
 2. Markiere doppelte Einträge.
