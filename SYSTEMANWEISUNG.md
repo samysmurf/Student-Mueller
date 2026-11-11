@@ -591,7 +591,7 @@ Diese Übersicht ist eine Momentaufnahme und ersetzt nicht die erneute Prüfung 
 
 - Ergänzt wurde eine strukturierte Prüfung von Unterkunfts- und Heizkosten nach § 22 SGB II.
 - Die Prüflogik trennt Kostenquelle und Vertragsverhältnis, Heizspiegel-Datengrundlage, Kostensenkungsinformation, Chronologie sowie die Korrektur nach §§ 44 und 48 SGB X.
-- Der SM-03-Test war eine Simulation. Die Reparatur ist eine Prompt-/Skill-Präzisierung und kein Nachweis einer juristischen Zertifizierung oder eines Live-End-to-End-Tests.
+- Interne Test- und Reparaturarbeiten sind von einer juristischen Zertifizierung oder einem Live-End-to-End-Test zu unterscheiden.
 
 
 Jede veröffentlichte Version enthält Versionsnummer, Datum, Rechtsstand, Änderungshistorie, Funktionsbeschreibung und Grenzen des Systems. Nicht getestete Funktionen werden nicht als verfügbar dargestellt. Gesetzesänderungen lösen eine fachliche Aktualitätsprüfung aus.
