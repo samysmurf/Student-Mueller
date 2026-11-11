@@ -1,23 +1,47 @@
-# Assistent Mueller – Plugin 1.0.0-alpha.3 (Alpha)
+# Assistent Mueller – Plugin 1.0.0-alpha.4 (öffentlicher Veröffentlichungskandidat)
 
-**Status:** private Alpha-Version · **Basis:** Student Müller V2.0.0 · **Paketversion:** 1.0.0-alpha.3
+**Status:** Vorbereitung für eine mögliche öffentliche Einreichung · **Basis:** Student Müller V2.0.0 · **Paketversion:** 1.0.0-alpha.4
 
-**[Assistent Mueller in ChatGPT öffnen / Plugin aufrufen](https://chatgpt.com/plugins/plugins_6af0c35601e08191b5292f62c1086ad8)** (private Plugin-Instanz; Anmeldung und Berechtigung erforderlich)
+Assistent Mueller ist ein deutschsprachiges Skills-only-Plugin mit sechs modularen Arbeitsanweisungen:
 
-Dieses Verzeichnis enthält die portable Skills-only Plugin-Quelle für **Assistent Mueller**. Es bündelt die vier ausdrücklich benannten Rollen, ein Chronik-Modul und eine zentrale Steuerung:
+- Sozial- und Betreuungsrecht mit verständlicher Erklärung und Quellenprüfung
+- eigenständige RDG-Grenzprüfung
+- barrierearme und screenreaderfreundliche Kommunikation
+- Chronik-Dokumentation aus Nutzerangaben und tatsächlich verfügbaren Dokumenten
+- technische und konzeptionelle Projektbegleitung
+- zentrale Steuerung und Modulrouting
 
-- `@student Müller` – deutsches Sozial- und Betreuungsrecht, Selbsthilfe und verständliche Einordnung
-- `@rdg` – unabhängige Prüfung der Grenzen nach dem Rechtsdienstleistungsgesetz
-- `@Vision` – barrierearme, screenreaderfreundliche und verständliche Kommunikation
-- `@Siggi` – technische und konzeptionelle Projektbegleitung
-- `Chronik` – strukturierte Dokumentation von Nutzerangaben, E-Mails und Kalenderdaten, soweit diese tatsächlich verfügbar sind
-- `Assistent-Steuerung` – zentrale Koordination und Routing
+## Technische Grenzen
+
+Das Plugin enthält keinen eigenen MCP-Server, keine Datenbank, keine eigene Chat-Oberfläche, keine Telemetrie und keine automatisch verbundenen Konten.
+
+- Gmail und Google Calendar sind separate ChatGPT-Apps. Nutzer müssen sie selbst installieren, verbinden und Berechtigungen prüfen.
+- Ein Skill allein kann keine Daten aus E-Mail- oder Kalenderkonten abrufen oder verändern.
+- Telefonate werden ausschließlich als vom Nutzer berichtete Angaben dokumentiert. Es gibt keine automatische Telefonie-, Anruflisten- oder Aufzeichnungsfunktion.
+- Keine automatische Synchronisation, Hintergrundüberwachung, eigenständige Fallannahme oder Vertretung gegenüber Dritten.
+- Die Android-Anonymisierung/OCR ist ein getrenntes Projekt und keine Plugin-Funktion.
+
+## Eigenverantwortung und fachliche Grenzen
+
+Das Plugin liefert KI-gestützte Informationen und Entwürfe, keine verbindliche Rechtsauskunft. Jeder Nutzer ist selbst dafür verantwortlich, Eingaben und Ergebnisse zu prüfen. Vor jeder Verwendung müssen insbesondere die für den konkreten Sachverhalt maßgeblichen aktuellen und historischen Gesetzesfassungen, Rechtsprechung, Fristen, Zuständigkeiten, Tatsachen, Quellen und Formvorschriften eigenständig kontrolliert werden.
+
+KI-Ausgaben können falsch, unvollständig oder veraltet sein. Keine anwaltliche Beratung, Rechtsvertretung, Zertifizierung oder Garantie eines bestimmten Ergebnisses. Die Haftung richtet sich nach geltendem Recht; zwingende gesetzliche Haftung bleibt unberührt. Die Bedingungen von OpenAI gelten eigenständig und werden durch dieses Projekt weder geändert noch ausgeschlossen.
+
+## Datenschutz und Support
+
+- [Datenschutzhinweise](https://github.com/samysmurf/Student-Mueller/blob/main/docs/DATENSCHUTZ.md)
+- [Nutzungsbedingungen](https://github.com/samysmurf/Student-Mueller/blob/main/NUTZUNGSBEDINGUNGEN.md)
+- [Öffentlicher GitHub-Support](https://github.com/samysmurf/Student-Mueller/blob/main/SUPPORT.md)
+
+Bitte keine personenbezogenen Falldaten, Aktenzeichen, Gesundheitsdaten oder vertraulichen Unterlagen in öffentlichen GitHub-Issues veröffentlichen.
 
 ## Aufbau
 
 ```text
 assistent-mueller/
 ├── plugin.json
+├── README.md
+├── FIRST_START.md
 └── skills/
     ├── assistent-steuerung/SKILL.md
     ├── student-sozialrecht/SKILL.md
@@ -27,47 +51,10 @@ assistent-mueller/
     └── siggi-projektbegleitung/SKILL.md
 ```
 
-## Wichtige Funktionsgrenzen
+## Versionshinweis
 
-Dies ist zunächst ein Skills-only-Prototyp. Er enthält **keinen eigenen MCP-Server, keine eigene Datenbank, keine App-Oberfläche und keine automatisch verbundenen Konten**.
+Alpha.4 ist ein vorbereiteter Veröffentlichungskandidat. Die Version enthält Listing-Metadaten, Support- und Richtlinienverweise sowie redaktionelle Präzisierungen zur Eigenverantwortung. Sie ist **noch nicht öffentlich im ChatGPT-Verzeichnis veröffentlicht oder von OpenAI freigegeben**. Ein Nutzerbestätigter Integrationstest der sechs Skills aus einer früheren Alpha-Version ist keine unabhängige Auditierung und keine juristische Zertifizierung.
 
-- Gmail- und Google-Kalenderdaten dürfen nur verwendet werden, wenn die jeweilige Verbindung in der aktuellen ChatGPT-Umgebung tatsächlich verfügbar ist und der Nutzer die betreffende Nutzung veranlasst.
-- Ein Skill allein kann keine E-Mails oder Kalenderdaten abrufen, erstellen, ändern oder versenden.
-- Telefonate werden ausschließlich als vom Nutzer berichtete Angaben dokumentiert. Es gibt keine automatische Telefon-, Anruflisten- oder Gesprächsaufzeichnung.
-- Es gibt keine automatische Synchronisation, keine Hintergrundüberwachung und keine eigenständige Fallannahme.
-- Das Plugin vertritt keine Person gegenüber Behörden, Gerichten oder Dritten und versendet keine Schreiben.
-- Die Android-Anonymisierung/OCR ist ein separates Projekt und keine Funktion dieses Plugins.
+## Lizenz
 
-## First Start
-
-Vor der Nutzung der Chronik bitte die [First-Start-Anleitung](FIRST_START.md) lesen. Gmail und Google Calendar müssen im persönlichen ChatGPT-Konto separat installiert und verbunden werden. Das Assistent-Mueller-Plugin erledigt dies nicht automatisch.
-
-## Verwendung und Test
-
-Der Prototyp ist für persönliche Tests mit synthetischen oder ausreichend anonymisierten Beispielen gedacht. Vor einem realen Einsatz müssen die jeweils aktuelle Rechtslage, die Qualität der Antworten, die tatsächlich verfügbaren Plattformfunktionen und die Datenschutzbedingungen geprüft werden.
-
-Die Plugin-Quelle liegt auf einem eigenen Git-Branch. Da das GitHub-Repository öffentlich ist, sind auch die dort abgelegten Plugin-Dateien öffentlich einsehbar. „Privater Test“ bezeichnet die beabsichtigte Plugin-Installation bzw. Freigabe, nicht die Vertraulichkeit dieses Repository-Zweigs.
-
-## Lizenzhinweis
-
-Die Lizenzzuordnung des Hauptprojekts bleibt maßgeblich: Projekttexte und Dokumentation grundsätzlich CC BY-SA 4.0; eigener Programmcode grundsätzlich Apache-2.0. Drittinhalte und Rechte Dritter sind gesondert zu behandeln. Siehe die Lizenzdateien im Repository-Stamm.
-
-
-## Version 1.0.0-alpha.1
-
-Alpha-Release mit integrierter SM-03-Reparatur. Die Version ist für weitere synthetische Tests vorgesehen und keine juristische Zertifizierung oder Freigabe für ungeprüfte reale Fälle.
-
-
-## Version 1.0.0-alpha.2 – 09.11.2026
-
-- Nutzerbestätigter Integrationstest in einer neuen ChatGPT-Instanz mit allen sechs Skills: bestanden.
-- Nutzerbestätigtes Update auf 1.0.0-alpha.2: bestanden.
-- Testnachweis und Abgrenzung der Prüfebenen: siehe [TESTREPARATUR_SM-03.md](TESTREPARATUR_SM-03.md) und [TESTPROTOKOLL_PLUGIN_ALPHA.md](TESTPROTOKOLL_PLUGIN_ALPHA.md).
-- Die Bestätigung ist als Nutzerangabe dokumentiert; sie ist keine unabhängig reproduzierte automatisierte Host-Prüfung.
-
-
-## Version 1.0.0-alpha.3 – 11.11.2026
-
-- Metadatenkorrektur: Autor im Plugin-Manifest auf **Andreas Brill** gesetzt.
-- Paketversion an die aktualisierte private Plugin-Veröffentlichung 1.0.0-alpha.3 angeglichen.
-- Keine Skill-Inhalte oder Funktionsabläufe geändert; der bestätigte Integrationstest aus alpha.2 wird dadurch nicht als neuer Test ausgegeben.
+Die Lizenzzuordnung des Hauptprojekts bleibt maßgeblich: originäre Projekttexte und Dokumentation grundsätzlich CC BY-SA 4.0; eigener Programmcode grundsätzlich Apache-2.0. Drittinhalte und Rechte Dritter sind gesondert zu beachten.
