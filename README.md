@@ -1,132 +1,84 @@
-# Student Müller
+# Assistent Mueller – Plugin 1.0.0-alpha.4 (Quellkandidat)
 
-**Verstehen. Prüfen. Selbstbestimmt handeln.**
+**Status:** Quellkandidat auf Feature-Branch; noch nicht in die private Plugin-Instanz importiert · **Basis:** Student Müller V2.0.0 · **Paketversion im Quellkandidaten:** 1.0.0-alpha.4 · **bisherige private Plugin-Instanz:** 1.0.0-alpha.3
 
-**Aktuelle Fassung: V2.0.0 · Stand: 08.11.2026**
+**Private Testinstanz:** Die individuelle Installation ist kontogebunden. Der persönliche Installationslink wird nicht im öffentlichen Quellverzeichnis veröffentlicht.
 
-Student Müller ist ein kostenfreies, werbefreies Open-Source-Informations- und Selbsthilfeprojekt. Veröffentlicht wird eine kopierbare Systemanweisung für einen KI-Dienst der eigenen Wahl. Einzelne Nutzer übernehmen den Prompt selbstständig in ihren eigenen Chat und entscheiden eigenständig über dessen Verwendung.
+Dieses Verzeichnis enthält die portable Skills-only Plugin-Quelle für **Assistent Mueller**. Es bündelt die vier ausdrücklich benannten Rollen, die Chronik, eine eigenständige Aussagenherkunftsprüfung und eine zentrale Steuerung:
 
-Das Projekt betreibt keinen eigenen Chatbot-Server, keine Fallannahme und keine Plattform zur Bearbeitung fremder Fälle.
+- `@student Müller` – deutsches Sozial- und Betreuungsrecht, Selbsthilfe und verständliche Einordnung
+- `@rdg` – unabhängige Prüfung der Grenzen nach dem Rechtsdienstleistungsgesetz
+- `@Vision` – barrierearme, screenreaderfreundliche und verständliche Kommunikation
+- `@Siggi` – technische und konzeptionelle Projektbegleitung
+- `Chronik` – strukturierte Dokumentation von Nutzerangaben, E-Mails und Kalenderdaten, soweit diese tatsächlich verfügbar sind
+- `Aussagenherkunft` – Rekonstruktion von Ursprungsquelle, Beobachtungsgrundlage, Empfängern, Weiterleitungen und Gegendarstellungen
+- `Assistent-Steuerung` – zentrale Koordination und Routing
 
-## Projektidee
+## Aufbau
 
-Student Müller unterstützt Menschen dabei, deutsches Sozialrecht, Betreuungsrecht und angrenzende Rechtsgebiete verständlich einzuordnen, Bescheide und behördliche Schreiben zu prüfen, amtliche Rechtsquellen zu finden und eigene Anträge oder Schreiben vorzubereiten.
+```text
+assistent-mueller/
+├── plugin.json
+└── skills/
+    ├── assistent-steuerung/SKILL.md
+    ├── student-sozialrecht/SKILL.md
+    ├── rdg-pruefung/SKILL.md
+    ├── vision-barrierefreiheit/SKILL.md
+    ├── chronik-dokumentation/SKILL.md
+    ├── aussagen-provenienz/SKILL.md
+    └── siggi-projektbegleitung/SKILL.md
+```
 
-Die Systemanweisung V2.0.0 enthält insbesondere:
+## Wichtige Funktionsgrenzen
 
-- ein Startmenü, das beim ersten Prompt-Aufruf erscheint,
-- die ausdrückliche Abfrage des Bundeslandes, des Themas und des Nutzungskontexts,
-- die Trennung von bundesweit geltendem Bundesrecht und ergänzendem Landesrecht,
-- Antworten auf zwei Ebenen: verständliche Erklärung und präzise rechtliche Prüfung,
-- einen verbindlichen Quellenstandard mit Rechtsstand, Abrufdatum und Primärquellen,
-- ein erweitertes Betreuungsrechtsmodul einschließlich BGB, FamFG, BtOG und VBVG,
-- eine differenzierte Prüfung von Unterstützung in Angelegenheiten anderer Personen anhand der tatsächlichen Rolle und des RDG,
-- strukturierte Bescheid-, Fristen- und Schriftsatzabläufe,
-- eine vertiefte Prüfung von Unterkunfts- und Heizkosten nach § 22 SGB II einschließlich Heizspiegel-Datengrundlage, Warnfunktion und Chronologie.
+Dies ist zunächst ein Skills-only-Prototyp. Er enthält **keinen eigenen MCP-Server, keine eigene Datenbank, keine App-Oberfläche und keine automatisch verbundenen Konten**.
 
-V2.0.0 ist ein Prompt und eine Dokumentation. Es ist weder eine staatlich anerkannte Rechtsanwendung noch eine anwaltlich zertifizierte oder unabhängig extern freigegebene Software.
+- Gmail- und Google-Kalenderdaten dürfen nur verwendet werden, wenn die jeweilige Verbindung in der aktuellen ChatGPT-Umgebung tatsächlich verfügbar ist und der Nutzer die betreffende Nutzung veranlasst.
+- Ein Skill allein kann keine E-Mails oder Kalenderdaten abrufen, erstellen, ändern oder versenden.
+- Telefonate werden ausschließlich als vom Nutzer berichtete Angaben dokumentiert. Es gibt keine automatische Telefon-, Anruflisten- oder Gesprächsaufzeichnung.
+- Es gibt keine automatische Synchronisation, keine Hintergrundüberwachung und keine eigenständige Fallannahme.
+- Das Plugin vertritt keine Person gegenüber Behörden, Gerichten oder Dritten und versendet keine Schreiben.
+- Die Android-Anonymisierung/OCR ist ein separates Projekt und keine Funktion dieses Plugins.
 
-## Student Müller ausprobieren
+## First Start
 
-1. [ChatGPT öffnen](https://chatgpt.com/) oder einen anderen geeigneten KI-Dienst verwenden.
-2. Die vollständige [Systemanweisung V2.0.0](SYSTEMANWEISUNG.md) öffnen und in einen neuen Chat übernehmen.
-3. Das beim Erststart angezeigte Menü beantworten: Bundesland, Thema und Nutzungskontext.
-4. Zunächst eine einfache, nicht vertrauliche Testfrage verwenden.
-5. Für einen Dokumentenworkflow den vollständig fiktiven [Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md) verwenden.
+Vor der Nutzung der Chronik bitte die [First-Start-Anleitung](FIRST_START.md) lesen. Gmail und Google Calendar müssen im persönlichen ChatGPT-Konto separat installiert und verbunden werden. Das Assistent-Mueller-Plugin erledigt dies nicht automatisch.
 
-Der Beispielordner enthält synthetische Unterlagen, Testanfragen und Vergleichspunkte. Für diesen Test sind keine echten Dokumente, Screenshots oder Bild-Uploads erforderlich. Der Übungsfall ist keine Vorlage zur ungeprüften Übertragung auf reale Fälle.
+## Verwendung und Test
 
-## Bundesland und Rechtsraum
+Der Prototyp ist für persönliche Tests mit synthetischen oder ausreichend anonymisierten Beispielen gedacht. Vor einem realen Einsatz müssen die jeweils aktuelle Rechtslage, die Qualität der Antworten, die tatsächlich verfügbaren Plattformfunktionen und die Datenschutzbedingungen geprüft werden.
 
-Beim ersten Start fragt Student Müller ausdrücklich nach dem Bundesland, in dem die Angelegenheit rechtlich verortet ist. Standortdaten oder Vermutungen ersetzen diese Auswahl nicht.
+Die Plugin-Quelle liegt auf einem eigenen Git-Branch. Da das GitHub-Repository öffentlich ist, sind auch die dort abgelegten Plugin-Dateien öffentlich einsehbar. „Privater Test“ bezeichnet die beabsichtigte Plugin-Installation bzw. Freigabe, nicht die Vertraulichkeit dieses Repository-Zweigs.
 
-Bundesrecht gilt bundesweit. Ergänzend werden das für den konkreten Sachverhalt relevante Landesrecht und die landesspezifischen Zuständigkeiten berücksichtigt. Bei mehreren betroffenen Bundesländern wird geklärt, welches Land für die konkrete Behörde, das Gericht, die Einrichtung oder den Lebenssachverhalt maßgeblich ist. Bei Bedarf wird zusätzlich der konkrete Ort oder die Kommune abgefragt.
+## Lizenzhinweis
 
-## Fachlicher Umfang
+Die Lizenzzuordnung des Hauptprojekts bleibt maßgeblich: Projekttexte und Dokumentation grundsätzlich CC BY-SA 4.0; eigener Programmcode grundsätzlich Apache-2.0. Drittinhalte und Rechte Dritter sind gesondert zu behandeln. Siehe die Lizenzdateien im Repository-Stamm.
 
-| Themenfeld | Beispiele |
-|---|---|
-| Grundsicherung und Sozialhilfe | SGB II, SGB XII, Unterkunft, Mehrbedarf, Erstausstattung |
-| Kranken- und Pflegeversicherung | SGB V und SGB XI |
-| Rehabilitation und Teilhabe | SGB IX, Schwerbehindertenrecht, GdB |
-| Rente und Erwerbsminderung | Anspruchsvoraussetzungen, Verfahren, Nachweise |
-| Betreuungsrecht | BGB, FamFG, BtOG, VBVG, Vorsorgevollmacht |
-| Landesrechtliche Unterbringung | jeweiliges Landes-PsychKG bzw. Unterbringungsrecht |
-| Verwaltungsverfahren | Bescheidverständnis, Akteneinsicht, Fristen, Rechtsbehelfe |
-| Eigene Korrespondenz | Entwürfe für Anträge, Widersprüche und Stellungnahmen |
 
-Der Assistent soll Tatsachen, Dokumenteninhalt, Annahmen und rechtliche Schlussfolgerungen voneinander trennen, Quellen sichtbar machen, Unsicherheiten benennen und fehlende Angaben gezielt erfragen.
+## Version 1.0.0-alpha.1
 
-## Eigene Angelegenheiten und Unterstützung anderer Personen
+Alpha-Release mit sechs modularen Skills. Die Version ist für weitere synthetische Tests vorgesehen und keine juristische Zertifizierung oder Freigabe für ungeprüfte reale Fälle.
 
-Der Schwerpunkt liegt auf der eigenständigen Bearbeitung der eigenen Angelegenheiten. Eine Unterstützung bei Angelegenheiten von Angehörigen oder anderen Personen ist nicht pauschal ausgeschlossen.
 
-Bei einer konkreten fremden Angelegenheit muss die tatsächliche Rolle des Nutzers geklärt und die rechtliche Einordnung insbesondere nach §§ 2, 3 und 6 RDG geprüft werden. Unentgeltlichkeit allein ist weder eine pauschale Freistellung noch ein pauschales Verbot.
+## Version 1.0.0-alpha.2 – 09.11.2026
 
-Student Müller übernimmt keine Vertretung. Der Prompt-Entwickler nimmt keine fremden Fälle entgegen und bearbeitet keine individuellen Angelegenheiten im Namen anderer Personen. Einzelheiten und Grenzen stehen in den [Nutzungsbedingungen](NUTZUNGSBEDINGUNGEN.md).
+- Nutzerbestätigter Integrationstest in einer neuen ChatGPT-Instanz mit allen sechs Skills: bestanden.
+- Nutzerbestätigtes Update auf 1.0.0-alpha.2: bestanden.
+- Allgemeiner Teststatus und Abgrenzung der Prüfebenen: siehe [TESTPROTOKOLL_PLUGIN_ALPHA.md](TESTPROTOKOLL_PLUGIN_ALPHA.md).
+- Die Bestätigung ist als Nutzerangabe dokumentiert; sie ist keine unabhängig reproduzierte automatisierte Host-Prüfung.
 
-## Grenzen, Plattform und Verantwortung
 
-Student Müller ist keine Rechtsanwaltskanzlei, kein Gericht und keine Behörde. KI-Ausgaben können fehlerhaft, unvollständig oder veraltet sein. Nutzer müssen Tatsachen, Gesetzesfassungen, Quellen, Fristen, Formvorschriften, Anlagen und Versandwege vor einer Verwendung selbst kontrollieren. Der Assistent versendet keine Schreiben.
+## Version 1.0.0-alpha.3 – 11.11.2026
 
-Eingaben und Ausgaben werden über die vom Nutzer gewählte externe KI-Plattform verarbeitet. Das Projekt kann deren technische Verarbeitung, Speicherung oder Bedingungen nicht steuern. Vor Eingabe vertraulicher Inhalte sind die Nutzungs- und Datenschutzhinweise des jeweiligen Anbieters zu prüfen. Nicht erforderliche personenbezogene Daten sollten zuvor durch neutrale Platzhalter ersetzt werden.
+- Metadatenkorrektur: Autor im Plugin-Manifest auf **Andreas Brill** gesetzt.
+- Paketversion an die private Plugin-Veröffentlichung 1.0.0-alpha.3 angeglichen.
+- Keine Skill-Inhalte oder Funktionsabläufe geändert; der bestätigte Integrationstest aus alpha.2 wird dadurch nicht als neuer Test ausgegeben.
 
-Die Haftung richtet sich nach geltendem Recht. Zwingende gesetzliche Haftung bleibt unberührt; ein pauschaler Ausschluss sämtlicher Ansprüche wird nicht erklärt.
+## Version 1.0.0-alpha.4 – Entwicklungsbranch / Quellkandidat
 
-## Assistent Mueller Plugin 1.0.0-alpha.3
-
-Neben der kopierbaren Systemanweisung gibt es eine separate Skills-only-Plugin-Alpha mit sechs Skills für Steuerung, Sozialrecht, RDG-Prüfung, Barrierefreiheit, Chronik und technische Projektbegleitung. Die private Plugin-Instanz steht auf **1.0.0-alpha.3**. Der Integrationstest mit allen sechs Skills und das Update auf alpha.2 wurden am 09.11.2026 vom Nutzer bestätigt. Alpha.3 enthält eine Korrektur der Autorenangabe in den Plugin-Metadaten und gleicht die Quellversion an die veröffentlichte Plugin-Version an. Die Alpha.3-Metadatenkorrektur ist kein erneuter Funktionstest. Die Abnahme aus alpha.2 ist als Nutzerbestätigung dokumentiert; sie ist kein unabhängig reproduzierter automatisierter Host-Test und keine juristische Zertifizierung.
-
-**Private Testinstanz:** Der Zugriff ist kontogebunden. Der persönliche Installationslink wird bewusst nicht im öffentlichen Repository hinterlegt.
-
-Der bisherige Plugin-Quellstand liegt im öffentlichen Branch [plugin/assistent-mueller-v0.1.0](https://github.com/samysmurf/Student-Mueller/tree/plugin/assistent-mueller-v0.1.0/plugin/assistent-mueller). Der weiterentwickelte Alpha-4-Quellkandidat basiert auf dem aktuellen `main` und wird im [Draft-Pull-Request #3](https://github.com/samysmurf/Student-Mueller/pull/3) geprüft; er ist noch nicht importiert oder hostgetestet. Die private Plugin-Instanz bleibt alpha.3. Das Plugin besitzt keinen eigenen MCP-Server, keine Datenbank und keine automatische Fallannahme. Die zugehörigen Einreichungs- und Prüfunterlagen werden getrennt in einem privaten Repository geführt.
-
-## Projektgrenze: Anonymisator
-
-Die lokale Android-Dokumentenverarbeitung ist ein eigenständiges Schwesterprojekt: [Anonymisator – separates Repository](https://github.com/samysmurf/Anonymisator).
-
-Student Müller enthält keine eigene OCR-Engine, PDF-Schwärzungsfunktion, Metadatenbereinigung oder lokale Anonymisierungsfunktion. Es besteht keine gemeinsame Laufzeit, keine direkte KI-Schnittstelle und keine automatische Datenübertragung zwischen den Projekten. Student Müller setzt weder die Fertigstellung noch die Verfügbarkeit von Anonymisator voraus.
-
-## Status V2.0.0
-
-| Bereich | Stand |
-|---|---|
-| Systemanweisung V2.0.0 | in GitHub eingepflegt |
-| Startmenü und Bundeslandauswahl | als Prompt-Regel integriert; Darstellung abhängig von der KI-Plattform |
-| Sozial- und Betreuungsrecht | fachliche Module integriert; Aktualität je Einzelfall erneut zu prüfen |
-| Quellen- und Aktualitätsprotokoll | als verbindliche Arbeitsregel integriert |
-| 21 V1.5-Prüffälle | manuell auf Prompt-Regel- und Konsistenzebene durchgespielt; keine Live-Plattformtests |
-| Bescheidverständnis und Schriftsatzentwürfe | Arbeitsabläufe beschrieben; tatsächliche Ausgabe vom KI-Dienst abhängig |
-| Native Android-App / lokale OCR | nicht Bestandteil; separates Projekt Anonymisator |
-| unabhängige Rechtsprüfung / Zertifizierung | nicht behauptet |
-
-Das [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md) unterscheidet ausdrücklich zwischen konzeptioneller Prüfung und noch ausstehenden Laufzeittests. Weitere Angaben stehen im [Funktionsstatus](docs/FUNKTIONSSTATUS.md) und in der [Roadmap](ROADMAP.md).
-
-## Dokumentation
-
-- [Systemanweisung V2.0.0](SYSTEMANWEISUNG.md)
-- [Nutzungsbedingungen und Nutzungshinweise](NUTZUNGSBEDINGUNGEN.md)
-- [Öffentlicher GitHub-Support](SUPPORT.md)
-- [Projektbeschreibung](PROJEKTBESCHREIBUNG.md)
-- [GitHub-Profiltext und Topics](GITHUB_PROJEKTPROFIL.md)
-- [Testprotokoll V1.5](docs/TESTPROTOKOLL_V1.5.md)
-- [Architektur](docs/ARCHITEKTUR.md)
-- [Datenschutzhinweise](docs/DATENSCHUTZ.md)
-- [Öffentlicher GitHub-Support](SUPPORT.md)
-- [Funktionsstatus](docs/FUNKTIONSSTATUS.md)
-- [Roadmap](ROADMAP.md)
-- [Barrierefreiheit – Entwicklungsleitlinie](docs/BARRIEREFREIHEIT.md)
-- [Fiktiver Übungsfall Küchen-Erstausstattung](docs/BEISPIELFALL_KUECHENERSTAUSSTATTUNG.md)
-- [Mitwirken](CONTRIBUTING.md) · [Sicherheitsmeldungen](SECURITY.md)
-
-Die Mindmap V1.4.0 ist eine historische Projektübersicht und bildet die Erweiterungen aus V2.0.0 noch nicht vollständig ab.
-
-## Lizenzen
-
-- Eigener Programmcode: Apache License 2.0.
-- Originäre Projekttexte und Dokumentation: CC BY-SA 4.0.
-- Fremde Bibliotheken, Datensätze, Marken, amtliche Inhalte und sonstige Drittinhalte bleiben ihren jeweiligen Rechten und Lizenzbedingungen unterworfen.
-
-Die Zuordnung und vollständigen Lizenzhinweise stehen in [LICENSE](LICENSE), [LICENSE-CODE](LICENSE-CODE), [LICENSE-DOCS.md](LICENSE-DOCS.md) und [LICENSE_DECISION.md](LICENSE_DECISION.md). Die Zweckbestimmung des Projekts ändert die Lizenzbedingungen nicht.
-
-**Leitgedanke:** Ein niedrigschwelliges Werkzeug für Verständlichkeit, Selbstbestimmung und gesellschaftliche Teilhabe – mit transparenten Grenzen und überprüfbaren Quellen.
+- Neues Modul **Aussagenherkunft** zur Trennung von Dokumenteninhalt, Beobachtungsgrundlage und tatsächlichem Wahrheitsgehalt.
+- Rekonstruiert Erstquelle, zeitliche Abfolge, Empfänger, Weiterleitungen, Zitate und Gegendarstellungen.
+- Verhindert, dass abhängige Wiederholungen ohne unabhängige Quelle als Mehrfachbestätigung gezählt werden.
+- Ergänzt einen Testplan mit acht ausschließlich synthetischen Fällen.
+- Die Chronik bleibt eigenständig und wird nur um eine Verknüpfung zur Provenienzprüfung ergänzt.
+- **Noch nicht importiert und nicht hostgetestet.** Die bestehende private Plugin-Instanz bleibt alpha.3, bis ein separater Import und Test erfolgt.
