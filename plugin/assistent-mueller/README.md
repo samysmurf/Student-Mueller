@@ -2,7 +2,7 @@
 
 **Status:** private Alpha-Version · **Basis:** Student Müller V2.0.0 · **Paketversion:** 1.0.0-alpha.3
 
-**[Assistent Mueller in ChatGPT öffnen / Plugin aufrufen](https://chatgpt.com/plugins/plugins_6af0c35601e08191b5292f62c1086ad8)** (private Plugin-Instanz; Anmeldung und Berechtigung erforderlich)
+**Private Testinstanz:** Die persönliche Installation ist kontogebunden. Der individuelle Installationslink wird nicht im öffentlichen Quellverzeichnis veröffentlicht.
 
 Dieses Verzeichnis enthält die portable Skills-only Plugin-Quelle für **Assistent Mueller**. Es bündelt die vier ausdrücklich benannten Rollen, ein Chronik-Modul und eine zentrale Steuerung:
 
